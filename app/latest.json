@@ -1,15 +1,15 @@
 {
-  "version": "2.0.0-beta.3",
-  "notes": "# What\u2019s new in OverCue Desktop 2.0.0-beta.3\n\n- A first-launch welcome explains how to connect a rekordbox USB, export stems, and prepare player firmware updates.\n- A What\u2019s new window shows the changes the first time you open the app after an update.\n- Clearer app and firmware update notices take you directly to the update controls.\n- The Firmware page shows what the latest version changes and fixes. Available app updates show their release notes in Settings.\n",
-  "pub_date": "2026-09-16T22:01:23.801365+00:00",
+  "version": "2.0.0",
+  "notes": "# What\u2019s new in OverCue Desktop 2.0.0\n\n- Prepare Vocals, Drums, and Instrumentals from your rekordbox USB playlists with the built-in stem engine.\n- Select multiple tracks, sort by playlist position, and use one Export stems or Re-export stems action. Delete stems from the same toolbar.\n- Follow each track\u2019s export progress and reuse compatible prepared stems from another connected USB.\n- See a welcome guide on first launch and release notes the first time you open an updated app.\n- Get dismissible notices when app or firmware updates are available. Update the app in Settings and prepare player updates in Firmware.\n- Read what the latest firmware changes and fixes directly in the Firmware page.\n",
+  "pub_date": "2026-09-16T22:14:06.899198+00:00",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHdRSlgzRUcwckRnUVNLdDdxb250cWZuRWdFVHF4eXFWbi82TkJ2VjVHQTRjaDhDUVNOZCtyckMwQ3hjdU1qSWVYSGtTYlNiMjBkMzJmUyt6ejM4bUQvRWdmZEVGN1FFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NTk1OTU2CWZpbGU6T3ZlckN1ZSBEZXNrdG9wLmFwcC50YXIuZ3oKbHVZNHQ4ekp3TUJqRDN3b2VWVS91U0l3dThiTDJpS25ObVg2RWhmRmh0dmZJbkpJWkhjVFlyb1NYWWprY3ZKT0s0Z3d5NEl5cklOV01IOThWd2ZzQlE9PQo=",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.0.0-beta.3/OverCue_2.0.0-beta.3_aarch64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHdRSlgzRUcwckVhUHFjTEZLamFna3kyZTNaN1hTWlM1SmhLdTdVSUtQZlc4VEJZNkxLWmlBSHltdDVYOTNuYVd1alo4T3d0MThFOUgxNXAwMkxYMFArYkNXbHFpbWdrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NTk2NzMwCWZpbGU6T3ZlckN1ZSBEZXNrdG9wLmFwcC50YXIuZ3oKUy9TSGVyWk9jdDFtQVprRi91dDdsZlRYcGZBYW9leTJFbTBCL215dDFLVEd2Zk95Ly9KNmh6cUN1ckU3RUN0TSs0R3hJcWY4VVZFa0hHOVUyNWNYQ2c9PQo=",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.0.0/OverCue_2.0.0_aarch64.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHdRSlgzRUcwck5LQXhIMXV6OHhja1lJZFU0R1VpSTMwRDM5a3JQQk1MZDZ1REt5aTRDTnBJaEhjang1V24wT1hoZVVtZmVmNjZqcU9VSURsVmtPVWFWbndHWE9EYVFzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NTk2MDgyCWZpbGU6T3ZlckN1ZSBEZXNrdG9wLmFwcC50YXIuZ3oKTFRZOHNMcmlFSCticU5rYy9naU40MU0rMDBmRGRVa1NEVDVyMGNMTnlrd0FVZ2podTdKbll5RzNIZXBWaGVGSXJDRHVwVUtiZDY4ZFQ4bVU4UjFnQVE9PQo=",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.0.0-beta.3/OverCue_2.0.0-beta.3_x86_64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHdRSlgzRUcwcklQWWpjZFlEbiswVThUdXNDL0RZM0l4MTlQUFMwQk02UmozZnNmeURlNEt5VHZiM3YwbmJEMGpOYXhHY3ZNTHB4RmFhd2Jpa0RsR1owNC91VGZBQXdVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NTk2ODQ1CWZpbGU6T3ZlckN1ZSBEZXNrdG9wLmFwcC50YXIuZ3oKa2VDelU1S3ltNFpoVXpjdzJLSVNWQ0xmZjgvWmxEVC9rVXZ1UW9VbVd3VkgxUCswQ3dKRmhiV0J3Nmx3OGhqVyt3TS9LSWgySGtmY1BvbmgvOHpUQ1E9PQo=",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.0.0/OverCue_2.0.0_x86_64.app.tar.gz"
     }
   }
 }
