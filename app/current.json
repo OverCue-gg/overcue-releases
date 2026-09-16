@@ -1,0 +1,19 @@
+{
+  "version": "2.0.0-beta.2",
+  "published": "2026-09-16T20:19:01Z",
+  "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.0.0-beta.2",
+  "artifacts": [
+    {
+      "platform": "macos",
+      "label": "macOS Apple silicon",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.0.0-beta.2/OverCue.Desktop_2.0.0-beta.2_aarch64.dmg",
+      "sha256": "b560f7eb41da0f299cb4e1a393b38422e79ed5323110cee29db1dbee59ffe3f1"
+    },
+    {
+      "platform": "macos",
+      "label": "macOS Intel",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.0.0-beta.2/OverCue.Desktop_2.0.0-beta.2_x64.dmg",
+      "sha256": "fc876aaf052b47595ccdede0976222da9869be75ee768876ac21b73552f3095a"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "version": "2.0.0-beta.2",
+  "pub_date": "2026-09-16T20:12:24.416011+00:00",
+  "platforms": {
+    "darwin-aarch64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHdRSlgzRUcwckJBd3pCS0ZrYlBDMXpKcDhTdEdEc3Y4a3BRM1RCNjdqTG1OS2hPWHI5NzFWNExQeFBMRHFjYjJiT2Vkazl4ekIzeFBvbzIzQWhsKzlxRFdaZUMzendFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NTg5MzM1CWZpbGU6T3ZlckN1ZSBEZXNrdG9wLmFwcC50YXIuZ3oKazhXRy9mTmJiUTE1YU50eWl0VW55NW5LZmRLWERYMitMcy9aOW5wU0hYUTBDTTlES2Y3bjlTTGtseHRNTUxjaXVob08rclIrOHNma0NWSHdsQmVnRFE9PQo=",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.0.0-beta.2/OverCue_2.0.0-beta.2_aarch64.app.tar.gz"
+    },
+    "darwin-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHdRSlgzRUcwck9EZVZCOFZNWkc3dHlHMFhOaEZqYUhPVUFBSEx2R3I4OHc0eDB6OWFvTGgrTGFOa2p5dmdQTm1uNklnSkVVNmU2bWdSVFNaSEIveU1tZGpTc0VYbmdRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NTg5NTQyCWZpbGU6T3ZlckN1ZSBEZXNrdG9wLmFwcC50YXIuZ3oKZGRPd210cXh1b0gzUE5XY0Vtd2hOM1NOS3d3ZW9kRlVuZ2pUUTBwZGUzRTRuOVBncW9DcUU0dXBDZFZxbmtyQkJTbk5aQkg4RjUxc1d2ZFJmT1MxRGc9PQo=",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.0.0-beta.2/OverCue_2.0.0-beta.2_x86_64.app.tar.gz"
+    }
+  }
+}
