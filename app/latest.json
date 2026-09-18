@@ -1,15 +1,15 @@
 {
-  "version": "2.0.2",
-  "notes": "# What\u2019s new in OverCue Desktop 2.0.2\n\n- Introduces the refreshed Aqua interface with Light, Dark and System appearance settings.\n- Makes USB preparation instructions easy to reopen and explains that stems stay out of rekordbox playlists.\n- Fixes completed exports showing \u201cStopped\u201d instead of \u201cReady\u201d and restores per-track export progress.\n- Improves readable, selectable interface text and keeps export states consistent across Mac and Windows.\n- Retains the latest stem engine and USB export fixes, with Apple silicon and Intel installers and signed in-app updates.\n- Requires macOS 14 or later, matching the bundled stem engine.\n",
-  "pub_date": "2026-09-18T15:45:14.028491+00:00",
+  "version": "2.0.3",
+  "notes": "# What\u2019s new in OverCue Desktop 2.0.3\n\n- App update only. CDJ-3000 player firmware is unchanged; no player update is needed for this release.\n- Adds \u201cCreate USB manually\u201d in Firmware, with separate installer and uninstaller downloads that open in your browser.\n- Shows manual copying instructions after automatic USB preparation fails, including the required CDJ3Kv000.UPD filename.\n- Keeps manual downloads available when the app cannot detect or access your USB.\n",
+  "pub_date": "2026-09-18T18:42:25.399606+00:00",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHdRSlgzRUcwckZaYWd4bERHYzJTYzdUUVIwR1U4RjJIYkt4V0xaQVJEQncyYlRhTm5KYVd2eVRoY0NDNEE4cDR1a2NFQStpRFB2dE5NbTA5cXBRZ3BIcTNXOFFiemdvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NzQ2MTM3CWZpbGU6T3ZlckN1ZSBEZXNrdG9wLmFwcC50YXIuZ3oKV2tnVk4xaGdFTFZFZEdxNjBxRWVEakhMejdPUzcyeVZZa2ZuVEgyMDZ0NU85QkNBV3RlMFhJeEFtY3QxZDFDREsvRUNXcldoRmhxRDQ3QStocy91QkE9PQo=",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.0.2/OverCue_2.0.2_aarch64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHdRSlgzRUcwclAwd2V3Y09TbG9YYktaNitOR3ZZNWJlSFB0Mm9RV0RCa1AyclMxT2s3cS9JOE95ZEdhd1JLT0xtVUZzYUs0cHc0QlFFcE1SYmxpNkdHVXJ4QzRZOEFJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NzU2NzM5CWZpbGU6T3ZlckN1ZSBEZXNrdG9wLmFwcC50YXIuZ3oKYitMSnBvbmRNKzFKTlY3MEZrZXd5aUdYTEhrTWhyVjVHa1RTOW1LVk1sQlNZWG9BUnAyTXlFVFV0MnhTNjIvREY5ZW9YSmw1MVpkK3FtMVNwaVpuQ2c9PQo=",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.0.3/OverCue_2.0.3_aarch64.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHdRSlgzRUcwclBTQVVyRkdJQWtxM1B1dlBlc2JVajYxUHRpVUozMFhIZTlYT0lmSi9wbUIrL3BTMUlIM2QraXh1Rk9GL3JpYjNwNjVERXFLOTdFTVBRZHpKRmNRU0FzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NzQ2MzEwCWZpbGU6T3ZlckN1ZSBEZXNrdG9wLmFwcC50YXIuZ3oKN3FUWFUyYi9YOWg4Zk4rZzdCMWFZTHFxMkJUVnBWUjdSaExlSlBNYjlXbWxHZ2lzWHZRWVRLYmtRZWVRZll5M0JIMEIxL21NS3NEd3lTYkxZQWdWRFE9PQo=",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.0.2/OverCue_2.0.2_x86_64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHdRSlgzRUcwclBYMGZSZG1DcmdTcXoybnpFaUVwVVdkNnZoZVZpS3hqVFhabFVXVGN2cDFhSnd0NkpQb3A2VUQyS1gxUFpvK056ZWF4TTBxbTB0U2Z4N1AwWHQyMVEwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NzU2OTQyCWZpbGU6T3ZlckN1ZSBEZXNrdG9wLmFwcC50YXIuZ3oKK1FXYlhUaXBNZEMrZ2VsVHRvaGVXYWRVYUVxMnFRdE1BTkZaTW9rUWJvb3l6UW9Kd0dDZUJDaFkybmVqMzBsME44aDIrRHpOYWYzVXBuVkEzUDBGQmc9PQo=",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.0.3/OverCue_2.0.3_x86_64.app.tar.gz"
     }
   }
 }
