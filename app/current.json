@@ -1,17 +1,9 @@
 {
-  "version": "2.0.3",
-  "published": "2026-09-18T18:44:08Z",
-  "notes": "# What\u2019s new in OverCue Desktop 2.0.3\n\n- App update only. CDJ-3000 player firmware is unchanged; no player update is needed for this release.\n- Adds \u201cCreate USB manually\u201d in Firmware, with separate installer and uninstaller downloads that open in your browser.\n- Shows manual copying instructions after automatic USB preparation fails, including the required CDJ3Kv000.UPD filename.\n- Keeps manual downloads available when the app cannot detect or access your USB.\n",
-  "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.0.3",
+  "version": "2.0.4",
+  "published": "2026-09-18T19:01:49Z",
+  "notes": "# What\u2019s new in OverCue Desktop 2.0.4\n\n- App update only. CDJ-3000 player firmware is unchanged; no player update is needed for this release.\n- Adds \u201cCreate USB manually\u201d in Firmware, with separate installer and uninstaller downloads that open in your browser.\n- Shows manual copying instructions after automatic USB preparation fails, including the required CDJ3Kv000.UPD filename.\n- Keeps manual downloads available when the app cannot detect or access your USB.\n",
+  "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.0.4",
   "artifacts": [
-    {
-      "platform": "windows",
-      "label": "Windows installer x64",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.0.1/OverCue_2.0.1_x64-setup.exe",
-      "sha256": "3141d43b8451fbdb81a29673ac0aa7650b2f14122d9a156aba71b42c343ef917",
-      "version": "2.0.1",
-      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.0.1"
-    },
     {
       "platform": "macos",
       "label": "macOS Apple silicon",
@@ -27,6 +19,14 @@
       "sha256": "bc1bfbc5317bff36de5c3751fc141d77b00590fcb4d4bae546a3e2ccd752ea67",
       "version": "2.0.3",
       "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.0.3"
+    },
+    {
+      "platform": "windows",
+      "label": "Windows installer x64",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.0.4/OverCue_2.0.4_x64-setup.exe",
+      "sha256": "646b28b0871e907065ebaa1c97d5fb06599b66c7d82cf7afda72170a6af17816",
+      "version": "2.0.4",
+      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.0.4"
     }
   ]
 }
