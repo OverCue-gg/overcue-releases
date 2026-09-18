@@ -1,0 +1,11 @@
+{
+  "version": "2.0.1",
+  "notes": "# What\u2019s new in OverCue Desktop 2.0.1\n\n- Adds the Windows x64 installer with the stem model included and signed in-app updates.\n- Corrects DirectML stem output on supported Windows GPUs and releases the GPU model before retrying failed inference on CPU.\n- Cancels stem preparation while the model is loading or processing its first chunk.\n- Keeps the latest macOS downloads and updates available independently of Windows releases.\n- Introduces the refreshed Aqua interface on Mac and Windows, with Light, Dark and System appearance settings.\n- Makes the USB preparation instructions easy to reopen and explains that prepared stems stay out of rekordbox playlists.\n- Fixes completed exports showing \u201cStopped\u201d instead of \u201cReady\u201d and restores per-track export progress.\n- Improves readable, selectable interface text and keeps export states consistent across both platforms.\n",
+  "pub_date": "2026-09-18T15:12:32.654537+00:00",
+  "platforms": {
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHdRSlgzRUcwckV5eFkrd2cyUTVZK2xvUUFuNUsxaS9hVkxvc0YyN3dhTWJwdGdway9mbnlkUWhZa2VhNjZocWk2ZnFneDVmTFQ2ckZMMG4rQjNIczgvanF0Z3RIRWdnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NzQ0MzUxCWZpbGU6T3ZlckN1ZSBEZXNrdG9wXzIuMC4xX3g2NC1zZXR1cC5leGUKdnY4VTJjNWtiY2tjQmp4SzhYYnZXMEdNVW5FdDZORVQrQzYxdWlNUWR5SW5RaCt5SFl1WTljMTBHQ0dMbkhCTlZRdXZ6cmJTVUFxa29NZTVWbEtZRFE9PQo=",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.0.1/OverCue_2.0.1_x64-setup.exe"
+    }
+  }
+}
