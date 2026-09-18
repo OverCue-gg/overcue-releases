@@ -1,20 +1,24 @@
 {
-  "version": "2.0.0",
-  "published": "2026-09-16T22:14:10Z",
-  "notes": "# What\u2019s new in OverCue Desktop 2.0.0\n\n- Prepare Vocals, Drums, and Instrumentals from your rekordbox USB playlists with the built-in stem engine.\n- Select multiple tracks, sort by playlist position, and use one Export stems or Re-export stems action. Delete stems from the same toolbar.\n- Follow each track\u2019s export progress and reuse compatible prepared stems from another connected USB.\n- See a welcome guide on first launch and release notes the first time you open an updated app.\n- Get dismissible notices when app or firmware updates are available. Update the app in Settings and prepare player updates in Firmware.\n- Read what the latest firmware changes and fixes directly in the Firmware page.\n",
-  "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.0.0",
+  "version": "2.0.2",
+  "published": "2026-09-18T16:36:19Z",
+  "notes": "# What\u2019s new in OverCue Desktop 2.0.2\n\n- Introduces the refreshed Aqua interface with Light, Dark and System appearance settings.\n- Makes USB preparation instructions easy to reopen and explains that stems stay out of rekordbox playlists.\n- Fixes completed exports showing \u201cStopped\u201d instead of \u201cReady\u201d and restores per-track export progress.\n- Improves readable, selectable interface text and keeps export states consistent across Mac and Windows.\n- Retains the latest stem engine and USB export fixes, with Apple silicon and Intel installers and signed in-app updates.\n- Requires macOS 14 or later, matching the bundled stem engine.\n",
+  "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.0.2",
   "artifacts": [
     {
       "platform": "macos",
       "label": "macOS Apple silicon",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.0.0/OverCue_2.0.0_aarch64.dmg",
-      "sha256": "86087b8bd09d73639d06a3bba8b25e63fa17d444d88b2ce14df1d61776642050"
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.0.2/OverCue_2.0.2_aarch64.dmg",
+      "sha256": "c1dd22fdb3e5c913db32c6e2ba53b1c5dd1c38fe8d87eabe25030b5b977eb276",
+      "version": "2.0.2",
+      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.0.2"
     },
     {
       "platform": "macos",
       "label": "macOS Intel",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.0.0/OverCue_2.0.0_x86_64.dmg",
-      "sha256": "642deb3faca2be2466192b49c27def045c345e7720e96ee5c9dda07909431710"
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.0.2/OverCue_2.0.2_x86_64.dmg",
+      "sha256": "3dfa861ca60bb07d686dbfd9a71f9b945df5cf84c39b7ae501e1ec792dd88a4f",
+      "version": "2.0.2",
+      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.0.2"
     }
   ]
 }
