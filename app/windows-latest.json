@@ -1,11 +1,11 @@
 {
-  "version": "2.0.4",
-  "notes": "# What\u2019s new in OverCue Desktop 2.0.4\n\n- App update only. CDJ-3000 player firmware is unchanged; no player update is needed for this release.\n- Adds \u201cCreate USB manually\u201d in Firmware, with separate installer and uninstaller downloads that open in your browser.\n- Shows manual copying instructions after automatic USB preparation fails, including the required CDJ3Kv000.UPD filename.\n- Keeps manual downloads available when the app cannot detect or access your USB.\n",
-  "pub_date": "2026-09-18T18:59:34.201375+00:00",
+  "version": "2.1.1",
+  "notes": "# What\u2019s new in OverCue Desktop 2.1.1\n\n- Adds Manual stem preparation with always-visible Vocals, Drums, and Harmonics / Other slots. Drop or browse for files and keep assignments between sessions.\n- Adds imported-stem previews, timing and file checks, and comparison with the original track and packaged USB audio.\n- Adds a hardware-based processing-speed recommendation and adjustable track overlap. Preparation and packaging can run alongside separation, and the model stays loaded between songs where memory permits.\n- Fixes excess timing padding for MP3 sources without encoder-delay metadata. Regenerate and package previously affected automatic stems to apply the correction.\n- Improves reading newly exported rekordbox Device Library Plus databases.\n- Simplifies preparation-mode and preview controls, and adds a Discord help and updates link.\n\nThis app update works with existing compatible OverCue firmware; it does not install a player firmware update.\n",
+  "pub_date": "2026-09-20T11:39:34.403342+00:00",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHdRSlgzRUcwckNoSVdtUDVmdEl5ZHRWWnMzZytWakMwTW0rOWVtMU5aOGF3ZU44VktBeUFzL1ZNU1AzUlMyTzBtYThVUDZPOHN5OWVtZDYvNG1kcENKZjQ2WXpydlFVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NzU3OTcyCWZpbGU6T3ZlckN1ZSBEZXNrdG9wXzIuMC40X3g2NC1zZXR1cC5leGUKeUMxcFU4azNNN1JwNFdZZXFQOHdacDBCaVNaR2piSHlnRU5XTzl4T09MeC9YYStvNTRnU2cyRS9XYVloSStra2Z6UFZmTWZ6eDNzeE1nNk8yWWxtRFE9PQo=",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.0.4/OverCue_2.0.4_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHdRSlgzRUcwckI1U3UxMi82VHVxMDl3ZXZiNGpUWHNReEVIK1BaWGR5VUI1aFk4Q2pCcFdTd2dwSGNJK3JWd2xDZmFpQ2RONTM2dzhzZHA1SERYTVJUVzM3Q3B4d0FnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5OTA0MzczCWZpbGU6T3ZlckN1ZSBEZXNrdG9wXzIuMS4xX3g2NC1zZXR1cC5leGUKS3h4Umk2Uk1JbGJLbCsxQnphNDhMNWxXSzVHVjlvN21lMXIwcW5TekZkNTJzRVZwVTBuMVJGNXJjN2ZOcVo4VVNuK1laMWtMdnh3OUtTTTdhc3BIQVE9PQo=",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.1.1/OverCue_2.1.1_x64-setup.exe"
     }
   }
 }
