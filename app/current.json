@@ -1,25 +1,9 @@
 {
-  "version": "2.0.4",
-  "published": "2026-09-18T19:01:49Z",
-  "notes": "# What\u2019s new in OverCue Desktop 2.0.4\n\n- App update only. CDJ-3000 player firmware is unchanged; no player update is needed for this release.\n- Adds \u201cCreate USB manually\u201d in Firmware, with separate installer and uninstaller downloads that open in your browser.\n- Shows manual copying instructions after automatic USB preparation fails, including the required CDJ3Kv000.UPD filename.\n- Keeps manual downloads available when the app cannot detect or access your USB.\n",
-  "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.0.4",
+  "version": "2.1.0",
+  "published": "2026-09-20T11:40:32Z",
+  "notes": "# What\u2019s new in OverCue Desktop 2.1.0\n\n- Adds Manual stem preparation with always-visible Vocals, Drums, and Harmonics / Other slots. Drop or browse for files and keep assignments between sessions.\n- Adds imported-stem previews, timing and file checks, and comparison with the original track and packaged USB audio.\n- Adds a hardware-based processing-speed recommendation and adjustable track overlap. Preparation and packaging can run alongside separation, and the model stays loaded between songs where memory permits.\n- Fixes excess timing padding for MP3 sources without encoder-delay metadata. Regenerate and package previously affected automatic stems to apply the correction.\n- Adds support for reading rekordbox libraries and packaging stems on Mac OS Extended (Journaled) USBs on macOS.\n- Improves reading newly exported rekordbox Device Library Plus databases.\n- Adds macOS file-access setup and clearer guidance for granting music-folder and removable-volume access.\n- Simplifies preparation-mode and preview controls, and adds a Discord help and updates link.\n\nThis app update works with existing compatible OverCue firmware; it does not install a player firmware update.\n",
+  "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.1.0",
   "artifacts": [
-    {
-      "platform": "macos",
-      "label": "macOS Apple silicon",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.0.3/OverCue_2.0.3_aarch64.dmg",
-      "sha256": "1778698168a39d12faddf7935e2d98ff76870f0411aa63b803634286e60bd1fb",
-      "version": "2.0.3",
-      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.0.3"
-    },
-    {
-      "platform": "macos",
-      "label": "macOS Intel",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.0.3/OverCue_2.0.3_x86_64.dmg",
-      "sha256": "bc1bfbc5317bff36de5c3751fc141d77b00590fcb4d4bae546a3e2ccd752ea67",
-      "version": "2.0.3",
-      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.0.3"
-    },
     {
       "platform": "windows",
       "label": "Windows installer x64",
@@ -27,6 +11,22 @@
       "sha256": "646b28b0871e907065ebaa1c97d5fb06599b66c7d82cf7afda72170a6af17816",
       "version": "2.0.4",
       "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.0.4"
+    },
+    {
+      "platform": "macos",
+      "label": "macOS Apple silicon",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.1.0/OverCue_2.1.0_aarch64.dmg",
+      "sha256": "53e60cf6521ac25f4bdf2aa6dcbb07cc9ece98a79b786b62c930b20ad8f58d79",
+      "version": "2.1.0",
+      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.1.0"
+    },
+    {
+      "platform": "macos",
+      "label": "macOS Intel",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.1.0/OverCue_2.1.0_x86_64.dmg",
+      "sha256": "4ff9e0ac56adb4faa59bff0112e42fa35ddcf9ba88b2504c8b741ed0fb76a5c5",
+      "version": "2.1.0",
+      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.1.0"
     }
   ]
 }
