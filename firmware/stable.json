@@ -1,22 +1,22 @@
 {
-  "version": "fw-v0.8.0",
+  "version": "fw-v0.9.0",
   "channel": "stable",
-  "published": "2026-09-16T02:32:02Z",
+  "published": "2026-09-20T16:25:06Z",
   "minAppVersion": "2.0.0-beta.2",
-  "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/fw-v0.8.0",
-  "notes": "# OverCue 0.8.0\n\nPersistent CDJ-3000 mods for official firmware 3.22, supporting the guarded\nRK3399 and R8A7796 hardware profiles. The OverCue version appears above Display\nMode in SHORTCUT. Requires OverCue Desktop 2.0.0-beta.2 or newer.\n\n## Included fixes\n\n- Restores persistent installer completion on RK3399 after the successful flash.\n- Restores Light Mode waveform theming and linked phrase/vocal indicators.\n- Fixes long-track Stems allocation failures seen on R8A7796 over Link, while\n  retaining the bounded resident cache and existing audio fallback.\n\nThe persistent installer and uninstaller are available through OverCue Desktop.\nThe installer keeps the mods installed across ordinary restarts.\n\nBack up your music USB before updating. Never interrupt an update or remove\nmedia during playback or updating. Use only one update package on a USB at a time.\n",
+  "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/fw-v0.9.0",
+  "notes": "# OverCue 0.9.0\n\nFor CDJ-3000 firmware 3.22, supporting the guarded RK3399 and R8A7796\nhardware profiles.\n\n- Adds per-stem Volume mode with touch-and-drag level controls and blue fill indicators.\n- Keeps Toggle as the default, preserves levels between modes, and allows returning\n  to Toggle only when every stem is fully on or off. New tracks reset to full level.\n- Lets the whole Toggle/Volume selector act as one touch target.\n- Makes local detailed stem waveforms follow volume changes while retaining a\n  continuous baseline at silence.\n- Fixes incorrect stem-track matching when loading music from other linked players.\n- Fixes local-USB playlist reordering when deleted library entries reuse active track IDs.\n- Keeps native panel communication active during RK3399 installation to improve automatic reboot completion when reinstalling.\n\nExisting prepared stem media remains compatible. Linked fractional-volume waveform\ndisplay is not added.\n",
   "artifacts": [
     {
       "product": "CDJ-3000",
       "family": "RK3399 + R8A7796",
       "kind": "install",
       "mode": "persistent",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/fw-v0.8.0/OverCue-fw-v0.8.0-install.UPD",
-      "sha256": "f753ba226e29cc9ecb787e5c5f6f05cab648c358983e91db0be53d99738af2f6",
-      "bytes": 8482831,
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/fw-v0.9.0/OverCue-fw-v0.9.0-install.UPD",
+      "sha256": "3e47892a892c7b192687ecb5c349bf7a78c10b4f2fbd3408277ce557a71c19c7",
+      "bytes": 8572943,
       "archive": {
-        "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/fw-v0.8.0/OverCue-fw-v0.8.0-install.zip",
-        "sha256": "be77779d6cafc61024bdeca79ad0ab656f9e6d01c9cc8fc5d1ed883a282d7c58",
+        "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/fw-v0.9.0/OverCue-fw-v0.9.0-install.zip",
+        "sha256": "d6d86cc2f8c9c6da086670e2f356b420c1d1cf5a16c4eede569d82fd0d926bb5",
         "entry": "CDJ3Kv000.UPD"
       }
     },
@@ -25,12 +25,12 @@
       "family": "RK3399 + R8A7796",
       "kind": "uninstall",
       "mode": "persistent",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/fw-v0.8.0/OverCue-fw-v0.8.0-uninstall.UPD",
-      "sha256": "5118dca5f89f9990778b92f7cbf30135d51f8ff52d33614ed1d2934578bc72f2",
-      "bytes": 8482831,
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/fw-v0.9.0/OverCue-fw-v0.9.0-uninstall.UPD",
+      "sha256": "b2084f2cfbc9388552a022c025a6ecdf27f5ea2a4a195a176f256e55206d2ac2",
+      "bytes": 8572943,
       "archive": {
-        "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/fw-v0.8.0/OverCue-fw-v0.8.0-uninstall.zip",
-        "sha256": "03fc3acda3c698bcaa043f7d985e4d5801fea1110fd94d0ad1940cff9090a4ef",
+        "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/fw-v0.9.0/OverCue-fw-v0.9.0-uninstall.zip",
+        "sha256": "f666b1402848f4d70e5cdd4b8d3b16e5295cdae8e569db742d0a817fcecb5892",
         "entry": "CDJ3Kv000.UPD"
       }
     }
