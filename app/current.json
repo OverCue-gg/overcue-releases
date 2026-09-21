@@ -1,25 +1,9 @@
 {
-  "version": "2.1.2",
-  "published": "2026-09-20T22:09:04Z",
-  "notes": "# What\u2019s new in OverCue Desktop 2.1.2 for Windows\n\n- Faster stem preparation on supported NVIDIA graphics cards, with lower GPU memory use. Our RTX 3090 benchmark was about 2.3 times faster than the previous processing method; results vary by hardware.\n- Automatically chooses a processing method for your hardware. AMD and Intel graphics keep using DirectML, with CPU fallback if GPU processing fails.\n- Downloads NVIDIA acceleration files only when needed, keeping the standard installer smaller. Once installed, they work offline.\n- Choose where to store the NVIDIA download, including another drive if C: is low on space. First-time setup explains the 6 GB free-space requirement, and your choice is remembered.\n- Adds a Windows processor selector and clearer processing status in Settings.\n\nThis is a Windows-only update. Existing prepared stems and compatible OverCue firmware remain usable.\n",
-  "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.1.2",
+  "version": "2.1.3",
+  "published": "2026-09-21T21:13:08Z",
+  "notes": "# What\u2019s new in OverCue Desktop 2.1.3 for macOS\n\n- Keeps Device Library playlists available when an additional OneLibrary export is empty, unreadable, or cannot be matched safely.\n- Allows stem preparation using Device Library alone, including when an unreadable OneLibrary file remains on the USB.\n- Fixes USB discovery so an inaccessible volume cannot hide other readable rekordbox USBs, including Mac OS Extended (Journaled) drives.\n",
+  "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.1.3",
   "artifacts": [
-    {
-      "platform": "macos",
-      "label": "macOS Apple silicon",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.1.0/OverCue_2.1.0_aarch64.dmg",
-      "sha256": "53e60cf6521ac25f4bdf2aa6dcbb07cc9ece98a79b786b62c930b20ad8f58d79",
-      "version": "2.1.0",
-      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.1.0"
-    },
-    {
-      "platform": "macos",
-      "label": "macOS Intel",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.1.0/OverCue_2.1.0_x86_64.dmg",
-      "sha256": "4ff9e0ac56adb4faa59bff0112e42fa35ddcf9ba88b2504c8b741ed0fb76a5c5",
-      "version": "2.1.0",
-      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.1.0"
-    },
     {
       "platform": "windows",
       "label": "Windows installer x64",
@@ -27,6 +11,22 @@
       "sha256": "197ed0d6119519fc278d9e4dffbe03b6e62f517ecfd8978dd7520a6a68fe4b7c",
       "version": "2.1.2",
       "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.1.2"
+    },
+    {
+      "platform": "macos",
+      "label": "macOS Apple silicon",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.1.3/OverCue_2.1.3_aarch64.dmg",
+      "sha256": "de337b3917c0a0016a781e27ec7416c06bdffd1bd87c813294f76ebd7608052a",
+      "version": "2.1.3",
+      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.1.3"
+    },
+    {
+      "platform": "macos",
+      "label": "macOS Intel",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.1.3/OverCue_2.1.3_x86_64.dmg",
+      "sha256": "fb67c2b4d4fb8894184236c7bfc60d876b5534bf61ba826e97e0e49d066712a9",
+      "version": "2.1.3",
+      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.1.3"
     }
   ]
 }

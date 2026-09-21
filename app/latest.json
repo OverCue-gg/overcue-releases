@@ -1,15 +1,15 @@
 {
-  "version": "2.1.0",
-  "notes": "# What\u2019s new in OverCue Desktop 2.1.0\n\n- Adds Manual stem preparation with always-visible Vocals, Drums, and Harmonics / Other slots. Drop or browse for files and keep assignments between sessions.\n- Adds imported-stem previews, timing and file checks, and comparison with the original track and packaged USB audio.\n- Adds a hardware-based processing-speed recommendation and adjustable track overlap. Preparation and packaging can run alongside separation, and the model stays loaded between songs where memory permits.\n- Fixes excess timing padding for MP3 sources without encoder-delay metadata. Regenerate and package previously affected automatic stems to apply the correction.\n- Adds support for reading rekordbox libraries and packaging stems on Mac OS Extended (Journaled) USBs on macOS.\n- Improves reading newly exported rekordbox Device Library Plus databases.\n- Adds macOS file-access setup and clearer guidance for granting music-folder and removable-volume access.\n- Simplifies preparation-mode and preview controls, and adds a Discord help and updates link.\n\nThis app update works with existing compatible OverCue firmware; it does not install a player firmware update.\n",
-  "pub_date": "2026-09-20T11:25:28.998714+00:00",
+  "version": "2.1.3",
+  "notes": "# What\u2019s new in OverCue Desktop 2.1.3 for macOS\n\n- Keeps Device Library playlists available when an additional OneLibrary export is empty, unreadable, or cannot be matched safely.\n- Allows stem preparation using Device Library alone, including when an unreadable OneLibrary file remains on the USB.\n- Fixes USB discovery so an inaccessible volume cannot hide other readable rekordbox USBs, including Mac OS Extended (Journaled) drives.\n",
+  "pub_date": "2026-09-21T21:12:16.095453+00:00",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHdRSlgzRUcwckoxVDVIb1VGekZjOGZOTmN3WXBGNHBCRkJQK2RYMUpEMGNGRVZsaHhFb2dGNUtrMVkvY1Nwd0h0MDhySlRuT2tiOC9WaTE1emVOWHo3Ym1OeVJqdXdjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5OTAzMzQyCWZpbGU6T3ZlckN1ZSBEZXNrdG9wLmFwcC50YXIuZ3oKY21aK1RRRGhCTEhINjBuTlpLWE1veDAvbHFTdXEzNzB1MWV6b0lSL0x4TGEreXpRMUJoSWhYS0k4dDQ2UWdoZ0doKyswamF6ZlAvRHhBZ3l0QmNOQ0E9PQo=",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.1.0/OverCue_2.1.0_aarch64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHdRSlgzRUcwclA2M1JJVW5iaG9OZWR5ZWk2VG5WbFJvdFpvdlpwakdNWEp0OCtFQW03TFFRUHBBVmllNmZINzhGTHZueXdsZ0lURnNPZ2hDa2tIanAxcW14ZHRub2dJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMDI1MDE3CWZpbGU6T3ZlckN1ZSBEZXNrdG9wLmFwcC50YXIuZ3oKVXJBMkQ4V0x6eGt6VFFSSzhnVW82OVhNTGx0ek53VTdNRWdaMHB0SmJmM2VwbEVlUkFDazFZRk51SXBkanVkalgvUU1ibG91K01MMzRDOWI5Q2s3QUE9PQo=",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.1.3/OverCue_2.1.3_aarch64.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHdRSlgzRUcwck1tWnVDYmdSZ0RyTkxzL0JXNUNmYWNMVFF3eTR3RVlWb2dZT3d3YU5xL1BpMWkzMWMrUWlmYWhaMlFSc3RST1pGWVVnM25DWDBVY3ljaDhGMEtLS2dBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5OTAzNTI3CWZpbGU6T3ZlckN1ZSBEZXNrdG9wLmFwcC50YXIuZ3oKbDVweVVDRkpXanJJR3ptMmJ1VGJkR1ByQjVvR3d1cDU4Z2M5YXdaMWRiZUM2cUxETjB1bmZ0Y3hEbTBtNjE1VVoyQU9sMkZXL0NJSzJqVVI2UnptQWc9PQo=",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.1.0/OverCue_2.1.0_x86_64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHdRSlgzRUcwckVML3V3K3pvN3hFQ3M5WUowakt6dzVUUXVqQnpmQ0ZkOHhsNzg3MVBBS3ZkOGNXdVlUNFVzUXZ3U3Z2T0h1eXBhbjkxYm9PRnRnOTd0ZTJKSmtGb3dZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMDI1MTM0CWZpbGU6T3ZlckN1ZSBEZXNrdG9wLmFwcC50YXIuZ3oKaVpNUEVXeWRsZm9oV2JrN2lFNmpXMUQzSHhsTkJPZHA5NjJzZzdVZ0s3NEUvSEIxcEFsSEU0eUh0bFl1VFdxclk5d2NpWUxwTWk2eXNkcCtsb3RXQ1E9PQo=",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.1.3/OverCue_2.1.3_x86_64.app.tar.gz"
     }
   }
 }
