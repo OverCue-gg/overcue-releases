@@ -1,11 +1,11 @@
 {
-  "version": "2.1.2",
-  "notes": "# What\u2019s new in OverCue Desktop 2.1.2 for Windows\n\n- Faster stem preparation on supported NVIDIA graphics cards, with lower GPU memory use. Our RTX 3090 benchmark was about 2.3 times faster than the previous processing method; results vary by hardware.\n- Automatically chooses a processing method for your hardware. AMD and Intel graphics keep using DirectML, with CPU fallback if GPU processing fails.\n- Downloads NVIDIA acceleration files only when needed, keeping the standard installer smaller. Once installed, they work offline.\n- Choose where to store the NVIDIA download, including another drive if C: is low on space. First-time setup explains the 6 GB free-space requirement, and your choice is remembered.\n- Adds a Windows processor selector and clearer processing status in Settings.\n\nThis is a Windows-only update. Existing prepared stems and compatible OverCue firmware remain usable.\n",
-  "pub_date": "2026-09-20T22:03:09.274471+00:00",
+  "version": "2.1.4",
+  "notes": "# What\u2019s new in OverCue Desktop 2.1.4 for Windows\n\n- Keeps Device Library playlists available when an additional OneLibrary export is empty, unreadable, or cannot be matched safely.\n- Allows stem preparation using Device Library alone, including when an unreadable OneLibrary file remains on the USB.\n",
+  "pub_date": "2026-09-21T21:31:03.812290+00:00",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHdRSlgzRUcwckJWTGFzT1ppQ1RaSXIwbndWUmlIYVJHeWdrbkFtZ0lUVVZRMUEwNk9ZTU9vMjhNb2ozT24xV1duSTY4ODFXT3F4Z3JlYjFJeVNjOW5YUU4vam1tZWc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5OTQxNzg2CWZpbGU6T3ZlckN1ZSBEZXNrdG9wXzIuMS4yX3g2NC1zZXR1cC5leGUKS1pTalBHSzcxS202Y2Y3OWhUNEtNTHFIYnVPYldJMzI1WnBuR0VoZzBKUWUrVG1sTmNPNzFOM2NVRm5hU2wxRjVlSTI5TFpIc3hjYVE4ajVoWHhqRHc9PQo=",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.1.2/OverCue_2.1.2_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHdRSlgzRUcwckQ2VENvMk1pVDFHS3Yra3BvK1NjM0lVcDRXbk9Qc25Zb3Nqbjl1U2s2NG9TVWtzcnp4cXU3bVRFOHNSZnd6Mmo0T0kxWFBaT21sOXhhTGZGMmY0NHdFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMDI2MjM5CWZpbGU6T3ZlckN1ZSBEZXNrdG9wXzIuMS40X3g2NC1zZXR1cC5leGUKK3NqYnpVRktockljNEFNTXhQSjFjdUx3bHdRMGU3QWdsUWZIQWpzMFdnQVdEVURMOWJOMHREZUFvQlNvVG9ER0Ryb0FWSzRaZmU0dXdQUlIrdkRtQ3c9PQo=",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.1.4/OverCue_2.1.4_x64-setup.exe"
     }
   }
 }

@@ -1,17 +1,9 @@
 {
-  "version": "2.1.3",
-  "published": "2026-09-21T21:13:08Z",
-  "notes": "# What\u2019s new in OverCue Desktop 2.1.3 for macOS\n\n- Keeps Device Library playlists available when an additional OneLibrary export is empty, unreadable, or cannot be matched safely.\n- Allows stem preparation using Device Library alone, including when an unreadable OneLibrary file remains on the USB.\n- Fixes USB discovery so an inaccessible volume cannot hide other readable rekordbox USBs, including Mac OS Extended (Journaled) drives.\n",
-  "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.1.3",
+  "version": "2.1.4",
+  "published": "2026-09-21T21:33:51Z",
+  "notes": "# What\u2019s new in OverCue Desktop 2.1.4 for Windows\n\n- Keeps Device Library playlists available when an additional OneLibrary export is empty, unreadable, or cannot be matched safely.\n- Allows stem preparation using Device Library alone, including when an unreadable OneLibrary file remains on the USB.\n",
+  "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.1.4",
   "artifacts": [
-    {
-      "platform": "windows",
-      "label": "Windows installer x64",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.1.2/OverCue_2.1.2_x64-setup.exe",
-      "sha256": "197ed0d6119519fc278d9e4dffbe03b6e62f517ecfd8978dd7520a6a68fe4b7c",
-      "version": "2.1.2",
-      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.1.2"
-    },
     {
       "platform": "macos",
       "label": "macOS Apple silicon",
@@ -27,6 +19,14 @@
       "sha256": "fb67c2b4d4fb8894184236c7bfc60d876b5534bf61ba826e97e0e49d066712a9",
       "version": "2.1.3",
       "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.1.3"
+    },
+    {
+      "platform": "windows",
+      "label": "Windows installer x64",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.1.4/OverCue_2.1.4_x64-setup.exe",
+      "sha256": "9acbe66b5e914ce4596da7599085ecfa6fcea64f90dae400c39b0df5a2635fd3",
+      "version": "2.1.4",
+      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.1.4"
     }
   ]
 }
