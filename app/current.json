@@ -1,17 +1,9 @@
 {
-  "version": "2.1.5",
-  "published": "2026-09-22T21:22:29Z",
-  "notes": "# What\u2019s new in OverCue Desktop 2.1.5 for macOS\n\n- Send a support report from Settings or an error, with your description and optional contact details. Reports include private diagnostics and retry until OverCue confirms receipt.\n- Records processing, helper, performance, and connected-device details to help diagnose failures without attaching music or library files.\n- Stops the remaining batch after an unrecoverable helper startup failure while continuing after track-specific errors.\n",
-  "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.1.5",
+  "version": "2.1.6",
+  "published": "2026-09-22T22:11:40Z",
+  "notes": "# What\u2019s new in OverCue Desktop 2.1.6 for Windows\n\n- Send a support report from Settings or an error, with your description and optional contact details. Reports include private diagnostics and retry until OverCue confirms receipt.\n- Stops the remaining batch after an unrecoverable helper startup failure while continuing after track-specific errors.\n- Displays helper errors without raw terminal formatting or overflow, and preserves the original exception in diagnostics even when CPU fallback succeeds.\n",
+  "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.1.6",
   "artifacts": [
-    {
-      "platform": "windows",
-      "label": "Windows installer x64",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.1.4/OverCue_2.1.4_x64-setup.exe",
-      "sha256": "9acbe66b5e914ce4596da7599085ecfa6fcea64f90dae400c39b0df5a2635fd3",
-      "version": "2.1.4",
-      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.1.4"
-    },
     {
       "platform": "macos",
       "label": "macOS Apple silicon",
@@ -27,6 +19,14 @@
       "sha256": "a2686135097531f4e17c2d16e6d0c57963637d5209ecbe580ea4e26b9b974f28",
       "version": "2.1.5",
       "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.1.5"
+    },
+    {
+      "platform": "windows",
+      "label": "Windows installer x64",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.1.6/OverCue_2.1.6_x64-setup.exe",
+      "sha256": "75afee9dead139cc99de8f52080c1b751a744241b1d9529cbdbd04cbdf146e7e",
+      "version": "2.1.6",
+      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.1.6"
     }
   ]
 }
