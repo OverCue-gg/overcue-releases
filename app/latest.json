@@ -1,15 +1,15 @@
 {
-  "version": "2.1.3",
-  "notes": "# What\u2019s new in OverCue Desktop 2.1.3 for macOS\n\n- Keeps Device Library playlists available when an additional OneLibrary export is empty, unreadable, or cannot be matched safely.\n- Allows stem preparation using Device Library alone, including when an unreadable OneLibrary file remains on the USB.\n- Fixes USB discovery so an inaccessible volume cannot hide other readable rekordbox USBs, including Mac OS Extended (Journaled) drives.\n",
-  "pub_date": "2026-09-21T21:12:16.095453+00:00",
+  "version": "2.1.5",
+  "notes": "# What\u2019s new in OverCue Desktop 2.1.5 for macOS\n\n- Send a support report from Settings or an error, with your description and optional contact details. Reports include private diagnostics and retry until OverCue confirms receipt.\n- Records processing, helper, performance, and connected-device details to help diagnose failures without attaching music or library files.\n- Stops the remaining batch after an unrecoverable helper startup failure while continuing after track-specific errors.\n",
+  "pub_date": "2026-09-22T21:21:35.104250+00:00",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHdRSlgzRUcwclA2M1JJVW5iaG9OZWR5ZWk2VG5WbFJvdFpvdlpwakdNWEp0OCtFQW03TFFRUHBBVmllNmZINzhGTHZueXdsZ0lURnNPZ2hDa2tIanAxcW14ZHRub2dJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMDI1MDE3CWZpbGU6T3ZlckN1ZSBEZXNrdG9wLmFwcC50YXIuZ3oKVXJBMkQ4V0x6eGt6VFFSSzhnVW82OVhNTGx0ek53VTdNRWdaMHB0SmJmM2VwbEVlUkFDazFZRk51SXBkanVkalgvUU1ibG91K01MMzRDOWI5Q2s3QUE9PQo=",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.1.3/OverCue_2.1.3_aarch64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHdRSlgzRUcwckhoMU5xZ29iaHRpOWNVWnhwSWV5dnRBK0E0TjJtVmxjaVplNmVkdERDNGdJUFd3M2lUejdYYVFqUzNEbGF4Wk1BZFV0QkZ0T3ptL2xoNkFqemJaQUFrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMTExODk3CWZpbGU6T3ZlckN1ZSBEZXNrdG9wLmFwcC50YXIuZ3oKcmFaS0FGM3BmSndqUEYydWhGOXYrMER2K01PUmlldExNMXQ0WFBrV25jdVRzdnpwWlEwK1BNQ3pEa2w3R3d0VzZjaXFPTDd3ZnMrdUpPcVVlaHRMQmc9PQo=",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.1.5/OverCue_2.1.5_aarch64.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHdRSlgzRUcwckVML3V3K3pvN3hFQ3M5WUowakt6dzVUUXVqQnpmQ0ZkOHhsNzg3MVBBS3ZkOGNXdVlUNFVzUXZ3U3Z2T0h1eXBhbjkxYm9PRnRnOTd0ZTJKSmtGb3dZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMDI1MTM0CWZpbGU6T3ZlckN1ZSBEZXNrdG9wLmFwcC50YXIuZ3oKaVpNUEVXeWRsZm9oV2JrN2lFNmpXMUQzSHhsTkJPZHA5NjJzZzdVZ0s3NEUvSEIxcEFsSEU0eUh0bFl1VFdxclk5d2NpWUxwTWk2eXNkcCtsb3RXQ1E9PQo=",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.1.3/OverCue_2.1.3_x86_64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHdRSlgzRUcwck04OGJwMmFtNkxlTk94Kzg1NHh6TkFkeFNKYzMzVm11Ym5wYW1QazE3b0NwUDZnWjRWa3BqRDRGaVFPRzhvcTBteFJ3aUp1WEY0TFB6MktkZTVwMXdvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMTEyMDkzCWZpbGU6T3ZlckN1ZSBEZXNrdG9wLmFwcC50YXIuZ3oKNjdrY1FOVVZTOUV0Q1lpWElLLzVDZUdEMGlLczlHVkJtMkpXOWlTMU5LWGo0MWxTQXk0dmNHNzlpZWg4QThrbmlMaWIwdEZwdXlUZVZXcTNuSHhjQ1E9PQo=",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.1.5/OverCue_2.1.5_x86_64.app.tar.gz"
     }
   }
 }
