@@ -1,17 +1,9 @@
 {
-  "version": "2.1.7",
-  "published": "2026-09-23T18:36:11Z",
-  "notes": "# What\u2019s new in OverCue Desktop 2.1.7 for macOS\n\n- Tracks no longer fail with \u201cwaveform time axis differs from the template\u201d when rekordbox\u2019s own waveform data disagrees by a few points.\n- AIFF files whose header overstates their size, as some tag editors leave them, now process normally. Files with audio that is actually cut short are still refused.\n- When a USB\u2019s stem list is full, OverCue now stops before processing each new track and explains how to make room, instead of failing after separation.\n",
-  "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.1.7",
+  "version": "2.1.8",
+  "published": "2026-09-23T19:09:24Z",
+  "notes": "# What\u2019s new in OverCue Desktop 2.1.8 for Windows\n\n- Tracks no longer fail with \u201cwaveform time axis differs from the template\u201d when rekordbox\u2019s own waveform data disagrees by a few points.\n- AIFF files whose header overstates their size, as some tag editors leave them, now process normally. Files with audio that is actually cut short are still refused.\n- When a USB\u2019s stem list is full, OverCue now stops before processing each new track and explains how to make room, instead of failing after separation.\n",
+  "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.1.8",
   "artifacts": [
-    {
-      "platform": "windows",
-      "label": "Windows installer x64",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.1.6/OverCue_2.1.6_x64-setup.exe",
-      "sha256": "75afee9dead139cc99de8f52080c1b751a744241b1d9529cbdbd04cbdf146e7e",
-      "version": "2.1.6",
-      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.1.6"
-    },
     {
       "platform": "macos",
       "label": "macOS Apple silicon",
@@ -27,6 +19,14 @@
       "sha256": "b579e8f8b17ee0266aed138849ebc29bc8df0b524335ee86d1fc1eb3c2c31a61",
       "version": "2.1.7",
       "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.1.7"
+    },
+    {
+      "platform": "windows",
+      "label": "Windows installer x64",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.1.8/OverCue_2.1.8_x64-setup.exe",
+      "sha256": "69022d6b7999c20e639a0111475fbe15bd5388abbdc858c83ebb917bb492aee5",
+      "version": "2.1.8",
+      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.1.8"
     }
   ]
 }
