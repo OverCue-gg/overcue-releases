@@ -1,15 +1,15 @@
 {
-  "version": "2.1.5",
-  "notes": "# What\u2019s new in OverCue Desktop 2.1.5 for macOS\n\n- Send a support report from Settings or an error, with your description and optional contact details. Reports include private diagnostics and retry until OverCue confirms receipt.\n- Records processing, helper, performance, and connected-device details to help diagnose failures without attaching music or library files.\n- Stops the remaining batch after an unrecoverable helper startup failure while continuing after track-specific errors.\n",
-  "pub_date": "2026-09-22T21:21:35.104250+00:00",
+  "version": "2.1.7",
+  "notes": "# What\u2019s new in OverCue Desktop 2.1.7 for macOS\n\n- Tracks no longer fail with \u201cwaveform time axis differs from the template\u201d when rekordbox\u2019s own waveform data disagrees by a few points.\n- AIFF files whose header overstates their size, as some tag editors leave them, now process normally. Files with audio that is actually cut short are still refused.\n- When a USB\u2019s stem list is full, OverCue now stops before processing each new track and explains how to make room, instead of failing after separation.\n",
+  "pub_date": "2026-09-23T18:35:21.601694+00:00",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHdRSlgzRUcwckhoMU5xZ29iaHRpOWNVWnhwSWV5dnRBK0E0TjJtVmxjaVplNmVkdERDNGdJUFd3M2lUejdYYVFqUzNEbGF4Wk1BZFV0QkZ0T3ptL2xoNkFqemJaQUFrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMTExODk3CWZpbGU6T3ZlckN1ZSBEZXNrdG9wLmFwcC50YXIuZ3oKcmFaS0FGM3BmSndqUEYydWhGOXYrMER2K01PUmlldExNMXQ0WFBrV25jdVRzdnpwWlEwK1BNQ3pEa2w3R3d0VzZjaXFPTDd3ZnMrdUpPcVVlaHRMQmc9PQo=",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.1.5/OverCue_2.1.5_aarch64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHdRSlgzRUcwckFpbU9WakV5NXNBUjVNQWF1RlRab2ZqMmRSRk5nbG54L05JeFNuMnhzeDhPVThhMXA3cGFwajVEdzZ4cWhHZTNwWGVIdFVuclE5UE5CMi8vVmZoMEFNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMTg4NDA2CWZpbGU6T3ZlckN1ZSBEZXNrdG9wLmFwcC50YXIuZ3oKdW16L1pQVTVpZWZ1a3pPZE1JSCt5R3lvTnJtTlQydWxnRGtWTFk5U0ZOVmJoVkpsdTM1UHFCcXg5WUZKdHE3K0pTRVVTUjh1RkpXL3JYSlEzZEIzQ0E9PQo=",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.1.7/OverCue_2.1.7_aarch64.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHdRSlgzRUcwck04OGJwMmFtNkxlTk94Kzg1NHh6TkFkeFNKYzMzVm11Ym5wYW1QazE3b0NwUDZnWjRWa3BqRDRGaVFPRzhvcTBteFJ3aUp1WEY0TFB6MktkZTVwMXdvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMTEyMDkzCWZpbGU6T3ZlckN1ZSBEZXNrdG9wLmFwcC50YXIuZ3oKNjdrY1FOVVZTOUV0Q1lpWElLLzVDZUdEMGlLczlHVkJtMkpXOWlTMU5LWGo0MWxTQXk0dmNHNzlpZWg4QThrbmlMaWIwdEZwdXlUZVZXcTNuSHhjQ1E9PQo=",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.1.5/OverCue_2.1.5_x86_64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHdRSlgzRUcwckhjdURIVmVhK1FsWm92UTFIdis5ZHRRcmVhZmZ3RE9lVDZVWVNReDhoWDJWcXIxTTg0MzJmaXlpMXdUdXR5ZmFDVzl5VFhIRGdnazRzZGNMN3dwNXdNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMTg4NTIwCWZpbGU6T3ZlckN1ZSBEZXNrdG9wLmFwcC50YXIuZ3oKN1V0NWNWdTlaWldYWWwxNElGaEU4emNNV1hhUkRUY3E1VDRzdjBrci96SUpOc1d1K1JaMDNNMjNld3FYd2FVamw0UmV1NmlXajR5UXRzbDhXeGt6Q2c9PQo=",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.1.7/OverCue_2.1.7_x86_64.app.tar.gz"
     }
   }
 }

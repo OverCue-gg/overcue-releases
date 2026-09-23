@@ -1,25 +1,9 @@
 {
-  "version": "2.1.6",
-  "published": "2026-09-22T22:11:40Z",
-  "notes": "# What\u2019s new in OverCue Desktop 2.1.6 for Windows\n\n- Send a support report from Settings or an error, with your description and optional contact details. Reports include private diagnostics and retry until OverCue confirms receipt.\n- Stops the remaining batch after an unrecoverable helper startup failure while continuing after track-specific errors.\n- Displays helper errors without raw terminal formatting or overflow, and preserves the original exception in diagnostics even when CPU fallback succeeds.\n",
-  "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.1.6",
+  "version": "2.1.7",
+  "published": "2026-09-23T18:36:11Z",
+  "notes": "# What\u2019s new in OverCue Desktop 2.1.7 for macOS\n\n- Tracks no longer fail with \u201cwaveform time axis differs from the template\u201d when rekordbox\u2019s own waveform data disagrees by a few points.\n- AIFF files whose header overstates their size, as some tag editors leave them, now process normally. Files with audio that is actually cut short are still refused.\n- When a USB\u2019s stem list is full, OverCue now stops before processing each new track and explains how to make room, instead of failing after separation.\n",
+  "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.1.7",
   "artifacts": [
-    {
-      "platform": "macos",
-      "label": "macOS Apple silicon",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.1.5/OverCue_2.1.5_aarch64.dmg",
-      "sha256": "402fdfccacd9a3cfd0464d047ca637dc213f77e2a1f483e87e7656c0056df57b",
-      "version": "2.1.5",
-      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.1.5"
-    },
-    {
-      "platform": "macos",
-      "label": "macOS Intel",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.1.5/OverCue_2.1.5_x86_64.dmg",
-      "sha256": "a2686135097531f4e17c2d16e6d0c57963637d5209ecbe580ea4e26b9b974f28",
-      "version": "2.1.5",
-      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.1.5"
-    },
     {
       "platform": "windows",
       "label": "Windows installer x64",
@@ -27,6 +11,22 @@
       "sha256": "75afee9dead139cc99de8f52080c1b751a744241b1d9529cbdbd04cbdf146e7e",
       "version": "2.1.6",
       "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.1.6"
+    },
+    {
+      "platform": "macos",
+      "label": "macOS Apple silicon",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.1.7/OverCue_2.1.7_aarch64.dmg",
+      "sha256": "eb8c3b67503021f9d389d2a73e58e443cd6d66994f0b5d26b86d8f4cbf886491",
+      "version": "2.1.7",
+      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.1.7"
+    },
+    {
+      "platform": "macos",
+      "label": "macOS Intel",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.1.7/OverCue_2.1.7_x86_64.dmg",
+      "sha256": "b579e8f8b17ee0266aed138849ebc29bc8df0b524335ee86d1fc1eb3c2c31a61",
+      "version": "2.1.7",
+      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.1.7"
     }
   ]
 }
