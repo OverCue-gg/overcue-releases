@@ -1,11 +1,11 @@
 {
-  "version": "2.1.8",
-  "notes": "# What\u2019s new in OverCue Desktop 2.1.8 for Windows\n\n- Tracks no longer fail with \u201cwaveform time axis differs from the template\u201d when rekordbox\u2019s own waveform data disagrees by a few points.\n- AIFF files whose header overstates their size, as some tag editors leave them, now process normally. Files with audio that is actually cut short are still refused.\n- When a USB\u2019s stem list is full, OverCue now stops before processing each new track and explains how to make room, instead of failing after separation.\n",
-  "pub_date": "2026-09-23T18:52:33.250808+00:00",
+  "version": "2.1.10",
+  "notes": "# What\u2019s new in OverCue Desktop 2.1.10 for Windows\n\n- If rekordbox is open when you generate, package or delete stems, OverCue now keeps the message on screen and scrolls to it, so it\u2019s clear you need to quit rekordbox first. Previously the message could disappear and it looked like nothing happened.\n- Manual stem import: stems that are slightly longer than the full mix, such as those made from MP3s where the separation tool kept the MP3\u2019s built-in delay, are now trimmed automatically once the timing check confirms which end holds the extra audio. Each stem shows what was trimmed. Your stem files are not changed, and stems that are shorter than the full mix are still refused.\n- Manual stem import: each stem now shows its own length problem, not just the first one found.\n",
+  "pub_date": "2026-09-24T19:49:08.485348+00:00",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHdRSlgzRUcwckZtczNpTkJZRWZiajhpM0l5eWpnbndPWXliWU5PckNVOThIc2FNVDdZS3puaDY1dUFkZkVPaXNWOUhyNnkxY0VvOFVHMDNmSGgvWkxBVW1GZnU3RGdRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMTg5NTUwCWZpbGU6T3ZlckN1ZSBEZXNrdG9wXzIuMS44X3g2NC1zZXR1cC5leGUKU0VnblAwZ1EwTm04RHV6TGZyK3diN2dwL24zenRBYmxnUFZLaklpK25GYWZlblM5MEJZUWtJYXdSSzlwVWxkbXB5VFFHa0pURldVeXNYeThCRVpCQmc9PQo=",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.1.8/OverCue_2.1.8_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHdRSlgzRUcwckJXWHRyNlEySk12ZnZXTU9lamxsMm0zenJJdkowVkt2Ymw5QU9leCt0bnNlN2NMZDJrQ2xmaW9yVjNaTUlxbXJmTU0wWGpmN2NTeFU2SS9lNWZlSHdBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMjc5MzQ1CWZpbGU6T3ZlckN1ZSBEZXNrdG9wXzIuMS4xMF94NjQtc2V0dXAuZXhlCkRUeng4WTF2dmdkeEdvaHoybnRBbkIvd0pidGZsTm5Ub0FYY0sxREpFbVdSMGZqZkd6ZWREM3Nid2wyTlhVYUxPOTZ1VEUvQ0x2b2FzZWQ1VUdXdUJRPT0K",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.1.10/OverCue_2.1.10_x64-setup.exe"
     }
   }
 }

@@ -1,17 +1,9 @@
 {
-  "version": "2.1.9",
-  "published": "2026-09-24T19:12:02Z",
-  "notes": "# What\u2019s new in OverCue Desktop 2.1.9 for macOS\n\n- If rekordbox is open when you generate, package or delete stems, OverCue now keeps the message on screen and scrolls to it, so it\u2019s clear you need to quit rekordbox first. Previously the message could disappear and it looked like nothing happened.\n- Manual stem import: stems that are slightly longer than the full mix, such as those made from MP3s where the separation tool kept the MP3\u2019s built-in delay, are now trimmed automatically once the timing check confirms which end holds the extra audio. Each stem shows what was trimmed. Your stem files are not changed, and stems that are shorter than the full mix are still refused.\n- Manual stem import: each stem now shows its own length problem, not just the first one found.\n",
-  "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.1.9",
+  "version": "2.1.10",
+  "published": "2026-09-24T19:52:39Z",
+  "notes": "# What\u2019s new in OverCue Desktop 2.1.10 for Windows\n\n- If rekordbox is open when you generate, package or delete stems, OverCue now keeps the message on screen and scrolls to it, so it\u2019s clear you need to quit rekordbox first. Previously the message could disappear and it looked like nothing happened.\n- Manual stem import: stems that are slightly longer than the full mix, such as those made from MP3s where the separation tool kept the MP3\u2019s built-in delay, are now trimmed automatically once the timing check confirms which end holds the extra audio. Each stem shows what was trimmed. Your stem files are not changed, and stems that are shorter than the full mix are still refused.\n- Manual stem import: each stem now shows its own length problem, not just the first one found.\n",
+  "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.1.10",
   "artifacts": [
-    {
-      "platform": "windows",
-      "label": "Windows installer x64",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.1.8/OverCue_2.1.8_x64-setup.exe",
-      "sha256": "69022d6b7999c20e639a0111475fbe15bd5388abbdc858c83ebb917bb492aee5",
-      "version": "2.1.8",
-      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.1.8"
-    },
     {
       "platform": "macos",
       "label": "macOS Apple silicon",
@@ -27,6 +19,14 @@
       "sha256": "e07dfb3b7eb2c270fcaa92ef27582d4bd7c5eeb33754a9d3e1c79eaa2b384c4d",
       "version": "2.1.9",
       "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.1.9"
+    },
+    {
+      "platform": "windows",
+      "label": "Windows installer x64",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.1.10/OverCue_2.1.10_x64-setup.exe",
+      "sha256": "c655a2cc3b1c7c7d7ee42e740cc332828b6129c5474dfdc036379d108a0f4ec7",
+      "version": "2.1.10",
+      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.1.10"
     }
   ]
 }
