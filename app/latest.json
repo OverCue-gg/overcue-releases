@@ -1,15 +1,15 @@
 {
-  "version": "2.1.9",
-  "notes": "# What\u2019s new in OverCue Desktop 2.1.9 for macOS\n\n- If rekordbox is open when you generate, package or delete stems, OverCue now keeps the message on screen and scrolls to it, so it\u2019s clear you need to quit rekordbox first. Previously the message could disappear and it looked like nothing happened.\n- Manual stem import: stems that are slightly longer than the full mix, such as those made from MP3s where the separation tool kept the MP3\u2019s built-in delay, are now trimmed automatically once the timing check confirms which end holds the extra audio. Each stem shows what was trimmed. Your stem files are not changed, and stems that are shorter than the full mix are still refused.\n- Manual stem import: each stem now shows its own length problem, not just the first one found.\n",
-  "pub_date": "2026-09-24T19:11:07.707623+00:00",
+  "version": "2.1.11",
+  "notes": "# What\u2019s new in OverCue Desktop 2.1.11 for macOS\n\n- Attempts to fix Mac-formatted USB drives not appearing in OverCue on Intel Macs by allowing slower drive scans to finish.\n",
+  "pub_date": "2026-09-28T22:51:27.868603+00:00",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHdRSlgzRUcwckg3aVpTWVZFc3hBKzczVmRoSENscExGWWhXQzNXdWdFSjRWVXBHdDR6QWtXMVhZT3RFR2UrSzVpakZXTStnNFhuOGtaSytoNkJVdVg2ZlhCZVRLUUFnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMjc2OTQ0CWZpbGU6T3ZlckN1ZSBEZXNrdG9wLmFwcC50YXIuZ3oKalA3QkRyb3huR0J3ZXg5bFNyM2JFc1U1Q1l6NXZVdWRVUCtLSWxCSzVWTGlxRmhnNm02U3dwN2Nad2FaeFNzenFualNPSElHSWM2dk9wQjhVSlZ4Q2c9PQo=",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.1.9/OverCue_2.1.9_aarch64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHdRSlgzRUcwckdTeEtENmRkc0Q4alQzN2NGdmJtOFVqT09FMGcyenphMnlVdDVaWDJTUVhwSHZsNXdGN1ZUbXlway9RbG1wOENadTFhM292QWdZdkdYKzVqSXNHU3d3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwNjM1NzcyCWZpbGU6T3ZlckN1ZSBEZXNrdG9wLmFwcC50YXIuZ3oKYkE2dVp5dkZrd3FZTE1rZThlc2tQZmlmamlMOS8zQjdzZVBuUWh5cmZ1NUF0YjgzWWJDNllXS0pNZllSVC9UaUlGUVJlUWVhUUxWVE9oRVFQZm1rQUE9PQo=",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.1.11/OverCue_2.1.11_aarch64.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHdRSlgzRUcwckV4d3RKUVBKcXlTdnhORTFzUjRJVkFZUVZIOExLSUwyZC9iS3AzZndJMXRNL2Jualhkc01iYnQ5d2x6TVRudXY2VDhycU4yMDJHUmpGNkowUnQzV2dBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMjc3MDY2CWZpbGU6T3ZlckN1ZSBEZXNrdG9wLmFwcC50YXIuZ3oKVkg2RXNjZGtLc1N1NC9XN2pxaG56dkN5UVlmWnkzU1g2TmNqYklHc3JqdEZXTS9zVDV3REJFc21zT3JhZmhBV3crdWIyd2JNNUVlMytaNWdLR2dDQVE9PQo=",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.1.9/OverCue_2.1.9_x86_64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHdRSlgzRUcwck43ai8wT1p4YXgreSs4c3NRNjEzWDkzenphZWNHbE8wbERGcVhjMlR6VmRXaVJGUDJNeTl4MzdDU0ZDaTZBRHN3QVVodEtycDRaSTE5QnpHWE5tNEFNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwNjM1ODg2CWZpbGU6T3ZlckN1ZSBEZXNrdG9wLmFwcC50YXIuZ3oKWldDajJaMTRzbmxGU3NxSUVFM05tQjQrVEZRRE9TQVhwMW5sZDI1M1Z5T3RSamRKTDFhMVE4L3pSZkU1Zi8vMy9td0pya2dzNE1aK25JKzVMWmFHQ0E9PQo=",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.1.11/OverCue_2.1.11_x86_64.app.tar.gz"
     }
   }
 }
