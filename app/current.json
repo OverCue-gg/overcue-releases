@@ -1,8 +1,8 @@
 {
-  "version": "2.1.11",
-  "published": "2026-09-28T22:52:22Z",
-  "notes": "# What\u2019s new in OverCue Desktop 2.1.11 for macOS\n\n- Attempts to fix Mac-formatted USB drives not appearing in OverCue on Intel Macs by allowing slower drive scans to finish.\n",
-  "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.1.11",
+  "version": "2.1.12",
+  "published": "2026-09-29T15:14:57Z",
+  "notes": "# What\u2019s new in OverCue Desktop 2.1.12 for macOS\n\n- Fixes Mac-formatted Rekordbox USBs whose export is stored under `.PIONEER/rekordbox` not appearing in OverCue. The app now reads the library and related analysis from that layout.\n",
+  "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.1.12",
   "artifacts": [
     {
       "platform": "windows",
@@ -15,18 +15,18 @@
     {
       "platform": "macos",
       "label": "macOS Apple silicon",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.1.11/OverCue_2.1.11_aarch64.dmg",
-      "sha256": "dd08dca3f9dada6029b4374c30d4db06445957a201957441e3a2080e95d10272",
-      "version": "2.1.11",
-      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.1.11"
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.1.12/OverCue_2.1.12_aarch64.dmg",
+      "sha256": "0f53b4d15335ac739aa0a17508db424713ed8e7bbd07457a7f5985222cd07aa1",
+      "version": "2.1.12",
+      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.1.12"
     },
     {
       "platform": "macos",
       "label": "macOS Intel",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.1.11/OverCue_2.1.11_x86_64.dmg",
-      "sha256": "8a9b3cf6678d0eed04e8dbaa7ec222c8b85bbd776ecbd48ba8e1b777762b30e5",
-      "version": "2.1.11",
-      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.1.11"
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.1.12/OverCue_2.1.12_x86_64.dmg",
+      "sha256": "3585dd1ed05aa3de030638ca339e9e43483a0e8e25044fd4d508eece69b7e5e3",
+      "version": "2.1.12",
+      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.1.12"
     }
   ]
 }
