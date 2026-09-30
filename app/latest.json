@@ -1,15 +1,15 @@
 {
-  "version": "2.1.12",
-  "notes": "# What\u2019s new in OverCue Desktop 2.1.12 for macOS\n\n- Fixes Mac-formatted Rekordbox USBs whose export is stored under `.PIONEER/rekordbox` not appearing in OverCue. The app now reads the library and related analysis from that layout.\n",
-  "pub_date": "2026-09-29T15:13:58.552439+00:00",
+  "version": "2.1.13",
+  "notes": "# What\u2019s new in OverCue Desktop 2.1.13 for macOS\n\n- Attempts to fix playlists not appearing from large rekordbox USB exports on Intel Macs. OverCue now reads the full playlist-entry table and loads large libraries more efficiently.\n",
+  "pub_date": "2026-09-30T15:39:13.834437+00:00",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHdRSlgzRUcwck9IMGFZQjFCTTRFM1g3OThBaG4rbDF0YVhwaXBMcnQ3Z2tFNHNIMGtLSkswK293NGhpY0ZuUEhuL3VOOEJtS3I3aithWlRIZm0rOHhhYm0xS1lHdEE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwNjk0NjgwCWZpbGU6T3ZlckN1ZSBEZXNrdG9wLmFwcC50YXIuZ3oKSXFSbFpzK3JGZCtJemtTcEZJTy9DVm5MYWlxRGRaOEh0MERWMDNTL0NmLzhPTlZqTk9mZHJSOVRZZEdldUlpSnk5cUFMUUczRDhZVVh5VmN6ak9IQVE9PQo=",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.1.12/OverCue_2.1.12_aarch64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHdRSlgzRUcwckhmVDYyc2UycUp2c0hiVENKRytQS2VvZGhOcXBCZFIrb1EwMGNkN0lDaTFzdThaZk5nTXRnZytIcnRHYWwrdW5kS0x1S2VBd280b3R3ZXY2bG9KYmdnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwNzgyNjQ0CWZpbGU6T3ZlckN1ZSBEZXNrdG9wLmFwcC50YXIuZ3oKTi82WU90ZXRBNDRzaUh2MXZuVFdOcGpmZ0ZoM1BsOGZTUUhReU10aktGTmdSNXVTS0lQV1VnYkRyMDdncTBaSDRTZE55ZHJtSHE4S2p1OS9yZk1IQ0E9PQo=",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.1.13/OverCue_2.1.13_aarch64.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHdRSlgzRUcwck1jU1hIcVhxdHJ6ME9IODU3alh5NGtkdytlSFgyaFhYaUlJdytqTGRGc2k5S2NOT25VZkJLWTF5OXJnTC9uZWFpYytZaDlYdVNkWktsTUZ0dDdQSHd3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwNjk0ODM3CWZpbGU6T3ZlckN1ZSBEZXNrdG9wLmFwcC50YXIuZ3oKTDNubWs3Rm1xU2l1KzE1MlhhbWRvV1FmOW9aRlNndndVaW5YTzJwcDJJVkkxTVlrM0FlOUhCcU9GL0ppbTEycXNoa3JVR0YrenNBcFMrQ3VqVGl5QUE9PQo=",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.1.12/OverCue_2.1.12_x86_64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHdRSlgzRUcwckduQWhsMitvajBwcWpTcW5zeXNUWFVYSW5ldnFVcEVTRllWcDJYVTI3dkFZV1YwbzJlaFd3akZCVjJid2pYMm12SHFWM2hzaURYQm8rcmYxOTlmd3dZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwNzgyNzUyCWZpbGU6T3ZlckN1ZSBEZXNrdG9wLmFwcC50YXIuZ3oKZVJtTWRRditoTDJkaHg4Q042S0FZR2JSVHlyWGNCdXcwRHpxaVNpQ00xcmR3N3paSERMTjl5REw0OVpqL2ZyVTlwaGJaa25uMGtRc2ptY1luUFBqQVE9PQo=",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.1.13/OverCue_2.1.13_x86_64.app.tar.gz"
     }
   }
 }
