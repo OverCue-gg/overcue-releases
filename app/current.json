@@ -1,17 +1,9 @@
 {
-  "version": "2.2.0",
-  "published": "2026-10-01T22:53:59Z",
-  "notes": "# What\u2019s new in OverCue Desktop 2.2.0 for macOS\n\n- Stems now use lossless FLAC storage. Our test library used about 66% less space for stems, with exactly the same audio quality. Savings vary by track.\n- Select prepared tracks and choose Repack existing stems to save space without running stem separation again. Existing stems still work with OverCue firmware 0.10.0.\n- Update every player to OverCue firmware 0.10.0 before using newly prepared or repacked stems. Firmware 0.9.7 and earlier cannot read FLAC stems.\n- Keeps large rekordbox libraries responsive while browsing and selecting tracks, including repacking selections across the full library.\n",
-  "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.0",
+  "version": "2.2.1",
+  "published": "2026-10-01T22:57:45Z",
+  "notes": "# What\u2019s new in OverCue Desktop 2.2.1 for Windows\n\n- Stems now use lossless FLAC storage. Our test library used about 66% less space for stems, with exactly the same audio quality. Savings vary by track.\n- Select prepared tracks and choose Repack existing stems to save space without running stem separation again. Existing stems still work with OverCue firmware 0.10.0.\n- Update every player to OverCue firmware 0.10.0 before using newly prepared or repacked stems. Firmware 0.9.7 and earlier cannot read FLAC stems.\n- Keeps large rekordbox libraries responsive while browsing and selecting tracks, including repacking selections across the full library.\n",
+  "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.1",
   "artifacts": [
-    {
-      "platform": "windows",
-      "label": "Windows installer x64",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.1.10/OverCue_2.1.10_x64-setup.exe",
-      "sha256": "c655a2cc3b1c7c7d7ee42e740cc332828b6129c5474dfdc036379d108a0f4ec7",
-      "version": "2.1.10",
-      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.1.10"
-    },
     {
       "platform": "macos",
       "label": "macOS Apple silicon",
@@ -27,6 +19,14 @@
       "sha256": "9ae1e310cd8b29268dd978dcfb5d3a0a906f43484177b75d335bfc85e1e6e586",
       "version": "2.2.0",
       "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.0"
+    },
+    {
+      "platform": "windows",
+      "label": "Windows installer x64",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.1/OverCue_2.2.1_x64-setup.exe",
+      "sha256": "e3a5f81d0b311f51673108e2bb718fc7215a5c47163d5154a2b873f15a0e99ee",
+      "version": "2.2.1",
+      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.1"
     }
   ]
 }

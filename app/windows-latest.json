@@ -1,11 +1,11 @@
 {
-  "version": "2.1.10",
-  "notes": "# What\u2019s new in OverCue Desktop 2.1.10 for Windows\n\n- If rekordbox is open when you generate, package or delete stems, OverCue now keeps the message on screen and scrolls to it, so it\u2019s clear you need to quit rekordbox first. Previously the message could disappear and it looked like nothing happened.\n- Manual stem import: stems that are slightly longer than the full mix, such as those made from MP3s where the separation tool kept the MP3\u2019s built-in delay, are now trimmed automatically once the timing check confirms which end holds the extra audio. Each stem shows what was trimmed. Your stem files are not changed, and stems that are shorter than the full mix are still refused.\n- Manual stem import: each stem now shows its own length problem, not just the first one found.\n",
-  "pub_date": "2026-09-24T19:49:08.485348+00:00",
+  "version": "2.2.1",
+  "notes": "# What\u2019s new in OverCue Desktop 2.2.1 for Windows\n\n- Stems now use lossless FLAC storage. Our test library used about 66% less space for stems, with exactly the same audio quality. Savings vary by track.\n- Select prepared tracks and choose Repack existing stems to save space without running stem separation again. Existing stems still work with OverCue firmware 0.10.0.\n- Update every player to OverCue firmware 0.10.0 before using newly prepared or repacked stems. Firmware 0.9.7 and earlier cannot read FLAC stems.\n- Keeps large rekordbox libraries responsive while browsing and selecting tracks, including repacking selections across the full library.\n",
+  "pub_date": "2026-10-01T22:06:42.674339+00:00",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHdRSlgzRUcwckJXWHRyNlEySk12ZnZXTU9lamxsMm0zenJJdkowVkt2Ymw5QU9leCt0bnNlN2NMZDJrQ2xmaW9yVjNaTUlxbXJmTU0wWGpmN2NTeFU2SS9lNWZlSHdBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMjc5MzQ1CWZpbGU6T3ZlckN1ZSBEZXNrdG9wXzIuMS4xMF94NjQtc2V0dXAuZXhlCkRUeng4WTF2dmdkeEdvaHoybnRBbkIvd0pidGZsTm5Ub0FYY0sxREpFbVdSMGZqZkd6ZWREM3Nid2wyTlhVYUxPOTZ1VEUvQ0x2b2FzZWQ1VUdXdUJRPT0K",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.1.10/OverCue_2.1.10_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHdRSlgzRUcwck1JV1lVMVQwOTloM3ZBVE9rUDNhQmRJMG9pY05IeUdxS2xoNit1ZWQ2QWdRclVVVkFRQzdGL2RJRCtuMnA0VGRKZHI5ZGVBd3Q1cGRabUt4UE4xdWdzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwODkyMzk5CWZpbGU6T3ZlckN1ZSBEZXNrdG9wXzIuMi4xX3g2NC1zZXR1cC5leGUKR2N1VFYvY3RWa0toVHlkVmpmS2s1MEdLZzZZME5NRm8vQ0JnSkU2NCtudUd2L2hFZy9iMWpSQ3lId01zdnQyZW45V2poTThhSE9NUlcwaDRVVmk4QWc9PQo=",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.1/OverCue_2.2.1_x64-setup.exe"
     }
   }
 }
