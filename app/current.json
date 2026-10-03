@@ -1,25 +1,9 @@
 {
-  "version": "2.2.1",
-  "published": "2026-10-01T22:57:45Z",
-  "notes": "# What\u2019s new in OverCue Desktop 2.2.1 for Windows\n\n- Stems now use lossless FLAC storage. Our test library used about 66% less space for stems, with exactly the same audio quality. Savings vary by track.\n- Select prepared tracks and choose Repack existing stems to save space without running stem separation again. Existing stems still work with OverCue firmware 0.10.0.\n- Update every player to OverCue firmware 0.10.0 before using newly prepared or repacked stems. Firmware 0.9.7 and earlier cannot read FLAC stems.\n- Keeps large rekordbox libraries responsive while browsing and selecting tracks, including repacking selections across the full library.\n",
-  "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.1",
+  "version": "2.2.3",
+  "published": "2026-10-03T21:43:31Z",
+  "notes": "# What\u2019s new in OverCue Desktop 2.2.3 for macOS\n\n- Fixes a misleading library warning on matching rekordbox USB exports with duplicate track entries.\n- Repairs missing OneLibrary stem bindings for existing complete stems, including manual imports, without regenerating their audio. To repair stems marked as missing, select only those tracks and choose Generate & Package on USB in Automatic mode. Regenerate explicitly replaces stems, including manual imports.\n- Adds separation-server setup guidance and a Copy instructions for AI coding agents button in Settings.\n- Adds copied instructions for preparing USB stems with an AI coding agent, starting with hardware checks and a compatible model for Vocals, Drums and Harmonics / Other.\n- Lets coding agents use OverCue\u2019s built-in decoder, validator and packager with independently generated stems. Packaging preserves existing stem entries and original rekordbox files.\n",
+  "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.3",
   "artifacts": [
-    {
-      "platform": "macos",
-      "label": "macOS Apple silicon",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.0/OverCue_2.2.0_aarch64.dmg",
-      "sha256": "ddf20c47b33800496da4c9cd690683b564e6040cbe0fe69534fc7de9705bee69",
-      "version": "2.2.0",
-      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.0"
-    },
-    {
-      "platform": "macos",
-      "label": "macOS Intel",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.0/OverCue_2.2.0_x86_64.dmg",
-      "sha256": "9ae1e310cd8b29268dd978dcfb5d3a0a906f43484177b75d335bfc85e1e6e586",
-      "version": "2.2.0",
-      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.0"
-    },
     {
       "platform": "windows",
       "label": "Windows installer x64",
@@ -27,6 +11,22 @@
       "sha256": "e3a5f81d0b311f51673108e2bb718fc7215a5c47163d5154a2b873f15a0e99ee",
       "version": "2.2.1",
       "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.1"
+    },
+    {
+      "platform": "macos",
+      "label": "macOS Apple silicon",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.3/OverCue_2.2.3_aarch64.dmg",
+      "sha256": "2627f48f0594ed771917f513274d45cde0c68ed71e4273f4f2335e1401855222",
+      "version": "2.2.3",
+      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.3"
+    },
+    {
+      "platform": "macos",
+      "label": "macOS Intel",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.3/OverCue_2.2.3_x86_64.dmg",
+      "sha256": "2d7055a1b1647c695c295f7787a24433349b025648baaaf6457c8be8214f9566",
+      "version": "2.2.3",
+      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.3"
     }
   ]
 }

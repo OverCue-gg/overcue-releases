@@ -1,15 +1,15 @@
 {
-  "version": "2.2.0",
-  "notes": "# What\u2019s new in OverCue Desktop 2.2.0 for macOS\n\n- Stems now use lossless FLAC storage. Our test library used about 66% less space for stems, with exactly the same audio quality. Savings vary by track.\n- Select prepared tracks and choose Repack existing stems to save space without running stem separation again. Existing stems still work with OverCue firmware 0.10.0.\n- Update every player to OverCue firmware 0.10.0 before using newly prepared or repacked stems. Firmware 0.9.7 and earlier cannot read FLAC stems.\n- Keeps large rekordbox libraries responsive while browsing and selecting tracks, including repacking selections across the full library.\n",
-  "pub_date": "2026-10-01T21:52:39.120300+00:00",
+  "version": "2.2.3",
+  "notes": "# What\u2019s new in OverCue Desktop 2.2.3 for macOS\n\n- Fixes a misleading library warning on matching rekordbox USB exports with duplicate track entries.\n- Repairs missing OneLibrary stem bindings for existing complete stems, including manual imports, without regenerating their audio. To repair stems marked as missing, select only those tracks and choose Generate & Package on USB in Automatic mode. Regenerate explicitly replaces stems, including manual imports.\n- Adds separation-server setup guidance and a Copy instructions for AI coding agents button in Settings.\n- Adds copied instructions for preparing USB stems with an AI coding agent, starting with hardware checks and a compatible model for Vocals, Drums and Harmonics / Other.\n- Lets coding agents use OverCue\u2019s built-in decoder, validator and packager with independently generated stems. Packaging preserves existing stem entries and original rekordbox files.\n",
+  "pub_date": "2026-10-03T21:26:58.218512+00:00",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHdRSlgzRUcwckZLL2tZTEZ5OG9JVG9IOXRpOUxSaWZIZ2Z1NWlOQjd6SzU2Y2luNkdvUk4xNEFHaEEzTWhYd3JnV21kb2FNYnRoZDhkWDhXeThkekxpVDhjMnVtTnc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwODkxNDQxCWZpbGU6T3ZlckN1ZSBEZXNrdG9wLmFwcC50YXIuZ3oKM1VVclJvODZKSTExNVBNWSs4bGg4OC9XQng4QkRKYkhnVUtoOHpidnMvK3lqSy9tejMyOHNKb1BrWHJpZHlCYmVCSnoxVTBmVCt1MHpsMzFTT3hoQkE9PQo=",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.0/OverCue_2.2.0_aarch64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHdRSlgzRUcwck52MGNyVi8vZ1VjY3BISTF0SGpRQUpEVHhBcmlzaExZTDdFVWZNUmtSY2VRdXZSRTFyTkhBNEVBWks5VW52TnZsZldybFJHRGV5L1IxOWhFOUM3RVFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMDYyNjk5CWZpbGU6T3ZlckN1ZSBEZXNrdG9wLmFwcC50YXIuZ3oKY2hDdWVYaFlFQnllOURhS3BnN0ZsTmdVUVYrZXg1cGZKMGhPTHRLQUw1RzZuQ0h4ODhETk10QTJoNWdQRkk1QUF1dHdVSDk0dW4vRlRKb01RYXg1QlE9PQo=",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.3/OverCue_2.2.3_aarch64.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHdRSlgzRUcwckVTMWtqUE1XcmlJTlpCRzdVajlsRWtHQzU3c1NoSTRITkQ1ZjlHVjQ4YzlRenhYTDF1YzFRMW5aSFNtVVN2dkM2dE0vQVFCTTl4NWpjaTBwWGhNMmdvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwODkxNTU3CWZpbGU6T3ZlckN1ZSBEZXNrdG9wLmFwcC50YXIuZ3oKZU9MMWx4a3lsWUtLdjY3c09pSGM2WFdwTGljWEhKcEs0ZDdjWEJzN3JwR3I1bFpMdVNSZ1RISUpZSGtPVmVZU1FNZkIwK1F3TisrWjVRdTkyeUpkRFE9PQo=",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.0/OverCue_2.2.0_x86_64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHdRSlgzRUcwckdFdjBZdTRZQmd4VXpIVGxyb1VaN3dhbytsS0hmRStFZXNHVm5mQ3h5K1NDaFQxYTVXbWRNc1FMZGoxRXdKbzU1Und4ZU1XREhHWDl6Q3I4VWh3QWcwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMDYyODE2CWZpbGU6T3ZlckN1ZSBEZXNrdG9wLmFwcC50YXIuZ3oKMXduZVNCcWZUVG9aVllCWHUrS28zcXpxdGQ4ZWdnN3M4bmM1bnE3MXhSbnlYOXVMTHBWNEYzTEhseFZtemNBd280eG02NkhicUpLbTE4b2M1TXBiQWc9PQo=",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.3/OverCue_2.2.3_x86_64.app.tar.gz"
     }
   }
 }
