@@ -1,17 +1,9 @@
 {
-  "version": "2.2.3",
-  "published": "2026-10-03T21:43:31Z",
-  "notes": "# What\u2019s new in OverCue Desktop 2.2.3 for macOS\n\n- Fixes a misleading library warning on matching rekordbox USB exports with duplicate track entries.\n- Repairs missing OneLibrary stem bindings for existing complete stems, including manual imports, without regenerating their audio. To repair stems marked as missing, select only those tracks and choose Generate & Package on USB in Automatic mode. Regenerate explicitly replaces stems, including manual imports.\n- Adds separation-server setup guidance and a Copy instructions for AI coding agents button in Settings.\n- Adds copied instructions for preparing USB stems with an AI coding agent, starting with hardware checks and a compatible model for Vocals, Drums and Harmonics / Other.\n- Lets coding agents use OverCue\u2019s built-in decoder, validator and packager with independently generated stems. Packaging preserves existing stem entries and original rekordbox files.\n",
-  "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.3",
+  "version": "2.2.4",
+  "published": "2026-10-03T22:04:41Z",
+  "notes": "# What\u2019s new in OverCue Desktop 2.2.4 for Windows\n\n- Fixes a misleading library warning on matching rekordbox USB exports with duplicate track entries.\n- Repairs missing OneLibrary stem bindings for existing complete stems, including manual imports, without regenerating their audio. To repair stems marked as missing, select only those tracks and choose Generate & Package on USB in Automatic mode. Regenerate explicitly replaces stems, including manual imports.\n- Adds separation-server setup guidance and a Copy instructions for AI coding agents button in Settings.\n- Adds copied instructions for preparing USB stems with an AI coding agent, starting with hardware checks and a compatible model for Vocals, Drums and Harmonics / Other.\n- Lets coding agents use OverCue\u2019s built-in decoder, validator and packager with independently generated stems. Packaging preserves existing stem entries and original rekordbox files.\n",
+  "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.4",
   "artifacts": [
-    {
-      "platform": "windows",
-      "label": "Windows installer x64",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.1/OverCue_2.2.1_x64-setup.exe",
-      "sha256": "e3a5f81d0b311f51673108e2bb718fc7215a5c47163d5154a2b873f15a0e99ee",
-      "version": "2.2.1",
-      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.1"
-    },
     {
       "platform": "macos",
       "label": "macOS Apple silicon",
@@ -27,6 +19,14 @@
       "sha256": "2d7055a1b1647c695c295f7787a24433349b025648baaaf6457c8be8214f9566",
       "version": "2.2.3",
       "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.3"
+    },
+    {
+      "platform": "windows",
+      "label": "Windows installer x64",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.4/OverCue_2.2.4_x64-setup.exe",
+      "sha256": "583b732e179111e82c24c771e955e4257c1bb5e971026b8fe6e7642a50993b39",
+      "version": "2.2.4",
+      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.4"
     }
   ]
 }

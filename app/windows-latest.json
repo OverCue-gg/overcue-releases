@@ -1,11 +1,11 @@
 {
-  "version": "2.2.1",
-  "notes": "# What\u2019s new in OverCue Desktop 2.2.1 for Windows\n\n- Stems now use lossless FLAC storage. Our test library used about 66% less space for stems, with exactly the same audio quality. Savings vary by track.\n- Select prepared tracks and choose Repack existing stems to save space without running stem separation again. Existing stems still work with OverCue firmware 0.10.0.\n- Update every player to OverCue firmware 0.10.0 before using newly prepared or repacked stems. Firmware 0.9.7 and earlier cannot read FLAC stems.\n- Keeps large rekordbox libraries responsive while browsing and selecting tracks, including repacking selections across the full library.\n",
-  "pub_date": "2026-10-01T22:06:42.674339+00:00",
+  "version": "2.2.4",
+  "notes": "# What\u2019s new in OverCue Desktop 2.2.4 for Windows\n\n- Fixes a misleading library warning on matching rekordbox USB exports with duplicate track entries.\n- Repairs missing OneLibrary stem bindings for existing complete stems, including manual imports, without regenerating their audio. To repair stems marked as missing, select only those tracks and choose Generate & Package on USB in Automatic mode. Regenerate explicitly replaces stems, including manual imports.\n- Adds separation-server setup guidance and a Copy instructions for AI coding agents button in Settings.\n- Adds copied instructions for preparing USB stems with an AI coding agent, starting with hardware checks and a compatible model for Vocals, Drums and Harmonics / Other.\n- Lets coding agents use OverCue\u2019s built-in decoder, validator and packager with independently generated stems. Packaging preserves existing stem entries and original rekordbox files.\n",
+  "pub_date": "2026-10-03T21:42:16.994083+00:00",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHdRSlgzRUcwck1JV1lVMVQwOTloM3ZBVE9rUDNhQmRJMG9pY05IeUdxS2xoNit1ZWQ2QWdRclVVVkFRQzdGL2RJRCtuMnA0VGRKZHI5ZGVBd3Q1cGRabUt4UE4xdWdzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwODkyMzk5CWZpbGU6T3ZlckN1ZSBEZXNrdG9wXzIuMi4xX3g2NC1zZXR1cC5leGUKR2N1VFYvY3RWa0toVHlkVmpmS2s1MEdLZzZZME5NRm8vQ0JnSkU2NCtudUd2L2hFZy9iMWpSQ3lId01zdnQyZW45V2poTThhSE9NUlcwaDRVVmk4QWc9PQo=",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.1/OverCue_2.2.1_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHdRSlgzRUcwck11M2lVSXo2SWJucFdQdnJlaTFLSmI1TE1GRW11Z0xKNHNMRXMvNjZ0UFFiaGxCclh2OGRKRFJ6emJaS215eHo2SjB4WTgzbWd6LzQ5dU9xNzliVlFVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMDYzNzM0CWZpbGU6T3ZlckN1ZSBEZXNrdG9wXzIuMi40X3g2NC1zZXR1cC5leGUKUjQybHRlQ0VraXY3Z29qT2NWMzVLRXAzMG1HQVRiOVVZVm0wV1V1WmhhTGh6NnQ0TGZOaEZ6b0JSYk5QOXdKYjMyN0tCeVpUdXd1QTd6VnRUa3MzQkE9PQo=",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.4/OverCue_2.2.4_x64-setup.exe"
     }
   }
 }
