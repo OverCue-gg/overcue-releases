@@ -1,22 +1,22 @@
 {
-  "version": "fw-v0.11.0",
+  "version": "fw-v0.11.1",
   "channel": "stable",
-  "published": "2026-10-09T18:26:39Z",
+  "published": "2026-10-09T21:52:11Z",
   "minAppVersion": "2.2.0",
-  "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/fw-v0.11.0",
-  "notes": "# OverCue 0.11.0\n\nFor CDJ-3000 firmware 3.22, supporting both hardware profiles.\n\n- Uses one native Master Tempo engine for stems, improving toggle response, continuous volume fades, key shift and recovery after seeking.\n- Improves cold-track stem page decoding and preparation while reducing extra audio processing.\n- Adds a Stock/OverCue picker with a two-step confirmation and per-player loading/cache indicators when other linked players are using this player's media. Cache status describes the loaded track; it does not guarantee uninterrupted seeking during a source restart.\n- Fixes the dim jog-display ring when starting with Light mode already saved.\n- Adds a one-touch Full Mix reset beside the narrower Toggle/Volume selector, and orders the stem buttons Drums, Vocal, Harmonics. Full Mix restores all three levels without changing the selected mode.\n- Makes playlist editing available when opening a playlist through Browse, as well as the physical PLAYLIST button.\n- Shows Hot Cue letters and memory cue arrows on Browse waveform previews, with support for full and half waveforms and all Browse text sizes.\n- Improves Light mode readability for the BPM and player boxes, restores the ZOOM/GRID indicators, and keeps Hot Cue letters black across waveform views.\n- Fixes Light mode search text and stock Browse, Source, and Now Playing icons while preserving their original shapes and artwork colors.\n- Keeps phrase names visible at the left edge of the scrolling waveform until the next phrase pushes them out.\n- Fixes BPM edits failing on some rekordbox exports and supports larger export libraries without the previous file-size limit.\n- Improves Gate Cue recovery when stale cue state could prevent PLAY from responding.\n- Fixes Smart Cue so the first CUE press previews immediately after returning from a gated Hot Cue.\n",
+  "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/fw-v0.11.1",
+  "notes": "# OverCue 0.11.1\n\nFor CDJ-3000 firmware 3.22.\n\n- Fixes a brief audio dropout on the first stem toggle or volume adjustment after loading a track, a beat jump or a Hot Cue when starting from Full Mix, including tracks loaded over LINK.\n",
   "artifacts": [
     {
       "product": "CDJ-3000",
       "family": "RK3399 + R8A7796",
       "kind": "install",
       "mode": "persistent",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/fw-v0.11.0/OverCue-fw-v0.11.0-install.UPD",
-      "sha256": "4fc3ddc5df90fa383bbc4d69a6992efb9175114129bd78a5d3dfe922e858df18",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/fw-v0.11.1/OverCue-fw-v0.11.1-install.UPD",
+      "sha256": "0d32b54416d384b75f14de6eff76c599df3baa3685d189e77404d1fcf3abb062",
       "bytes": 8663055,
       "archive": {
-        "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/fw-v0.11.0/OverCue-fw-v0.11.0-install.zip",
-        "sha256": "8d04d8d1de218fff0490aba5c71689e93cb64db34b1d76bbf983b32b42b21db3",
+        "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/fw-v0.11.1/OverCue-fw-v0.11.1-install.zip",
+        "sha256": "197d9b75b129de8cafa9ce714c82e4501ce6ebef456bacd22163a90a7672226a",
         "entry": "CDJ3Kv000.UPD"
       }
     },
@@ -25,12 +25,12 @@
       "family": "RK3399 + R8A7796",
       "kind": "uninstall",
       "mode": "persistent",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/fw-v0.11.0/OverCue-fw-v0.11.0-uninstall.UPD",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/fw-v0.11.1/OverCue-fw-v0.11.1-uninstall.UPD",
       "sha256": "fd36f2c905b69203045ba6c26ee17efeb6c63d485e401c34a6d4edfb894a49d5",
       "bytes": 8572943,
       "archive": {
-        "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/fw-v0.11.0/OverCue-fw-v0.11.0-uninstall.zip",
-        "sha256": "342b6dc216790c59acbf3540dbfe9c35a855ad4d297cd0eefe85a4b7494b1d4a",
+        "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/fw-v0.11.1/OverCue-fw-v0.11.1-uninstall.zip",
+        "sha256": "bfd391b2e0dfb9c96b4e6435e06a0838f1303b2cd30ae178f3c48d9f8c38b763",
         "entry": "CDJ3Kv000.UPD"
       }
     }
