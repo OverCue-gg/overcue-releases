@@ -1,17 +1,9 @@
 {
-  "version": "2.2.5",
-  "published": "2026-10-10T18:56:00Z",
-  "notes": "# What\u2019s new in OverCue Desktop 2.2.5 for macOS\n\n- Fixes timing shifts when changing stem volumes on MP3 tracks containing encoder metadata. All seven stem versions now align with the player\u2019s full-mix timeline.\n- Marks affected older stem banks as Needs regeneration. Select those tracks and regenerate them to apply the timing fix; repacking an old bank does not correct its timing.\n- Adds adjustable track-table columns, reserves room for progress indicators, and preserves your scroll position during packaging.\n- Groups playlists with their USB drive and makes stems-tab notices and track errors dismissible.\n- Keeps Automatic and Manual explanations and separation-quality guidance visible in Settings, with clearer concurrency guidance.\n- Requires a reply email address when creating a support report.\n",
-  "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.5",
+  "version": "2.2.6",
+  "published": "2026-10-10T19:15:02Z",
+  "notes": "# What\u2019s new in OverCue Desktop 2.2.6 for Windows\n\n- Fixes timing shifts when changing stem volumes on MP3 tracks containing encoder metadata. All seven stem versions now align with the player\u2019s full-mix timeline.\n- Marks affected older stem banks as Needs regeneration. Select those tracks and regenerate them to apply the timing fix; repacking an old bank does not correct its timing.\n- Adds adjustable track-table columns, reserves room for progress indicators, and preserves your scroll position during packaging.\n- Groups playlists with their USB drive and makes stems-tab notices and track errors dismissible.\n- Keeps Automatic and Manual explanations and separation-quality guidance visible in Settings, with clearer concurrency guidance.\n- Requires a reply email address when creating a support report.\n- Checks installed RAM before using the built-in stems model. PCs below the tested 16 GB minimum default to Manual; Settings explains the requirements and server alternative.\n",
+  "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.6",
   "artifacts": [
-    {
-      "platform": "windows",
-      "label": "Windows installer x64",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.4/OverCue_2.2.4_x64-setup.exe",
-      "sha256": "583b732e179111e82c24c771e955e4257c1bb5e971026b8fe6e7642a50993b39",
-      "version": "2.2.4",
-      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.4"
-    },
     {
       "platform": "macos",
       "label": "macOS Apple silicon",
@@ -27,6 +19,14 @@
       "sha256": "8ad4dc814e49178070e058c725f487ce29463362c83b2c6363cc0e942a4c0ff6",
       "version": "2.2.5",
       "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.5"
+    },
+    {
+      "platform": "windows",
+      "label": "Windows installer x64",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.6/OverCue_2.2.6_x64-setup.exe",
+      "sha256": "38ea674075ad75bd366f1ba8b9685d12c20a6230dda8fa528f7611f5daa0392c",
+      "version": "2.2.6",
+      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.6"
     }
   ]
 }
