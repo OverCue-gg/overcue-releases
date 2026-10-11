@@ -1,22 +1,22 @@
 {
-  "version": "fw-v0.11.1",
+  "version": "fw-v0.11.5",
   "channel": "stable",
-  "published": "2026-10-09T21:52:11Z",
+  "published": "2026-10-11T22:51:04Z",
   "minAppVersion": "2.2.0",
-  "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/fw-v0.11.1",
-  "notes": "# OverCue 0.11.1\n\nFor CDJ-3000 firmware 3.22.\n\n- Fixes a brief audio dropout on the first stem toggle or volume adjustment after loading a track, a beat jump or a Hot Cue when starting from Full Mix, including tracks loaded over LINK.\n",
+  "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/fw-v0.11.5",
+  "notes": "# OverCue 0.11.5\n\nFor CDJ-3000 firmware 3.22.\n\n- Gate Cue now remembers its last setting through shutdown and reboot.\n- Restores the Pioneer jog-display startup logo and the unloaded rekordbox logo in light mode.\n- Improves the MT indicator in light mode.\n- Shows the STEMS tab indicator whenever a stem is muted or set to partial volume.\n- Adds an S below the existing H to identify tracks with prepared stems in all Browse views, in both themes.\n- Fixes stem toggles and volume adjustments with Master Tempo off and Key Shift active.\n",
   "artifacts": [
     {
       "product": "CDJ-3000",
       "family": "RK3399 + R8A7796",
       "kind": "install",
       "mode": "persistent",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/fw-v0.11.1/OverCue-fw-v0.11.1-install.UPD",
-      "sha256": "0d32b54416d384b75f14de6eff76c599df3baa3685d189e77404d1fcf3abb062",
-      "bytes": 8663055,
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/fw-v0.11.5/OverCue-fw-v0.11.5-install.UPD",
+      "sha256": "13897f36e953aff11f326b9803570544c521930c01699885ca72ebf82a1857ce",
+      "bytes": 8777743,
       "archive": {
-        "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/fw-v0.11.1/OverCue-fw-v0.11.1-install.zip",
-        "sha256": "197d9b75b129de8cafa9ce714c82e4501ce6ebef456bacd22163a90a7672226a",
+        "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/fw-v0.11.5/OverCue-fw-v0.11.5-install.zip",
+        "sha256": "6c7a675fd3b4cce6f0c5497ee0698ce38b6e5ebbcce0b33e67f3da07e15218d7",
         "entry": "CDJ3Kv000.UPD"
       }
     },
@@ -25,12 +25,12 @@
       "family": "RK3399 + R8A7796",
       "kind": "uninstall",
       "mode": "persistent",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/fw-v0.11.1/OverCue-fw-v0.11.1-uninstall.UPD",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/fw-v0.11.5/OverCue-fw-v0.11.5-uninstall.UPD",
       "sha256": "fd36f2c905b69203045ba6c26ee17efeb6c63d485e401c34a6d4edfb894a49d5",
       "bytes": 8572943,
       "archive": {
-        "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/fw-v0.11.1/OverCue-fw-v0.11.1-uninstall.zip",
-        "sha256": "bfd391b2e0dfb9c96b4e6435e06a0838f1303b2cd30ae178f3c48d9f8c38b763",
+        "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/fw-v0.11.5/OverCue-fw-v0.11.5-uninstall.zip",
+        "sha256": "00b4c0777c4c423ae1716e03f67687585b24abb5f413306eb1c3ae5305d9247a",
         "entry": "CDJ3Kv000.UPD"
       }
     }
