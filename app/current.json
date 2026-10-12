@@ -1,25 +1,9 @@
 {
-  "version": "2.2.8",
-  "published": "2026-10-12T19:24:08Z",
-  "notes": "# What\u2019s new in OverCue Desktop 2.2.8 for Windows\n\n- Includes USB library files in support reports by default to help the team investigate drive and library problems. Music and stems are not included.\n- Lets you exclude library files, with clear guidance that keeping them included is strongly recommended for drive or library issues.\n- Improves diagnostic details for library loading failures.\n- Improves collection of Windows hardware and USB diagnostics.\n",
-  "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.8",
+  "version": "2.2.10",
+  "published": "2026-10-12T22:04:06Z",
+  "notes": "# What\u2019s new in OverCue Desktop 2.2.10 for Mac\n\n- Improves validation of prepared stems during reuse and repacking.\n- Makes explicit regeneration available for tracks with outdated or incomplete existing stems.\n",
+  "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.10",
   "artifacts": [
-    {
-      "platform": "macos",
-      "label": "macOS Apple silicon",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.7/OverCue_2.2.7_aarch64.dmg",
-      "sha256": "f65a48320d71863ef632c99d3a68c99cf761008a8626d1ef86bd091288eb166e",
-      "version": "2.2.7",
-      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.7"
-    },
-    {
-      "platform": "macos",
-      "label": "macOS Intel",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.7/OverCue_2.2.7_x86_64.dmg",
-      "sha256": "a986e8572825cd6dcb2c9d4fc60d757a56d9a10c4f5b1be0ade7f139ef0ff3ac",
-      "version": "2.2.7",
-      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.7"
-    },
     {
       "platform": "windows",
       "label": "Windows installer x64",
@@ -27,6 +11,22 @@
       "sha256": "f3d1df151a8a0878d67e676a7bc1ea7a721cec82792d04d4cedd8566b11dadcd",
       "version": "2.2.8",
       "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.8"
+    },
+    {
+      "platform": "macos",
+      "label": "macOS Apple silicon",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.10/OverCue_2.2.10_aarch64.dmg",
+      "sha256": "83e17daca6bbbab6a321d351df854ad0827e8bc2a7e94cd3e05e84bb0b79ebf7",
+      "version": "2.2.10",
+      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.10"
+    },
+    {
+      "platform": "macos",
+      "label": "macOS Intel",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.10/OverCue_2.2.10_x86_64.dmg",
+      "sha256": "539328a49705f06cc27b2933fd375c523e346e1929cbf377f0e951d8ea52c996",
+      "version": "2.2.10",
+      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.10"
     }
   ]
 }
