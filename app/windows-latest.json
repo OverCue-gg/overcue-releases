@@ -1,11 +1,11 @@
 {
-  "version": "2.2.8",
-  "notes": "# What\u2019s new in OverCue Desktop 2.2.8 for Windows\n\n- Includes USB library files in support reports by default to help the team investigate drive and library problems. Music and stems are not included.\n- Lets you exclude library files, with clear guidance that keeping them included is strongly recommended for drive or library issues.\n- Improves diagnostic details for library loading failures.\n- Improves collection of Windows hardware and USB diagnostics.\n",
-  "pub_date": "2026-10-12T19:14:16.532857+00:00",
+  "version": "2.2.11",
+  "notes": "# What\u2019s new in OverCue Desktop 2.2.11 for Windows\n\n- Automatically selects CUDA on compatible NVIDIA GPUs with 8 GB or more, including the 11 GB RTX 2080 Ti, when enough GPU memory is available.\n- Improves validation of prepared stems during reuse and repacking.\n- Makes explicit regeneration available for tracks with outdated or incomplete existing stems.\n",
+  "pub_date": "2026-10-12T22:02:21.096519+00:00",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHdRSlgzRUcwckIzdTBSWXZWb3JLNFlPOHJZMnZMOXlBNEtHUHZwSm01NGo5cGV5SzFBRHB6ZmlUWVBMcFE4VzZ3SWFiKzhFMlhka0t0S0pKeG9uQlQ0aHI4MnJJS1FvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxODMyNDUzCWZpbGU6T3ZlckN1ZSBEZXNrdG9wXzIuMi44X3g2NC1zZXR1cC5leGUKT0JZQzdhQ3J6NGxpZVR3YUZCQ0tib2hsMWNMZCtEMXZaLzNUTlNpd01zTFdNalFJbXhqRmVZT3lxVnhBa0xvVFpXTTFWSTFPUytDWlhIaHptaVlhRGc9PQo=",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.8/OverCue_2.2.8_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHdRSlgzRUcwckExU1ZqY3dRakdLWVpFRkZIdDA2SEwraC9za2ZrR0xkdzNYQXhUNzF0eENDcXVsYzdoRXU4ZVMvUVVPYmVOQVh0amRjRXc2SHpIQlQwaWx4S2x4bFFFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxODQyNTM3CWZpbGU6T3ZlckN1ZSBEZXNrdG9wXzIuMi4xMV94NjQtc2V0dXAuZXhlCjgyN2lFcmp1eFpuOGpjdFVVNFVzRUxrWFU0OEkxNC9TaHhYUnZOWEtyZGVSMi9KcVRCeGdUaW5MQ09jQTVHdzhHV0dYSlZ0cnBiN2I0YUZlT3VKRkJRPT0K",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.11/OverCue_2.2.11_x64-setup.exe"
     }
   }
 }

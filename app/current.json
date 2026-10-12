@@ -1,17 +1,9 @@
 {
-  "version": "2.2.10",
-  "published": "2026-10-12T22:04:06Z",
-  "notes": "# What\u2019s new in OverCue Desktop 2.2.10 for Mac\n\n- Improves validation of prepared stems during reuse and repacking.\n- Makes explicit regeneration available for tracks with outdated or incomplete existing stems.\n",
-  "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.10",
+  "version": "2.2.11",
+  "published": "2026-10-12T22:11:50Z",
+  "notes": "# What\u2019s new in OverCue Desktop 2.2.11 for Windows\n\n- Automatically selects CUDA on compatible NVIDIA GPUs with 8 GB or more, including the 11 GB RTX 2080 Ti, when enough GPU memory is available.\n- Improves validation of prepared stems during reuse and repacking.\n- Makes explicit regeneration available for tracks with outdated or incomplete existing stems.\n",
+  "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.11",
   "artifacts": [
-    {
-      "platform": "windows",
-      "label": "Windows installer x64",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.8/OverCue_2.2.8_x64-setup.exe",
-      "sha256": "f3d1df151a8a0878d67e676a7bc1ea7a721cec82792d04d4cedd8566b11dadcd",
-      "version": "2.2.8",
-      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.8"
-    },
     {
       "platform": "macos",
       "label": "macOS Apple silicon",
@@ -27,6 +19,14 @@
       "sha256": "539328a49705f06cc27b2933fd375c523e346e1929cbf377f0e951d8ea52c996",
       "version": "2.2.10",
       "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.10"
+    },
+    {
+      "platform": "windows",
+      "label": "Windows installer x64",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.11/OverCue_2.2.11_x64-setup.exe",
+      "sha256": "20653669800eaec9b851da746463de23375c3826085df9db4479b55dd6e1bc13",
+      "version": "2.2.11",
+      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.11"
     }
   ]
 }
