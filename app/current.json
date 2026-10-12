@@ -1,17 +1,9 @@
 {
-  "version": "2.2.7",
-  "published": "2026-10-12T19:15:57Z",
-  "notes": "# What\u2019s new in OverCue Desktop 2.2.7 for Mac\n\n- Includes USB library files in support reports by default to help the team investigate drive and library problems. Music and stems are not included.\n- Lets you exclude library files, with clear guidance that keeping them included is strongly recommended for drive or library issues.\n- Improves diagnostic details for library loading failures.\n",
-  "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.7",
+  "version": "2.2.8",
+  "published": "2026-10-12T19:24:08Z",
+  "notes": "# What\u2019s new in OverCue Desktop 2.2.8 for Windows\n\n- Includes USB library files in support reports by default to help the team investigate drive and library problems. Music and stems are not included.\n- Lets you exclude library files, with clear guidance that keeping them included is strongly recommended for drive or library issues.\n- Improves diagnostic details for library loading failures.\n- Improves collection of Windows hardware and USB diagnostics.\n",
+  "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.8",
   "artifacts": [
-    {
-      "platform": "windows",
-      "label": "Windows installer x64",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.6/OverCue_2.2.6_x64-setup.exe",
-      "sha256": "38ea674075ad75bd366f1ba8b9685d12c20a6230dda8fa528f7611f5daa0392c",
-      "version": "2.2.6",
-      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.6"
-    },
     {
       "platform": "macos",
       "label": "macOS Apple silicon",
@@ -27,6 +19,14 @@
       "sha256": "a986e8572825cd6dcb2c9d4fc60d757a56d9a10c4f5b1be0ade7f139ef0ff3ac",
       "version": "2.2.7",
       "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.7"
+    },
+    {
+      "platform": "windows",
+      "label": "Windows installer x64",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.8/OverCue_2.2.8_x64-setup.exe",
+      "sha256": "f3d1df151a8a0878d67e676a7bc1ea7a721cec82792d04d4cedd8566b11dadcd",
+      "version": "2.2.8",
+      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.8"
     }
   ]
 }

@@ -1,11 +1,11 @@
 {
-  "version": "2.2.6",
-  "notes": "# What\u2019s new in OverCue Desktop 2.2.6 for Windows\n\n- Fixes timing shifts when changing stem volumes on MP3 tracks containing encoder metadata. All seven stem versions now align with the player\u2019s full-mix timeline.\n- Marks affected older stem banks as Needs regeneration. Select those tracks and regenerate them to apply the timing fix; repacking an old bank does not correct its timing.\n- Adds adjustable track-table columns, reserves room for progress indicators, and preserves your scroll position during packaging.\n- Groups playlists with their USB drive and makes stems-tab notices and track errors dismissible.\n- Keeps Automatic and Manual explanations and separation-quality guidance visible in Settings, with clearer concurrency guidance.\n- Requires a reply email address when creating a support report.\n- Checks installed RAM before using the built-in stems model. PCs below the tested 16 GB minimum default to Manual; Settings explains the requirements and server alternative.\n",
-  "pub_date": "2026-10-10T19:11:34.166284+00:00",
+  "version": "2.2.8",
+  "notes": "# What\u2019s new in OverCue Desktop 2.2.8 for Windows\n\n- Includes USB library files in support reports by default to help the team investigate drive and library problems. Music and stems are not included.\n- Lets you exclude library files, with clear guidance that keeping them included is strongly recommended for drive or library issues.\n- Improves diagnostic details for library loading failures.\n- Improves collection of Windows hardware and USB diagnostics.\n",
+  "pub_date": "2026-10-12T19:14:16.532857+00:00",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHdRSlgzRUcwckU1WFVBQzFmRnhKYlZyVCtWbkRxRklYWU43djUzTzZBWklSaEEzcFgvWVcrY3Q5alVIU1E1b1ZIYkpQOVdON29ZUndNVWxqTkM0NzFFSStlQlJRQnc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNjU5NDkxCWZpbGU6T3ZlckN1ZSBEZXNrdG9wXzIuMi42X3g2NC1zZXR1cC5leGUKbkg2eE9SNUZoOEI2ZDVBZUpSWUdkdGtCdmNFVkVwRGN1SDkxWnBOSkpCaC9UUHdYK0YrdmpUOUJmRisyNnJRc09oZ0RjZEd0bWNFY2VrNVVDWGFBQWc9PQo=",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.6/OverCue_2.2.6_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHdRSlgzRUcwckIzdTBSWXZWb3JLNFlPOHJZMnZMOXlBNEtHUHZwSm01NGo5cGV5SzFBRHB6ZmlUWVBMcFE4VzZ3SWFiKzhFMlhka0t0S0pKeG9uQlQ0aHI4MnJJS1FvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxODMyNDUzCWZpbGU6T3ZlckN1ZSBEZXNrdG9wXzIuMi44X3g2NC1zZXR1cC5leGUKT0JZQzdhQ3J6NGxpZVR3YUZCQ0tib2hsMWNMZCtEMXZaLzNUTlNpd01zTFdNalFJbXhqRmVZT3lxVnhBa0xvVFpXTTFWSTFPUytDWlhIaHptaVlhRGc9PQo=",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.8/OverCue_2.2.8_x64-setup.exe"
     }
   }
 }
