@@ -1,15 +1,15 @@
 {
-  "version": "2.2.5",
-  "notes": "# What\u2019s new in OverCue Desktop 2.2.5 for macOS\n\n- Fixes timing shifts when changing stem volumes on MP3 tracks containing encoder metadata. All seven stem versions now align with the player\u2019s full-mix timeline.\n- Marks affected older stem banks as Needs regeneration. Select those tracks and regenerate them to apply the timing fix; repacking an old bank does not correct its timing.\n- Adds adjustable track-table columns, reserves room for progress indicators, and preserves your scroll position during packaging.\n- Groups playlists with their USB drive and makes stems-tab notices and track errors dismissible.\n- Keeps Automatic and Manual explanations and separation-quality guidance visible in Settings, with clearer concurrency guidance.\n- Requires a reply email address when creating a support report.\n",
-  "pub_date": "2026-10-10T18:51:34.754148+00:00",
+  "version": "2.2.7",
+  "notes": "# What\u2019s new in OverCue Desktop 2.2.7 for Mac\n\n- Includes USB library files in support reports by default to help the team investigate drive and library problems. Music and stems are not included.\n- Lets you exclude library files, with clear guidance that keeping them included is strongly recommended for drive or library issues.\n- Improves diagnostic details for library loading failures.\n",
+  "pub_date": "2026-10-12T18:58:53.743484+00:00",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHdRSlgzRUcwck40MHp2NlNkMkNLMVduZTQ1dmpSejBIK3M3OUI1OC90VGE0TjllV3dhSWtOeGNuQ0d6T01ka25sdlVKTi9mc2RnbFh1SzFqbDVyYVlid2pvc0JnZVFvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNjU4MTg0CWZpbGU6T3ZlckN1ZSBEZXNrdG9wLmFwcC50YXIuZ3oKRHQ1K1gyK1k5U2owQnlKSytrdzVwbE9zZlh0TlpXR3ROSEtkSVZsVEtxRzNVMnBOV2sxRVppcXF5QzI1K1BFelRnTThVN2xFMmRFVWhJQmtxMzYyQWc9PQo=",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.5/OverCue_2.2.5_aarch64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHdRSlgzRUcwckVpS1BXMkFId2hCamwyQ1IvNlExMU9DWDdoVFpmSm85aklKTHp5a2c4Z3VRSU9RK0JXWGVwR2paL0V2ZHhPUUZmb1B0WnJBdnFnc0JlM3crOG9FRmdBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxODMxMzg4CWZpbGU6T3ZlckN1ZSBEZXNrdG9wLmFwcC50YXIuZ3oKMUFyMnNPR1hhQ0VuSm5NaHkveG5OalN1M0daT3VFbHFnNmVFZVdLaEN4TUpRTmo0RkE3QUtzMUE1cTkzZ2Z2Nk4xZGY5QVBha3pBUlpWUXUra3VGQUE9PQo=",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.7/OverCue_2.2.7_aarch64.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHdRSlgzRUcwckQ2emNxQW9ZWVdxLyt6ZEpCVUlzK3lOeGNmZ2QwTm1KUDQreDhxT3c2UHh2WXhWV2VPVG5tTlFaalJYV0k3Ui8ydExNK2U0akJOOElCemNENTIwWHdVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNjU4MjkzCWZpbGU6T3ZlckN1ZSBEZXNrdG9wLmFwcC50YXIuZ3oKaHNaeG9sNCtaRWU1dFZVRGRFblVXOFZmOTFoUW9nclNyTUZON0lHMEdMZkI4QTZVTHNhZGlJaXRmM0JIY2tRVHRoaGJSMTlkakw4aXJyZitzWkVtQmc9PQo=",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.5/OverCue_2.2.5_x86_64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHdRSlgzRUcwckF2T1BURnhUczg0UWh2M3A0WkVpQ2pqVHVPUm1tSUNmVDh5bS8zeWxLeTZOdkJxTHF0UUFGTU8vRUw2YjAvQ0kxUVdKNi9jOGxralhaQVIxY0FrcVFzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxODMxNTMwCWZpbGU6T3ZlckN1ZSBEZXNrdG9wLmFwcC50YXIuZ3oKWHZYNlBwUUQ3L3ZhZEdZaDE3bHN5dWJHakk1QmsyVm9RbEU1U2xEcXRUcVlVWlZ5ekRzNzNoVmhBeTBSR0lNU3p4TCtpRHdSV005TUhtck44Vy8yQkE9PQo=",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.7/OverCue_2.2.7_x86_64.app.tar.gz"
     }
   }
 }
