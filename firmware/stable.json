@@ -1,22 +1,22 @@
 {
-  "version": "fw-v0.11.7",
+  "version": "fw-v0.11.8",
   "channel": "stable",
-  "published": "2026-10-13T23:28:22Z",
+  "published": "2026-10-14T17:03:36Z",
   "minAppVersion": "2.2.0",
-  "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/fw-v0.11.7",
-  "notes": "# OverCue 0.11.7\n\nFor CDJ-3000 firmware 3.22.\n\n- Fixed the OverCue switching pop-up opening in Light mode.\n- Improved loop shading in Light mode.\n- Kept the stems indicator black on selected tracks in Light mode.\n- Corrected the selected STEMS tab\u2019s text color in Light mode.\n",
+  "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/fw-v0.11.8",
+  "notes": "# OverCue 0.11.8\n\nFor CDJ-3000 firmware 3.22.\n\n- Expanded LCD and jog-display brightness to 10 levels (level 10 is stock level 5 max), including lower settings for dark environments (levels 1-4).\n",
   "artifacts": [
     {
       "product": "CDJ-3000",
       "family": "RK3399 + R8A7796",
       "kind": "install",
       "mode": "persistent",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/fw-v0.11.7/OverCue-fw-v0.11.7-install.UPD",
-      "sha256": "ea8346d509e1ec254c599008fd8e5e2d877cdce6fd6c4f4a16f8defe32ed5991",
-      "bytes": 8794127,
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/fw-v0.11.8/OverCue-fw-v0.11.8-install.UPD",
+      "sha256": "ca26d5a560a507ce7fce2f7be66ce8c689229a8cf6a005ade1b209c7594f0563",
+      "bytes": 8843279,
       "archive": {
-        "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/fw-v0.11.7/OverCue-fw-v0.11.7-install.zip",
-        "sha256": "f3dd9e5d1db657b95ccfc7251e5bb2c4a462c7f45c2afdcc6c86e0920fc0c43d",
+        "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/fw-v0.11.8/OverCue-fw-v0.11.8-install.zip",
+        "sha256": "70665758e36928f0519adb6b8f260fec068f51092c6c056d314c9852ebfcb527",
         "entry": "CDJ3Kv000.UPD"
       }
     },
@@ -25,12 +25,12 @@
       "family": "RK3399 + R8A7796",
       "kind": "uninstall",
       "mode": "persistent",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/fw-v0.11.7/OverCue-fw-v0.11.7-uninstall.UPD",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/fw-v0.11.8/OverCue-fw-v0.11.8-uninstall.UPD",
       "sha256": "fd36f2c905b69203045ba6c26ee17efeb6c63d485e401c34a6d4edfb894a49d5",
       "bytes": 8572943,
       "archive": {
-        "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/fw-v0.11.7/OverCue-fw-v0.11.7-uninstall.zip",
-        "sha256": "666d443056397b7027468bde6f23f8dbece396bfc237ae803b2d8c051026a688",
+        "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/fw-v0.11.8/OverCue-fw-v0.11.8-uninstall.zip",
+        "sha256": "f2b8519346368081209a9c023519e59532e1d9a39550a2ba165412913bc767fd",
         "entry": "CDJ3Kv000.UPD"
       }
     }
