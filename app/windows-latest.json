@@ -1,11 +1,11 @@
 {
-  "version": "2.2.11",
-  "notes": "# What\u2019s new in OverCue Desktop 2.2.11 for Windows\n\n- Automatically selects CUDA on compatible NVIDIA GPUs with 8 GB or more, including the 11 GB RTX 2080 Ti, when enough GPU memory is available.\n- Improves validation of prepared stems during reuse and repacking.\n- Makes explicit regeneration available for tracks with outdated or incomplete existing stems.\n",
-  "pub_date": "2026-10-12T22:02:21.096519+00:00",
+  "version": "2.2.13",
+  "notes": "# OverCue Desktop 2.2.13 for Windows\n\n- Prepare DJM-A9 stems EQ updates from the official 1.22 firmware file, with progress, cancellation, download links and mixer update instructions.\n- Turning stems EQ off holds normal mixer EQ at neutral until each knob returns to 12 o\u2019clock.\n- The top channel meter light blinks while stems EQ is active.\n- Find your equipment under separate Players and Mixers sections.\n- Compact, centered update notices offer direct Update and Go to Firmware buttons, leaving more room for your USB library.\n",
+  "pub_date": "2026-10-15T20:03:47.630768+00:00",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHdRSlgzRUcwckExU1ZqY3dRakdLWVpFRkZIdDA2SEwraC9za2ZrR0xkdzNYQXhUNzF0eENDcXVsYzdoRXU4ZVMvUVVPYmVOQVh0amRjRXc2SHpIQlQwaWx4S2x4bFFFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxODQyNTM3CWZpbGU6T3ZlckN1ZSBEZXNrdG9wXzIuMi4xMV94NjQtc2V0dXAuZXhlCjgyN2lFcmp1eFpuOGpjdFVVNFVzRUxrWFU0OEkxNC9TaHhYUnZOWEtyZGVSMi9KcVRCeGdUaW5MQ09jQTVHdzhHV0dYSlZ0cnBiN2I0YUZlT3VKRkJRPT0K",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.11/OverCue_2.2.11_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHdRSlgzRUcwclBvMUEzOEswZEE0V0dNNHcvZG5pUmRmNGhMWkp4L1RRVU9yQldxRlhGeDdkc3I1ME5jaXVOM254MHpHblRsOHZ1N0hSUnFBeGVKVzJ5S2lXMVM0TWdZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMDk0NjI0CWZpbGU6T3ZlckN1ZSBEZXNrdG9wXzIuMi4xM194NjQtc2V0dXAuZXhlCm5sN2tudllKcmU3ZWs1elU3UEg2L25QYjVXdi93MTJNL3ViNVQ0ZjNqMmFuUjB2Rk9lWXJkN2VYcllyeElxQ2FZaTBRczVTZENWMHRzODJxZHA1UEFBPT0K",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.13/OverCue_2.2.13_x64-setup.exe"
     }
   }
 }

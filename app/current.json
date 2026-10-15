@@ -1,17 +1,9 @@
 {
-  "version": "2.2.12",
-  "published": "2026-10-15T20:05:32Z",
-  "notes": "# OverCue Desktop 2.2.12\n\n- Prepare DJM-A9 stems EQ updates from the official 1.22 firmware file, with progress, cancellation, download links and mixer update instructions.\n- Turning stems EQ off holds normal mixer EQ at neutral until each knob returns to 12 o\u2019clock.\n- The top channel meter light blinks while stems EQ is active.\n- Find your equipment under separate Players and Mixers sections.\n- Compact, centered update notices offer direct Update and Go to Firmware buttons, leaving more room for your USB library.\n",
-  "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.12",
+  "version": "2.2.13",
+  "published": "2026-10-15T20:12:35Z",
+  "notes": "# OverCue Desktop 2.2.13 for Windows\n\n- Prepare DJM-A9 stems EQ updates from the official 1.22 firmware file, with progress, cancellation, download links and mixer update instructions.\n- Turning stems EQ off holds normal mixer EQ at neutral until each knob returns to 12 o\u2019clock.\n- The top channel meter light blinks while stems EQ is active.\n- Find your equipment under separate Players and Mixers sections.\n- Compact, centered update notices offer direct Update and Go to Firmware buttons, leaving more room for your USB library.\n",
+  "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.13",
   "artifacts": [
-    {
-      "platform": "windows",
-      "label": "Windows installer x64",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.11/OverCue_2.2.11_x64-setup.exe",
-      "sha256": "20653669800eaec9b851da746463de23375c3826085df9db4479b55dd6e1bc13",
-      "version": "2.2.11",
-      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.11"
-    },
     {
       "platform": "macos",
       "label": "macOS Apple silicon",
@@ -27,6 +19,14 @@
       "sha256": "2e19de32b220c623ec762523564e8b75334b634843c8216caa77730051129ba6",
       "version": "2.2.12",
       "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.12"
+    },
+    {
+      "platform": "windows",
+      "label": "Windows installer x64",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.13/OverCue_2.2.13_x64-setup.exe",
+      "sha256": "3a08ddb8fa61087a9375c2ca938c190c7deba2830cfb97b386da79735973142d",
+      "version": "2.2.13",
+      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.13"
     }
   ]
 }
