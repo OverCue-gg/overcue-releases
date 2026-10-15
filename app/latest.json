@@ -1,15 +1,15 @@
 {
-  "version": "2.2.10",
-  "notes": "# What\u2019s new in OverCue Desktop 2.2.10 for Mac\n\n- Improves validation of prepared stems during reuse and repacking.\n- Makes explicit regeneration available for tracks with outdated or incomplete existing stems.\n",
-  "pub_date": "2026-10-12T21:47:20.562707+00:00",
+  "version": "2.2.12",
+  "notes": "# OverCue Desktop 2.2.12\n\n- Prepare DJM-A9 stems EQ updates from the official 1.22 firmware file, with progress, cancellation, download links and mixer update instructions.\n- Turning stems EQ off holds normal mixer EQ at neutral until each knob returns to 12 o\u2019clock.\n- The top channel meter light blinks while stems EQ is active.\n- Find your equipment under separate Players and Mixers sections.\n- Compact, centered update notices offer direct Update and Go to Firmware buttons, leaving more room for your USB library.\n",
+  "pub_date": "2026-10-15T19:47:09.877974+00:00",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHdRSlgzRUcwck5HR1lxdWFIUU1aL2tPNTg1dkExUEc4OXM3OUF0LzZ5RmFPdXhLWlZJSE5CMU80aXFTRHR5Zk9QbEppcXYzT1JISFhKTWF3a0pNZ0MyUnlPMWt0Y2drPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxODQxNDQwCWZpbGU6T3ZlckN1ZSBEZXNrdG9wLmFwcC50YXIuZ3oKblVDYTN3eVdieFZpaEJUU3poTWNpVWR1aHJnOENSU3B1dDAxVnVDOGRjOSt5VkJnSTh2aEg1dDkreEhOVmZ0NTQvNXZVYmdDc3V4UjVhZEptNm8yQ3c9PQo=",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.10/OverCue_2.2.10_aarch64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHdRSlgzRUcwckdzdlZhUDNLTjBZMytmbVpkbWpld2I4S25MY2U4Y0FnZGVPdklZaFE4Tmo2ODB5ZERYd21BRUtxVkxrK0VJK2E3Y2d1S3cvL3NSSUhvSGRRS0RLUVE4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMDkzMzkwCWZpbGU6T3ZlckN1ZSBEZXNrdG9wLmFwcC50YXIuZ3oKL2JsK0pwWFZ6QWlhM0hKdktiU0tFUmh5dnNsYjNMUXNINVJSQysrWXpvTTdPenVYMlo2MlVpSGJZKys0TTUvc1A0YTNLL0lxU085R3c3ZVZCcHlHQ3c9PQo=",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.12/OverCue_2.2.12_aarch64.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHdRSlgzRUcwclBpOXpuaW45WE53QlNhc2NXNGhEMkVjenVlRlpsVTJhUE9pSWk5YkxkbUMxSWJJYUFDMjR4eHRVTDd3UVYxdlVyS2NQejZGS0dSMmhOaGVHNWtVZVEwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxODQxNjM3CWZpbGU6T3ZlckN1ZSBEZXNrdG9wLmFwcC50YXIuZ3oKVGZ4M1VkdTliZUU3OUU1RGJzQUhpUjRoQ2daZmdoN1dLaVBYRnZPdmNoajFpQ0loeVQxTmVOMFNWcmdYSDFtdWJGZ1duK29xcDgzTmVaVXZRcG0wQkE9PQo=",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.10/OverCue_2.2.10_x86_64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHdRSlgzRUcwckF3bURSQ3U0KzZTaDJLU3Q2YnorK2pmcDNMdUFOUU9CNTIrYVJyMGFUTGQ5OGlvRW9xRWJpbkRCQ0xXRXh0bzNGWjQ4SVdJS1VsNkFnM1diQ2JsTHdzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMDkzNjI4CWZpbGU6T3ZlckN1ZSBEZXNrdG9wLmFwcC50YXIuZ3oKUzRJdVdiaElvVVlENnVHYmx4a0VvQ05LQm5hWFlodW9UM1c2dGwyTnM4UVJyMUYyYXY1OGtjT01uaWM4c0FRUzFFVW92L1dpRlIra280TTdNR3U0Q0E9PQo=",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.12/OverCue_2.2.12_x86_64.app.tar.gz"
     }
   }
 }

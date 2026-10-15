@@ -1,25 +1,9 @@
 {
-  "version": "2.2.11",
-  "published": "2026-10-12T22:11:50Z",
-  "notes": "# What\u2019s new in OverCue Desktop 2.2.11 for Windows\n\n- Automatically selects CUDA on compatible NVIDIA GPUs with 8 GB or more, including the 11 GB RTX 2080 Ti, when enough GPU memory is available.\n- Improves validation of prepared stems during reuse and repacking.\n- Makes explicit regeneration available for tracks with outdated or incomplete existing stems.\n",
-  "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.11",
+  "version": "2.2.12",
+  "published": "2026-10-15T20:05:32Z",
+  "notes": "# OverCue Desktop 2.2.12\n\n- Prepare DJM-A9 stems EQ updates from the official 1.22 firmware file, with progress, cancellation, download links and mixer update instructions.\n- Turning stems EQ off holds normal mixer EQ at neutral until each knob returns to 12 o\u2019clock.\n- The top channel meter light blinks while stems EQ is active.\n- Find your equipment under separate Players and Mixers sections.\n- Compact, centered update notices offer direct Update and Go to Firmware buttons, leaving more room for your USB library.\n",
+  "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.12",
   "artifacts": [
-    {
-      "platform": "macos",
-      "label": "macOS Apple silicon",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.10/OverCue_2.2.10_aarch64.dmg",
-      "sha256": "83e17daca6bbbab6a321d351df854ad0827e8bc2a7e94cd3e05e84bb0b79ebf7",
-      "version": "2.2.10",
-      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.10"
-    },
-    {
-      "platform": "macos",
-      "label": "macOS Intel",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.10/OverCue_2.2.10_x86_64.dmg",
-      "sha256": "539328a49705f06cc27b2933fd375c523e346e1929cbf377f0e951d8ea52c996",
-      "version": "2.2.10",
-      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.10"
-    },
     {
       "platform": "windows",
       "label": "Windows installer x64",
@@ -27,6 +11,22 @@
       "sha256": "20653669800eaec9b851da746463de23375c3826085df9db4479b55dd6e1bc13",
       "version": "2.2.11",
       "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.11"
+    },
+    {
+      "platform": "macos",
+      "label": "macOS Apple silicon",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.12/OverCue_2.2.12_aarch64.dmg",
+      "sha256": "8f83047441a477045f8c810e3cc927e7b6a280b4e055984b9a38966cdab20e65",
+      "version": "2.2.12",
+      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.12"
+    },
+    {
+      "platform": "macos",
+      "label": "macOS Intel",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.12/OverCue_2.2.12_x86_64.dmg",
+      "sha256": "2e19de32b220c623ec762523564e8b75334b634843c8216caa77730051129ba6",
+      "version": "2.2.12",
+      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.12"
     }
   ]
 }
