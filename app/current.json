@@ -1,17 +1,9 @@
 {
-  "version": "2.2.14",
-  "published": "2026-10-15T21:58:34Z",
-  "notes": "# OverCue Desktop 2.2.14\n\n- Fix DJM-A9 stems EQ being unavailable when the mixer channel uses LINE input. DIGITAL input remains supported, with the same meter indicator and independent 12-o'clock EQ pickup.\n- To apply this fix to your mixer, open Mixers \u2192 DJM-A9, patch the official 1.22 firmware again, and install the newly generated update. Updating the app alone does not change the mixer. CDJ-3000 firmware 0.12.0 already supports this fix.\n",
-  "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.14",
+  "version": "2.2.15",
+  "published": "2026-10-15T22:04:21Z",
+  "notes": "# OverCue Desktop 2.2.15 for Windows\n\n- Fix DJM-A9 stems EQ being unavailable when the mixer channel uses LINE input. DIGITAL input remains supported, with the same meter indicator and independent 12-o'clock EQ pickup.\n- To apply this fix to your mixer, open Mixers \u2192 DJM-A9, patch the official 1.22 firmware again, and install the newly generated update. Updating the app alone does not change the mixer. CDJ-3000 firmware 0.12.0 already supports this fix.\n",
+  "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.15",
   "artifacts": [
-    {
-      "platform": "windows",
-      "label": "Windows installer x64",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.13/OverCue_2.2.13_x64-setup.exe",
-      "sha256": "3a08ddb8fa61087a9375c2ca938c190c7deba2830cfb97b386da79735973142d",
-      "version": "2.2.13",
-      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.13"
-    },
     {
       "platform": "macos",
       "label": "macOS Apple silicon",
@@ -27,6 +19,14 @@
       "sha256": "8e14c2abbe3334b39abee8f0fd4890c026580a1a24ef47983310047d65bc34b6",
       "version": "2.2.14",
       "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.14"
+    },
+    {
+      "platform": "windows",
+      "label": "Windows installer x64",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.15/OverCue_2.2.15_x64-setup.exe",
+      "sha256": "6ad9e0e431099ae604ee54596297a4a51e8ccbf0140bc63b04bf0f77e064ffa9",
+      "version": "2.2.15",
+      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.15"
     }
   ]
 }
