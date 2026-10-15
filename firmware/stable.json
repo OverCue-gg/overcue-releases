@@ -1,22 +1,22 @@
 {
-  "version": "fw-v0.11.8",
+  "version": "fw-v0.12.0",
   "channel": "stable",
-  "published": "2026-10-14T17:03:36Z",
+  "published": "2026-10-15T19:50:31Z",
   "minAppVersion": "2.2.0",
-  "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/fw-v0.11.8",
-  "notes": "# OverCue 0.11.8\n\nFor CDJ-3000 firmware 3.22.\n\n- Expanded LCD and jog-display brightness to 10 levels (level 10 is stock level 5 max), including lower settings for dark environments (levels 1-4).\n",
+  "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/fw-v0.12.0",
+  "notes": "# OverCue 0.12.0\n\nFor CDJ-3000 firmware 3.22.\n\n- Control Drums, Vocals and Harmonics / Other with the DJM-A9 EQ knobs. Requires the matching OverCue DJM-A9 stems EQ update. Tap EQ in the STEMS panel to turn mixer control on or off.\n- Faster stem-volume response with Master Tempo on, including mixer EQ control.\n- Turning EQ off keeps current stem levels and selects Volume for manual control. Mixer communication loss also holds the audio levels and their positions on the stem buttons, including silence. Full Mix restores all three stems when wanted.\n- Restore linked media sharing and mixer EQ communication after disconnecting and reconnecting the player's LINK cable. Mixer control stays off after communication loss until EQ is enabled again.\n- Keep stems control on the playing deck when Link Queue preview is used before playback.\n",
   "artifacts": [
     {
       "product": "CDJ-3000",
       "family": "RK3399 + R8A7796",
       "kind": "install",
       "mode": "persistent",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/fw-v0.11.8/OverCue-fw-v0.11.8-install.UPD",
-      "sha256": "ca26d5a560a507ce7fce2f7be66ce8c689229a8cf6a005ade1b209c7594f0563",
-      "bytes": 8843279,
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/fw-v0.12.0/OverCue-fw-v0.12.0-install.UPD",
+      "sha256": "a7ee69ef2165744026275218e976de4de355d412fc79a89f553547269f4d229f",
+      "bytes": 8978447,
       "archive": {
-        "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/fw-v0.11.8/OverCue-fw-v0.11.8-install.zip",
-        "sha256": "70665758e36928f0519adb6b8f260fec068f51092c6c056d314c9852ebfcb527",
+        "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/fw-v0.12.0/OverCue-fw-v0.12.0-install.zip",
+        "sha256": "4fbd805cab691172d1a08d01fee155e679e78b45ce9dbdd21b3cad8fd86e17a8",
         "entry": "CDJ3Kv000.UPD"
       }
     },
@@ -25,12 +25,12 @@
       "family": "RK3399 + R8A7796",
       "kind": "uninstall",
       "mode": "persistent",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/fw-v0.11.8/OverCue-fw-v0.11.8-uninstall.UPD",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/fw-v0.12.0/OverCue-fw-v0.12.0-uninstall.UPD",
       "sha256": "fd36f2c905b69203045ba6c26ee17efeb6c63d485e401c34a6d4edfb894a49d5",
       "bytes": 8572943,
       "archive": {
-        "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/fw-v0.11.8/OverCue-fw-v0.11.8-uninstall.zip",
-        "sha256": "f2b8519346368081209a9c023519e59532e1d9a39550a2ba165412913bc767fd",
+        "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/fw-v0.12.0/OverCue-fw-v0.12.0-uninstall.zip",
+        "sha256": "e32ad06b8a0fea08d7439ea2ca40d347945c92ecc8f5a920e33287870ebf5505",
         "entry": "CDJ3Kv000.UPD"
       }
     }
