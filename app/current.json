@@ -1,25 +1,9 @@
 {
-  "version": "2.2.15",
-  "published": "2026-10-15T22:04:21Z",
-  "notes": "# OverCue Desktop 2.2.15 for Windows\n\n- Fix DJM-A9 stems EQ being unavailable when the mixer channel uses LINE input. DIGITAL input remains supported, with the same meter indicator and independent 12-o'clock EQ pickup.\n- To apply this fix to your mixer, open Mixers \u2192 DJM-A9, patch the official 1.22 firmware again, and install the newly generated update. Updating the app alone does not change the mixer. CDJ-3000 firmware 0.12.0 already supports this fix.\n",
-  "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.15",
+  "version": "2.2.16",
+  "published": "2026-10-16T15:30:34Z",
+  "notes": "# OverCue Desktop 2.2.16\n\n- Fix stem preparation failing on some MP3s with undecodable audio packets. Missing audio is kept as silence so the rest of the track stays in time.\n- Clarify the error shown when a track's decoded audio is shorter than its rekordbox waveform.\n",
+  "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.16",
   "artifacts": [
-    {
-      "platform": "macos",
-      "label": "macOS Apple silicon",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.14/OverCue_2.2.14_aarch64.dmg",
-      "sha256": "46f210d1f36ac4c4335c532831483be58bc5014f4c9e3d5522e5d409ce4a83d5",
-      "version": "2.2.14",
-      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.14"
-    },
-    {
-      "platform": "macos",
-      "label": "macOS Intel",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.14/OverCue_2.2.14_x86_64.dmg",
-      "sha256": "8e14c2abbe3334b39abee8f0fd4890c026580a1a24ef47983310047d65bc34b6",
-      "version": "2.2.14",
-      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.14"
-    },
     {
       "platform": "windows",
       "label": "Windows installer x64",
@@ -27,6 +11,22 @@
       "sha256": "6ad9e0e431099ae604ee54596297a4a51e8ccbf0140bc63b04bf0f77e064ffa9",
       "version": "2.2.15",
       "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.15"
+    },
+    {
+      "platform": "macos",
+      "label": "macOS Apple silicon",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.16/OverCue_2.2.16_aarch64.dmg",
+      "sha256": "fbaaa41c48fe75f701e202f115c3d54486c88f668e9fe073ef748b579c19ae0e",
+      "version": "2.2.16",
+      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.16"
+    },
+    {
+      "platform": "macos",
+      "label": "macOS Intel",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.16/OverCue_2.2.16_x86_64.dmg",
+      "sha256": "04de76a78ad746c4a8f4f4019b49ebea7f104a6c478a3ed439996c47cfbf6858",
+      "version": "2.2.16",
+      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.16"
     }
   ]
 }
