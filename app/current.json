@@ -1,17 +1,9 @@
 {
-  "version": "2.2.16",
-  "published": "2026-10-16T15:30:34Z",
-  "notes": "# OverCue Desktop 2.2.16\n\n- Fix stem preparation failing on some MP3s with undecodable audio packets. Missing audio is kept as silence so the rest of the track stays in time.\n- Clarify the error shown when a track's decoded audio is shorter than its rekordbox waveform.\n",
-  "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.16",
+  "version": "2.2.17",
+  "published": "2026-10-16T15:39:02Z",
+  "notes": "# OverCue Desktop 2.2.17 for Windows\n\n- Fix stem preparation failing on some MP3s with undecodable audio packets. Missing audio is kept as silence so the rest of the track stays in time.\n- Clarify the error shown when a track's decoded audio is shorter than its rekordbox waveform.\n",
+  "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.17",
   "artifacts": [
-    {
-      "platform": "windows",
-      "label": "Windows installer x64",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.15/OverCue_2.2.15_x64-setup.exe",
-      "sha256": "6ad9e0e431099ae604ee54596297a4a51e8ccbf0140bc63b04bf0f77e064ffa9",
-      "version": "2.2.15",
-      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.15"
-    },
     {
       "platform": "macos",
       "label": "macOS Apple silicon",
@@ -27,6 +19,14 @@
       "sha256": "04de76a78ad746c4a8f4f4019b49ebea7f104a6c478a3ed439996c47cfbf6858",
       "version": "2.2.16",
       "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.16"
+    },
+    {
+      "platform": "windows",
+      "label": "Windows installer x64",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.17/OverCue_2.2.17_x64-setup.exe",
+      "sha256": "f00c15e97e19f53ba4ad6dd843474ef2a3fa3893b551e093af8b6d27795a3d6c",
+      "version": "2.2.17",
+      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.17"
     }
   ]
 }

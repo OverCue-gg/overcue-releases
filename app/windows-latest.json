@@ -1,11 +1,11 @@
 {
-  "version": "2.2.15",
-  "notes": "# OverCue Desktop 2.2.15 for Windows\n\n- Fix DJM-A9 stems EQ being unavailable when the mixer channel uses LINE input. DIGITAL input remains supported, with the same meter indicator and independent 12-o'clock EQ pickup.\n- To apply this fix to your mixer, open Mixers \u2192 DJM-A9, patch the official 1.22 firmware again, and install the newly generated update. Updating the app alone does not change the mixer. CDJ-3000 firmware 0.12.0 already supports this fix.\n",
-  "pub_date": "2026-10-15T21:51:10.892588+00:00",
+  "version": "2.2.17",
+  "notes": "# OverCue Desktop 2.2.17 for Windows\n\n- Fix stem preparation failing on some MP3s with undecodable audio packets. Missing audio is kept as silence so the rest of the track stays in time.\n- Clarify the error shown when a track's decoded audio is shorter than its rekordbox waveform.\n",
+  "pub_date": "2026-10-16T15:28:53.551255+00:00",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHdRSlgzRUcwckhaLytIc3BqUUp4R0QrY3hyQ0UvZGliTkxjbjA5SU9FZGdTUTdMT1VtOXUzaWc3V1UrTVVPZ2k5a21YRW5rMzYyb0w0RjJWZVN6Y1RIcEV5Uk5IK2drPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMTAxMDY3CWZpbGU6T3ZlckN1ZSBEZXNrdG9wXzIuMi4xNV94NjQtc2V0dXAuZXhlCkdVQ3NFbHBVT25JcDVUbjAxUGVybDRtU2NDekY1QVkzb1cvLzdybkZMNVVpMEJrMVdIajFVK3QxS1VMVW9Kcms0d2Y3NTd0SU8yMk9GcVd1VFJDQ0JBPT0K",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.15/OverCue_2.2.15_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHdRSlgzRUcwck95aWxTRitMdDJieWlNcWxZNlN6Wlh0UXFKRFBjSXRHYS9yQ24vajRoMnV6cWhDWEZoYkkrVXZIaWxVT1NHcGZxVkdwaTdvQTZiRjMvZktTS1o2Smd3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMTY0NTMwCWZpbGU6T3ZlckN1ZSBEZXNrdG9wXzIuMi4xN194NjQtc2V0dXAuZXhlCkswN0kzckRVVHRuU0c2RXZ4ZVZQUWdpcnVtTTBMLzh3MG82cDZWUXhFc1E1WmJpcm8vODk0aXZiRUdhaHBsN2dwV2VOendTS0xyRVo5RkJFUUNaVkF3PT0K",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.17/OverCue_2.2.17_x64-setup.exe"
     }
   }
 }
