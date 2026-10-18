@@ -1,22 +1,22 @@
 {
-  "version": "fw-v0.12.5",
+  "version": "fw-v0.12.6",
   "channel": "stable",
-  "published": "2026-10-18T18:41:53Z",
+  "published": "2026-10-18T22:09:55Z",
   "minAppVersion": "2.2.0",
-  "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/fw-v0.12.5",
-  "notes": "# OverCue 0.12.5\n\nFor CDJ-3000 firmware 3.22.\n\n- Improved stability when other linked players load stems from this deck, especially when several players load at once.\n- Reduced the risk of unexpected restarts during heavy linked-stems activity.\n- Reduced screen-processing overhead to keep playback and controls responsive during demanding sets.\n",
+  "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/fw-v0.12.6",
+  "notes": "# OverCue firmware 0.12.6\n\n- Fixed an issue where PLAY could stop responding after using Gate Cue.\n- Improved Gate Cue behavior when holding multiple Hot Cues, or changing tracks.\n",
   "artifacts": [
     {
       "product": "CDJ-3000",
       "family": "RK3399 + R8A7796",
       "kind": "install",
       "mode": "persistent",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/fw-v0.12.5/OverCue-fw-v0.12.5-install.UPD",
-      "sha256": "766ec69d681504b3b9bd964aad7b3be2fdbfaf9b58d456ad99c727516b2d4a26",
-      "bytes": 8953871,
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/fw-v0.12.6/OverCue-fw-v0.12.6-install.UPD",
+      "sha256": "f7b6e264a0ec041b88e8d8189d84bda424c06b25c8c1067ab89cb5c960e32a23",
+      "bytes": 9183247,
       "archive": {
-        "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/fw-v0.12.5/OverCue-fw-v0.12.5-install.zip",
-        "sha256": "9a9a50d10fd6645f74c001f6d32adb4b463075d6afc9562f896d227c67373c2a",
+        "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/fw-v0.12.6/OverCue-fw-v0.12.6-install.zip",
+        "sha256": "6412732dc7c38f7d8c66f818be33ee37a645c39d277b6c7c1e0a6afd51af8669",
         "entry": "CDJ3Kv000.UPD"
       }
     },
@@ -25,12 +25,12 @@
       "family": "RK3399 + R8A7796",
       "kind": "uninstall",
       "mode": "persistent",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/fw-v0.12.5/OverCue-fw-v0.12.5-uninstall.UPD",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/fw-v0.12.6/OverCue-fw-v0.12.6-uninstall.UPD",
       "sha256": "fd36f2c905b69203045ba6c26ee17efeb6c63d485e401c34a6d4edfb894a49d5",
       "bytes": 8572943,
       "archive": {
-        "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/fw-v0.12.5/OverCue-fw-v0.12.5-uninstall.zip",
-        "sha256": "a34f035331f57ed8e165ad8386ad86bd5dacda104d940729ae6c3a5075a95c05",
+        "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/fw-v0.12.6/OverCue-fw-v0.12.6-uninstall.zip",
+        "sha256": "e4e43dd1b3109539c16d6154ea326f0ece9dcd462af6805284b701b10b981928",
         "entry": "CDJ3Kv000.UPD"
       }
     }
