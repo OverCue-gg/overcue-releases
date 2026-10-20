@@ -1,15 +1,15 @@
 {
-  "version": "2.2.16",
-  "notes": "# OverCue Desktop 2.2.16\n\n- Fix stem preparation failing on some MP3s with undecodable audio packets. Missing audio is kept as silence so the rest of the track stays in time.\n- Clarify the error shown when a track's decoded audio is shorter than its rekordbox waveform.\n",
-  "pub_date": "2026-10-16T15:13:25.480147+00:00",
+  "version": "2.2.18",
+  "notes": "# OverCue Desktop 2.2.18 for Mac\n\n- Add Normalize volume for exported USB tracks, independently of stem preparation or together in one flow. Targets \u221218 LUFS while preserving dynamics and allowing for peak headroom.\n- Support MP3, PCM WAV, AIFF and FLAC normalization while preserving track timing, cues and beatgrids. Computer originals stay unchanged; adjusted USB copies are not backed up.\n- Keep existing stems balanced with volume adjustments and account for normalization when stems are added later.\n- Show USB tracks and playlists sooner, with stem verification continuing in the background and clear loading progress.\n",
+  "pub_date": "2026-10-20T23:35:50.687008+00:00",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHdRSlgzRUcwckJNL2I0a25JYlZLOFVpTjlqcmFheWMwT2tMQ3MzbHFuU1FwalVSOVVxTGZjS3NOTWtrUE8xTnVWcnI1dzhkRk9oK2lxeGhMQ2pEYkl0NzFsSDdPUVE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMTYzNDE1CWZpbGU6T3ZlckN1ZSBEZXNrdG9wLmFwcC50YXIuZ3oKc3JpbXA3Tmw1aGVvY3pjZjltczdvSmVVUS9MQmR1S3Jpem9rRDRiQ1NrTnV6T3NRTzZzNWN1eDk1Z0VuM2l5NFFjSG44OUtYeUVVZFFCbkUzTkZzQlE9PQo=",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.16/OverCue_2.2.16_aarch64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHdRSlgzRUcwckZMRHkxMksrZXYrQ0VPYk5xanhBT3F0a3VrZUJ1Y2NjVTkxeXJBTkMwR1hrNnF3Y2dOQ2JINDJXV3ozNVczRHRVWGxka2xxQVBsSmdHTnMxZmxzS2dJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNTM5MjE1CWZpbGU6T3ZlckN1ZSBEZXNrdG9wLmFwcC50YXIuZ3oKUlpGK2NTdWVUeDdIYnB6NHhOQnhNM1dsSFllWEcveGp3RDB0eVlVT3JWejByR1V1RTBSUHhJdThuOFRZWFVHZnRpNGNST0NFcFgvSGxUa3NucFk1REE9PQo=",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.18/OverCue_2.2.18_aarch64.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHdRSlgzRUcwckRsc3pZWW1rNE9hK1BHdHVsM01iTmVTVEU4NjQ3Tmc3a0RvUEJZdUVjZEJUN0ZaWmlpejZFbjRyVnJTUWdlZ0NwZFgvcHFFazZ3MnZHKzlLSVByTEFRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMTYzNjAzCWZpbGU6T3ZlckN1ZSBEZXNrdG9wLmFwcC50YXIuZ3oKekVWSDBiMjlQQmxhZElHdHBWbnlDWHI5SC9BMmtXZFhCd1hDM0NDMzhEMVVLcW1tZGZVYjJUMHdYV2x6WFlFdHEwb04zblo5cS9jMEhudURBekVoQWc9PQo=",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.16/OverCue_2.2.16_x86_64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHdRSlgzRUcwckJxRFVQbnZ0WXFleVdaK3k3ak9JWVk4Vk9kUFVxL1QxZXRzZlkwVHY2OFh3Y2tqeFhadnJZS3Q3K2tybzBqV21kQzdERWl6ekxDZktHMTQwNUVXM3dZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNTM5MzQ5CWZpbGU6T3ZlckN1ZSBEZXNrdG9wLmFwcC50YXIuZ3oKR0tQdzRkTmRjUkpWQmpnSk1pTDFRclU1dzRoMmtKNVJFUzkrUGdtVDlSQnhqQUxSZTNtVThHRmNsNnUyRGp2eTR0NW9mVGlnSmtRWkpsdEFCNUNLQnc9PQo=",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.18/OverCue_2.2.18_x86_64.app.tar.gz"
     }
   }
 }
