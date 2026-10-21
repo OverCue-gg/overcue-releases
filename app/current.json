@@ -1,8 +1,8 @@
 {
-  "version": "2.2.18",
-  "published": "2026-10-20T23:41:52Z",
-  "notes": "# OverCue Desktop 2.2.18 for Mac\n\n- Add Normalize volume for exported USB tracks, independently of stem preparation or together in one flow. Targets \u221218 LUFS while preserving dynamics and allowing for peak headroom.\n- Support MP3, PCM WAV, AIFF and FLAC normalization while preserving track timing, cues and beatgrids. Computer originals stay unchanged; adjusted USB copies are not backed up.\n- Keep existing stems balanced with volume adjustments and account for normalization when stems are added later.\n- Show USB tracks and playlists sooner, with stem verification continuing in the background and clear loading progress.\n",
-  "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.18",
+  "version": "2.2.16",
+  "published": "2026-10-21T00:34:29Z",
+  "notes": "# OverCue Desktop 2.2.16\n\n- Fix stem preparation failing on some MP3s with undecodable audio packets. Missing audio is kept as silence so the rest of the track stays in time.\n- Clarify the error shown when a track's decoded audio is shorter than its rekordbox waveform.\n",
+  "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.16",
   "artifacts": [
     {
       "platform": "windows",
@@ -15,18 +15,18 @@
     {
       "platform": "macos",
       "label": "macOS Apple silicon",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.18/OverCue_2.2.18_aarch64.dmg",
-      "sha256": "94a2cfc16e5dfbc86c2169760f932fc121b7aadd9664217d7107d7a1815f7892",
-      "version": "2.2.18",
-      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.18"
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.16/OverCue_2.2.16_aarch64.dmg",
+      "sha256": "fbaaa41c48fe75f701e202f115c3d54486c88f668e9fe073ef748b579c19ae0e",
+      "version": "2.2.16",
+      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.16"
     },
     {
       "platform": "macos",
       "label": "macOS Intel",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.18/OverCue_2.2.18_x86_64.dmg",
-      "sha256": "dfa0d27591b7ba482a06c5017019cda53bf42e99ee8aaebc2f80fadce5752ac2",
-      "version": "2.2.18",
-      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.18"
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.16/OverCue_2.2.16_x86_64.dmg",
+      "sha256": "04de76a78ad746c4a8f4f4019b49ebea7f104a6c478a3ed439996c47cfbf6858",
+      "version": "2.2.16",
+      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.16"
     }
   ]
 }
