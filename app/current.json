@@ -1,17 +1,9 @@
 {
-  "version": "2.2.20",
-  "published": "2026-10-21T23:26:17Z",
-  "notes": "# OverCue Desktop 2.2.20 for Mac\n\n- Add optional Normalize volume for exported USB tracks, independently of stems or together in one flow. Targets \u221218 LUFS while preserving musical dynamics and allowing for peak headroom.\n- Keep existing stems balanced with each track\u2019s volume adjustment and account for normalization when stems are added later.\n- Process multiple tracks with CPU, memory and temporary-storage limits adapted to the computer, while keeping the track list responsive.\n- Load tracks and playlists before background stem checks finish, avoid repeated checks during processing, and show completed volume results promptly.\n- Support MP3, PCM WAV, AIFF and FLAC, including more production-software metadata layouts and MP3 encoder variants, while preserving playback timing, cues and beatgrids.\n- Explain the difference between automatic stem level protection and optional volume matching, with clearer progress and practical help. Computer originals stay unchanged; USB audio backups are not kept.\n",
-  "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.20",
+  "version": "2.2.19",
+  "published": "2026-10-21T23:33:44Z",
+  "notes": "# OverCue Desktop 2.2.19 for Windows\n\n- Add optional Normalize volume for exported USB tracks, independently of stems or together in one flow. Targets \u221218 LUFS while preserving musical dynamics and allowing for peak headroom.\n- Keep existing stems balanced with each track\u2019s volume adjustment and account for normalization when stems are added later.\n- Process multiple tracks with CPU, memory and temporary-storage limits adapted to the computer, while keeping the track list responsive.\n- Load tracks and playlists before background stem checks finish, avoid repeated checks during processing, and show completed volume results promptly.\n- Support MP3, PCM WAV, AIFF and FLAC, including more production-software metadata layouts and MP3 encoder variants, while preserving playback timing, cues and beatgrids.\n- Explain the difference between automatic stem level protection and optional volume matching, with clearer progress and practical help. Computer originals stay unchanged; USB audio backups are not kept.\n",
+  "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.19",
   "artifacts": [
-    {
-      "platform": "windows",
-      "label": "Windows installer x64",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.17/OverCue_2.2.17_x64-setup.exe",
-      "sha256": "f00c15e97e19f53ba4ad6dd843474ef2a3fa3893b551e093af8b6d27795a3d6c",
-      "version": "2.2.17",
-      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.17"
-    },
     {
       "platform": "macos",
       "label": "macOS Apple silicon",
@@ -27,6 +19,14 @@
       "sha256": "93ff1f27a1e8340b9e4d891293cd427d7822dc92e4a78bdf740a1e6a4ae0923c",
       "version": "2.2.20",
       "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.20"
+    },
+    {
+      "platform": "windows",
+      "label": "Windows installer x64",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.19/OverCue_2.2.19_x64-setup.exe",
+      "sha256": "cab7d221ef1939f0f3d7ce82a955a3a7f67838de14eaef8351ac495d2c0ac09e",
+      "version": "2.2.19",
+      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.19"
     }
   ]
 }
