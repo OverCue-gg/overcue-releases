@@ -1,17 +1,9 @@
 {
-  "version": "2.2.21",
-  "published": "2026-10-22T21:25:02Z",
-  "notes": "# OverCue Desktop 2.2.21 for macOS\n\n- Choose your DJM-A9 mods before patching: Stems EQ, six simultaneous Sound Color FX, and the Beat FX values option can be selected independently.\n- Toggle up to six Sound Color FX together using the mixer\u2019s effect buttons, with shared COLOR and PARAMETER controls.\n- Add SKIP 1/3 & 2/3 at the bottom of the A9 UTILITY / MY SETTINGS menu for Echo, Delay, Ping Pong and Spiral. The option starts OFF after each power-on.\n- Build each selection locally from your official A9 1.22 update. Unchecked mods keep their factory behavior, and your original update stays unchanged.\n",
-  "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.21",
+  "version": "2.2.22",
+  "published": "2026-10-22T21:31:49Z",
+  "notes": "# OverCue Desktop 2.2.22 for Windows\n\n- Choose your DJM-A9 mods before patching: Stems EQ, six simultaneous Sound Color FX, and the Beat FX values option can be selected independently.\n- Toggle up to six Sound Color FX together using the mixer\u2019s effect buttons, with shared COLOR and PARAMETER controls.\n- Add SKIP 1/3 & 2/3 at the bottom of the A9 UTILITY / MY SETTINGS menu for Echo, Delay, Ping Pong and Spiral. The option starts OFF after each power-on.\n- Build each selection locally from your official A9 1.22 update. Unchecked mods keep their factory behavior, and your original update stays unchanged.\n",
+  "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.22",
   "artifacts": [
-    {
-      "platform": "windows",
-      "label": "Windows installer x64",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.19/OverCue_2.2.19_x64-setup.exe",
-      "sha256": "cab7d221ef1939f0f3d7ce82a955a3a7f67838de14eaef8351ac495d2c0ac09e",
-      "version": "2.2.19",
-      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.19"
-    },
     {
       "platform": "macos",
       "label": "macOS Apple silicon",
@@ -27,6 +19,14 @@
       "sha256": "6581f8b1d4a12cdbd860dbea05cf5efc3bf7a7126c9e18a611f9f0fab8d9a2a9",
       "version": "2.2.21",
       "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.21"
+    },
+    {
+      "platform": "windows",
+      "label": "Windows installer x64",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.22/OverCue_2.2.22_x64-setup.exe",
+      "sha256": "86159c65b7dca15214d2ddca8d5a72fb51ce9eded5fcb732205d080fba7f7fa2",
+      "version": "2.2.22",
+      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.22"
     }
   ]
 }
