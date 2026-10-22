@@ -1,15 +1,15 @@
 {
-  "version": "2.2.20",
-  "notes": "# OverCue Desktop 2.2.20 for Mac\n\n- Add optional Normalize volume for exported USB tracks, independently of stems or together in one flow. Targets \u221218 LUFS while preserving musical dynamics and allowing for peak headroom.\n- Keep existing stems balanced with each track\u2019s volume adjustment and account for normalization when stems are added later.\n- Process multiple tracks with CPU, memory and temporary-storage limits adapted to the computer, while keeping the track list responsive.\n- Load tracks and playlists before background stem checks finish, avoid repeated checks during processing, and show completed volume results promptly.\n- Support MP3, PCM WAV, AIFF and FLAC, including more production-software metadata layouts and MP3 encoder variants, while preserving playback timing, cues and beatgrids.\n- Explain the difference between automatic stem level protection and optional volume matching, with clearer progress and practical help. Computer originals stay unchanged; USB audio backups are not kept.\n",
-  "pub_date": "2026-10-21T22:25:07.221547+00:00",
+  "version": "2.2.21",
+  "notes": "# OverCue Desktop 2.2.21 for macOS\n\n- Choose your DJM-A9 mods before patching: Stems EQ, six simultaneous Sound Color FX, and the Beat FX values option can be selected independently.\n- Toggle up to six Sound Color FX together using the mixer\u2019s effect buttons, with shared COLOR and PARAMETER controls.\n- Add SKIP 1/3 & 2/3 at the bottom of the A9 UTILITY / MY SETTINGS menu for Echo, Delay, Ping Pong and Spiral. The option starts OFF after each power-on.\n- Build each selection locally from your official A9 1.22 update. Unchecked mods keep their factory behavior, and your original update stays unchanged.\n",
+  "pub_date": "2026-10-22T21:09:07.423155+00:00",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHdRSlgzRUcwck5LT3M2TndGT1R6bGZyNkZmeUwxSWlGM3BLVVV3ZjRDNWV4K2t1QzNCY3BiVVljVHNxRWVOTUJ5NVpEbE9KazVOcXhoWExNa0dGVWowK2dRWmZ2dlFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNjIxMzc3CWZpbGU6T3ZlckN1ZSBEZXNrdG9wLmFwcC50YXIuZ3oKaXNITTU2a1pZb0M0L2p2RTJ2Yk5nRGhGYzdxTmNnLy92Y1dlRTJEQzZvRWJyT2EvT0NkUS9sT25WVTVTRHBzWUFuN0RtM3FyVjlINHpMS242NnkvQ0E9PQo=",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.20/OverCue_2.2.20_aarch64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHdRSlgzRUcwckFYTkgwZDV6ODlJQ0VNeVdPWHlXMHJjUzBkWFF0VEt4YjNwTWFGa2FJSnMvMEZURnUyd21lNGdzN2dYZFBIMVZ0cGVGOU50SEtJM2ZtOHZuVWdLRkFFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNzAzMjIxCWZpbGU6T3ZlckN1ZSBEZXNrdG9wLmFwcC50YXIuZ3oKUVJ3TU8zSjB2RlUzSWtMT1pEenRkZTVvTTBiRmdGVGdwQmYvRS9HU0NscVRldHRMVUdvR2xQZzNSV1hoRFVoOHJvYlluU041dmFPaVVCb2lkQzNlQXc9PQo=",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.21/OverCue_2.2.21_aarch64.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHdRSlgzRUcwckZsZlJHdU11WUJFZ2JnaGRwQ29ub2lqTldFeG1vMGJVbWZ0UXlwQW5SRG9vK0xudGRZY1hmV0hsRHlMRUFpRnU4WGdYMlBnWWFNLzlacDkxRU50VmdzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNjIxNTA1CWZpbGU6T3ZlckN1ZSBEZXNrdG9wLmFwcC50YXIuZ3oKV3RiNnZBbjBQenhqc2VlUHVJNGJseVV6cndLWmFPQWlCVXJQTUlzYmZOQUZVSnM0clBKUmxiZ05EL1dkVjdNektDWnJ1dUFUZkZMeER4NWhKQ0NNQnc9PQo=",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.20/OverCue_2.2.20_x86_64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHdRSlgzRUcwckxEVnA3VzcvaXRDaFpOVWg0YlplRVhBWmx3S0E5TnJtQWdMaUU5clhFT0hjK0hncXZvUGlBT2U5aUdhdE9tRmoxVGlUbkRERDA2bjNGVEQ1UXAzcmcwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNzAzMzQ1CWZpbGU6T3ZlckN1ZSBEZXNrdG9wLmFwcC50YXIuZ3oKYmU2L2ZtdUJwK3JCR2pER3F1S3lLWVJ0MlV4cVlHdm9tRVdZZWhlRmlsUitBK1JVMkxKbGNUQ24rejh1ZnN6d2w5aFJDZklML2JFOXVGSmZlQUpyREE9PQo=",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.21/OverCue_2.2.21_x86_64.app.tar.gz"
     }
   }
 }
