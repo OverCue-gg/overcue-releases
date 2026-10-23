@@ -1,8 +1,8 @@
 {
-  "version": "2.2.22",
-  "published": "2026-10-22T21:31:49Z",
-  "notes": "# OverCue Desktop 2.2.22 for Windows\n\n- Choose your DJM-A9 mods before patching: Stems EQ, six simultaneous Sound Color FX, and the Beat FX values option can be selected independently.\n- Toggle up to six Sound Color FX together using the mixer\u2019s effect buttons, with shared COLOR and PARAMETER controls.\n- Add SKIP 1/3 & 2/3 at the bottom of the A9 UTILITY / MY SETTINGS menu for Echo, Delay, Ping Pong and Spiral. The option starts OFF after each power-on.\n- Build each selection locally from your official A9 1.22 update. Unchecked mods keep their factory behavior, and your original update stays unchanged.\n",
-  "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.22",
+  "version": "2.2.23",
+  "published": "2026-10-23T18:48:57Z",
+  "notes": "# OverCue Desktop 2.2.23 for Windows\n\n- Separate stems on PCs with 16 GB of memory: CPU processing now needs about 10 GB that Windows can commit instead of 11 GB of free physical memory, and it uses far less memory between tracks.\n- Automatic processor selection uses the CPU instead of DirectML on graphics cards with less than 16 GB of dedicated memory, and Settings shows the reason. Choosing DirectML yourself still runs it, with a warning. NVIDIA cards with 8 GB or more keep using CUDA.\n- CPU processing uses every core when no other track is being packaged, so single tracks finish sooner.\n- When Windows runs out of memory it can commit, the batch stops with a message that says so instead of an unexplained \"stopped\".\n",
+  "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.23",
   "artifacts": [
     {
       "platform": "macos",
@@ -23,10 +23,10 @@
     {
       "platform": "windows",
       "label": "Windows installer x64",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.22/OverCue_2.2.22_x64-setup.exe",
-      "sha256": "86159c65b7dca15214d2ddca8d5a72fb51ce9eded5fcb732205d080fba7f7fa2",
-      "version": "2.2.22",
-      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.22"
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.23/OverCue_2.2.23_x64-setup.exe",
+      "sha256": "1940e915c7ae13203fd866e70fc567cf42adf6b1e019cb3f4d79de292896789a",
+      "version": "2.2.23",
+      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.23"
     }
   ]
 }
