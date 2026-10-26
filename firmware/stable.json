@@ -1,22 +1,22 @@
 {
-  "version": "fw-v0.13.0",
+  "version": "fw-v0.13.1",
   "channel": "stable",
-  "published": "2026-10-26T00:30:47Z",
+  "published": "2026-10-26T23:06:32Z",
   "minAppVersion": "2.2.0",
-  "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/fw-v0.13.0",
-  "notes": "# OverCue firmware 0.13.0\n\n- New Fader Start option in Shortcuts, off by default. Bringing the deck's channel on air from a linked mixer, with the channel fader or crossfader, starts a paused deck; taking it off air doesn't stop it or cue back. With Quantize on, the start lands on the beat with the master, including when Beat Sync is matching BPM only. With full Beat Sync on, it uses the player's synced start.\n- Stems keep playing in Master Tempo reverse, including the first moments after pressing Reverse, instead of switching to the full mix.\n- Beat jumps of 8 to 128 beats, forward or back, land on stems that are ready to play, following the beat grid currently on the player.\n- Fewer stem dropouts when playing stems from other linked players' media: playback recovers from a lost network reply in a fraction of a second instead of a second or more, and every stem you're playing stays loaded well ahead.\n- Right after a track loads, the full mix plays instead of silence while the stems you selected are still loading.\n- DJM-A9 Stems EQ control holds through brief mixer communication delays.\n- Phrase and vocal indicators now load after the stems you're playing are ready, and nothing is read for them when both are turned off in Shortcuts.\n- Lower memory use over long sets with stems.\n",
+  "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/fw-v0.13.1",
+  "notes": "# OverCue firmware 0.13.1\n\n- Plays stems prepared by the latest OverCue Desktop, which stores four audio files per track instead of seven. Stems prepared earlier with all seven files keep working.\n- Stem pairs (vocals with drums, vocals with harmonics, drums with harmonics) are always mixed from the individual stems, including with key shift on, so the three extra pair files are never read.\n",
   "artifacts": [
     {
       "product": "CDJ-3000",
       "family": "RK3399 + R8A7796",
       "kind": "install",
       "mode": "persistent",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/fw-v0.13.0/OverCue-fw-v0.13.0-install.UPD",
-      "sha256": "8ba352270ff2104a779460f0114d845d18b16301f6e2af9433a27a44cd083830",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/fw-v0.13.1/OverCue-fw-v0.13.1-install.UPD",
+      "sha256": "b31e2058837873dae61f9484db0b8f999e418ec86f69f173e986dc6f83a46ebc",
       "bytes": 9367567,
       "archive": {
-        "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/fw-v0.13.0/OverCue-fw-v0.13.0-install.zip",
-        "sha256": "22a3ca0f5272823fe1c9572e95ea539ed3c9aa80129ce18599928733994c86d9",
+        "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/fw-v0.13.1/OverCue-fw-v0.13.1-install.zip",
+        "sha256": "0c040859bfc9db5708067110718b57c62e9a3d6f48317d2c25dc069fa97e4b79",
         "entry": "CDJ3Kv000.UPD"
       }
     },
@@ -25,12 +25,12 @@
       "family": "RK3399 + R8A7796",
       "kind": "uninstall",
       "mode": "persistent",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/fw-v0.13.0/OverCue-fw-v0.13.0-uninstall.UPD",
-      "sha256": "fd36f2c905b69203045ba6c26ee17efeb6c63d485e401c34a6d4edfb894a49d5",
-      "bytes": 8572943,
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/fw-v0.13.1/OverCue-fw-v0.13.1-uninstall.UPD",
+      "sha256": "4d33e38230c9eaa05e9834edb2295a9a4f0abade7a83a55fa8103222f5243258",
+      "bytes": 9367567,
       "archive": {
-        "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/fw-v0.13.0/OverCue-fw-v0.13.0-uninstall.zip",
-        "sha256": "ec5464cc81e6ea47e2588f484e06588c2083003dff3da2b20a74ca82ef0bfe8e",
+        "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/fw-v0.13.1/OverCue-fw-v0.13.1-uninstall.zip",
+        "sha256": "45169187dd27cfd60b7436c6af8fc75cff841d62f1b18c5e8cdb8c3388a313d0",
         "entry": "CDJ3Kv000.UPD"
       }
     }
