@@ -1,25 +1,9 @@
 {
-  "version": "2.2.23",
-  "published": "2026-10-23T18:48:57Z",
-  "notes": "# OverCue Desktop 2.2.23 for Windows\n\n- Separate stems on PCs with 16 GB of memory: CPU processing now needs about 10 GB that Windows can commit instead of 11 GB of free physical memory, and it uses far less memory between tracks.\n- Automatic processor selection uses the CPU instead of DirectML on graphics cards with less than 16 GB of dedicated memory, and Settings shows the reason. Choosing DirectML yourself still runs it, with a warning. NVIDIA cards with 8 GB or more keep using CUDA.\n- CPU processing uses every core when no other track is being packaged, so single tracks finish sooner.\n- When Windows runs out of memory it can commit, the batch stops with a message that says so instead of an unexplained \"stopped\".\n",
-  "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.23",
+  "version": "2.2.26",
+  "published": "2026-10-27T00:48:41Z",
+  "notes": "# OverCue Desktop 2.2.26 for macOS\n\n- Update your players to OverCue firmware 0.13.1 on the Firmware page before preparing stems with this version. Earlier firmware can\u2019t play the new stems.\n- New CDJ-3000 stems use four audio files per track instead of seven, so they take less space on the USB. The players mix the instrumental and vocal pairs themselves.\n- Remove unused stem files: when a USB holds stems prepared with the three extra files, the USB page offers to delete them. The stems stay and play on firmware 0.13.1 or newer.\n- Checking a USB\u2019s stems is much faster, because unchanged tracks are no longer read again.\n- If the Mac runs out of memory while preparing stems, the batch stops with a message that says so instead of an unexplained \u201cstopped\u201d.\n- Normalizing volume now works on stems prepared with OverCue 2.1 or earlier. Those tracks stopped with \u201cUnsupported stem codec\u201d.\n- Messages on the USB page take less room.\n",
+  "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.26",
   "artifacts": [
-    {
-      "platform": "macos",
-      "label": "macOS Apple silicon",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.21/OverCue_2.2.21_aarch64.dmg",
-      "sha256": "94cdfb22f765335cc6bd9e50458a7fdadce8844553477f6a4c1b2e0766bd0dbc",
-      "version": "2.2.21",
-      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.21"
-    },
-    {
-      "platform": "macos",
-      "label": "macOS Intel",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.21/OverCue_2.2.21_x86_64.dmg",
-      "sha256": "6581f8b1d4a12cdbd860dbea05cf5efc3bf7a7126c9e18a611f9f0fab8d9a2a9",
-      "version": "2.2.21",
-      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.21"
-    },
     {
       "platform": "windows",
       "label": "Windows installer x64",
@@ -27,6 +11,22 @@
       "sha256": "1940e915c7ae13203fd866e70fc567cf42adf6b1e019cb3f4d79de292896789a",
       "version": "2.2.23",
       "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.23"
+    },
+    {
+      "platform": "macos",
+      "label": "macOS Apple silicon",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.26/OverCue_2.2.26_aarch64.dmg",
+      "sha256": "fa1bf608652e359aa8fb7c987d4cd9945e82da6b2f0ca19a9b8be074fa7ea52c",
+      "version": "2.2.26",
+      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.26"
+    },
+    {
+      "platform": "macos",
+      "label": "macOS Intel",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.26/OverCue_2.2.26_x86_64.dmg",
+      "sha256": "2f4e61c8ffabc5d005be0514a84f458e9a19abf1cee1a765d9f9c86abc62cbbc",
+      "version": "2.2.26",
+      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.26"
     }
   ]
 }
