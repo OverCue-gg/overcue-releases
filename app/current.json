@@ -1,17 +1,9 @@
 {
-  "version": "2.2.26",
-  "published": "2026-10-27T00:48:41Z",
-  "notes": "# OverCue Desktop 2.2.26 for macOS\n\n- Update your players to OverCue firmware 0.13.1 on the Firmware page before preparing stems with this version. Earlier firmware can\u2019t play the new stems.\n- New CDJ-3000 stems use four audio files per track instead of seven, so they take less space on the USB. The players mix the instrumental and vocal pairs themselves.\n- Remove unused stem files: when a USB holds stems prepared with the three extra files, the USB page offers to delete them. The stems stay and play on firmware 0.13.1 or newer.\n- Checking a USB\u2019s stems is much faster, because unchanged tracks are no longer read again.\n- If the Mac runs out of memory while preparing stems, the batch stops with a message that says so instead of an unexplained \u201cstopped\u201d.\n- Normalizing volume now works on stems prepared with OverCue 2.1 or earlier. Those tracks stopped with \u201cUnsupported stem codec\u201d.\n- Messages on the USB page take less room.\n",
-  "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.26",
+  "version": "2.2.27",
+  "published": "2026-10-27T00:54:14Z",
+  "notes": "# OverCue Desktop 2.2.27 for Windows\n\n- Update your players to OverCue firmware 0.13.1 on the Firmware page before preparing stems with this version. Earlier firmware can\u2019t play the new stems.\n- New CDJ-3000 stems use four audio files per track instead of seven, so they take less space on the USB. The players mix the instrumental and vocal pairs themselves.\n- Remove unused stem files: when a USB holds stems prepared with the three extra files, the USB page offers to delete them. The stems stay and play on firmware 0.13.1 or newer.\n- Checking a USB\u2019s stems is much faster, because unchanged tracks are no longer read again.\n- Normalizing volume now works on stems prepared with OverCue 2.1 or earlier. Those tracks stopped with \u201cUnsupported stem codec\u201d.\n- Messages on the USB page take less room.\n",
+  "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.27",
   "artifacts": [
-    {
-      "platform": "windows",
-      "label": "Windows installer x64",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.23/OverCue_2.2.23_x64-setup.exe",
-      "sha256": "1940e915c7ae13203fd866e70fc567cf42adf6b1e019cb3f4d79de292896789a",
-      "version": "2.2.23",
-      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.23"
-    },
     {
       "platform": "macos",
       "label": "macOS Apple silicon",
@@ -27,6 +19,14 @@
       "sha256": "2f4e61c8ffabc5d005be0514a84f458e9a19abf1cee1a765d9f9c86abc62cbbc",
       "version": "2.2.26",
       "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.26"
+    },
+    {
+      "platform": "windows",
+      "label": "Windows installer x64",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.27/OverCue_2.2.27_x64-setup.exe",
+      "sha256": "953d3ff0f45894d1dbdf6dcb9c37d5d19ea1638c79cab487c642cfd5e44b8dec",
+      "version": "2.2.27",
+      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.27"
     }
   ]
 }
