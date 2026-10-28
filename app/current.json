@@ -1,25 +1,9 @@
 {
-  "version": "2.2.27",
-  "published": "2026-10-27T00:54:14Z",
-  "notes": "# OverCue Desktop 2.2.27 for Windows\n\n- Update your players to OverCue firmware 0.13.1 on the Firmware page before preparing stems with this version. Earlier firmware can\u2019t play the new stems.\n- New CDJ-3000 stems use four audio files per track instead of seven, so they take less space on the USB. The players mix the instrumental and vocal pairs themselves.\n- Remove unused stem files: when a USB holds stems prepared with the three extra files, the USB page offers to delete them. The stems stay and play on firmware 0.13.1 or newer.\n- Checking a USB\u2019s stems is much faster, because unchanged tracks are no longer read again.\n- Normalizing volume now works on stems prepared with OverCue 2.1 or earlier. Those tracks stopped with \u201cUnsupported stem codec\u201d.\n- Messages on the USB page take less room.\n",
-  "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.27",
+  "version": "2.2.28",
+  "published": "2026-10-28T14:57:14Z",
+  "notes": "# OverCue Desktop 2.2.28 for macOS\n\n- DJM-V10 Stems EQ is now supported. Select DJM-V10 under Mixers and choose your original official 1.30 update to create the patched firmware locally. DJM-V10-LF is not supported.\n- On the V10, HIGH controls Harmonics / Other, HI MID controls Vocals, LOW MID controls Drums, and LOW remains normal EQ. Requires prepared stems and V10-enabled OverCue CDJ-3000 firmware 0.13.2.\n- Stem packaging uses more CPU cores when preparing one track at a time, helping finish batches sooner.\n- Background processing gives the interface priority so the app stays responsive during preparation.\n",
+  "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.28",
   "artifacts": [
-    {
-      "platform": "macos",
-      "label": "macOS Apple silicon",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.26/OverCue_2.2.26_aarch64.dmg",
-      "sha256": "fa1bf608652e359aa8fb7c987d4cd9945e82da6b2f0ca19a9b8be074fa7ea52c",
-      "version": "2.2.26",
-      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.26"
-    },
-    {
-      "platform": "macos",
-      "label": "macOS Intel",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.26/OverCue_2.2.26_x86_64.dmg",
-      "sha256": "2f4e61c8ffabc5d005be0514a84f458e9a19abf1cee1a765d9f9c86abc62cbbc",
-      "version": "2.2.26",
-      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.26"
-    },
     {
       "platform": "windows",
       "label": "Windows installer x64",
@@ -27,6 +11,22 @@
       "sha256": "953d3ff0f45894d1dbdf6dcb9c37d5d19ea1638c79cab487c642cfd5e44b8dec",
       "version": "2.2.27",
       "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.27"
+    },
+    {
+      "platform": "macos",
+      "label": "macOS Apple silicon",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.28/OverCue_2.2.28_aarch64.dmg",
+      "sha256": "5f0e2565f96b6646929021f5192533e38c665df66fdcdff8aaa5e7eeadbf449f",
+      "version": "2.2.28",
+      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.28"
+    },
+    {
+      "platform": "macos",
+      "label": "macOS Intel",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.28/OverCue_2.2.28_x86_64.dmg",
+      "sha256": "78d3c4966e3c33f91f236d30473367402918d4960a8447270a0e29ece1b01fd4",
+      "version": "2.2.28",
+      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.28"
     }
   ]
 }

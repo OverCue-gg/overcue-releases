@@ -1,15 +1,15 @@
 {
-  "version": "2.2.26",
-  "notes": "# OverCue Desktop 2.2.26 for macOS\n\n- Update your players to OverCue firmware 0.13.1 on the Firmware page before preparing stems with this version. Earlier firmware can\u2019t play the new stems.\n- New CDJ-3000 stems use four audio files per track instead of seven, so they take less space on the USB. The players mix the instrumental and vocal pairs themselves.\n- Remove unused stem files: when a USB holds stems prepared with the three extra files, the USB page offers to delete them. The stems stay and play on firmware 0.13.1 or newer.\n- Checking a USB\u2019s stems is much faster, because unchanged tracks are no longer read again.\n- If the Mac runs out of memory while preparing stems, the batch stops with a message that says so instead of an unexplained \u201cstopped\u201d.\n- Normalizing volume now works on stems prepared with OverCue 2.1 or earlier. Those tracks stopped with \u201cUnsupported stem codec\u201d.\n- Messages on the USB page take less room.\n",
-  "pub_date": "2026-10-27T00:25:03.545921+00:00",
+  "version": "2.2.28",
+  "notes": "# OverCue Desktop 2.2.28 for macOS\n\n- DJM-V10 Stems EQ is now supported. Select DJM-V10 under Mixers and choose your original official 1.30 update to create the patched firmware locally. DJM-V10-LF is not supported.\n- On the V10, HIGH controls Harmonics / Other, HI MID controls Vocals, LOW MID controls Drums, and LOW remains normal EQ. Requires prepared stems and V10-enabled OverCue CDJ-3000 firmware 0.13.2.\n- Stem packaging uses more CPU cores when preparing one track at a time, helping finish batches sooner.\n- Background processing gives the interface priority so the app stays responsive during preparation.\n",
+  "pub_date": "2026-10-28T11:10:33.252111+00:00",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHdRSlgzRUcwclBoM1Bha3lndVoxSTlqQ3ZPM2NSakU2dkZ3WnhLZGlueHBLelVGRzBiOS9UZ2Y5cWxSdG1FRWcvSGNMelR1M2NsSUdKOWJVRklxc0J5QzcwdW5ncEFJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMDYwNTY4CWZpbGU6T3ZlckN1ZSBEZXNrdG9wLmFwcC50YXIuZ3oKZ2FmRnptU3Jibm54T251bzEwQXd0VUFZZkl1amsyd2F6ekQ3eEliNW51VzM3ODFSS3FLZm43M3RjK1JFVEVPNGpzTkVVbnVRTFdRTjZEV2VMZi9GQlE9PQo=",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.26/OverCue_2.2.26_aarch64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHdRSlgzRUcwckplMVpxRlVCa1QxQlZyMmRYcXVCYjNOZW9xNmhvcG1jWWRuVDM5UHErR21raDJodEdLa2F5SUNwZGcvdUh6ZGFDUHFBaWhreXN4UTdvZWQ5NlBkb0F3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMTg1NzEzCWZpbGU6T3ZlckN1ZSBEZXNrdG9wLmFwcC50YXIuZ3oKY1Z2MENxSno4ZTVGQW1TRDN5eU5WTnM5QVZMT1ZyRWhPZHhjY2lHVEppR085bDc0T29DTDZmVFo0NnlWQk1haThXNjFqZElFdWVwdVBoejZETmdyQ3c9PQo=",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.28/OverCue_2.2.28_aarch64.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHdRSlgzRUcwckVFYUg0WDJmL0ZDd0Izb1NqdEhWME9USGFTYnlCK0htT2RmUWh0b0NlaEdKRWVQTjJQUzczbXl4Wk1yUno3QmNGT1RQTXo3bUpzWGx1L29iaTRzSlFRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMDYwNzAyCWZpbGU6T3ZlckN1ZSBEZXNrdG9wLmFwcC50YXIuZ3oKOERUWkl2UUgvaWNaS2duMVloaUUybzREOVhjcEZjN2VHRFZPK0p2U3lEN2UrelFGSlI3OGozd0F5QVh1WjJob08rV2FvclRJNmNuU05lbjNBY3NwRHc9PQo=",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.26/OverCue_2.2.26_x86_64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHdRSlgzRUcwckJ1R1VHSjJJcDM5MTZZaDArQUdzc0RkY2ZTVTNFaGVOaEhMZFJOMnJOZDNyMlpBQVZxRGRRK3FqL0VZYjNqZEZFa3FWL2t3RnMwYXBsZEhra2g3NEFVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMTg1ODMxCWZpbGU6T3ZlckN1ZSBEZXNrdG9wLmFwcC50YXIuZ3oKamxaQ2NZeU1vL3BKdXMvZkZBUjA2RUNTSjZDNndnbWprVnBma0ZUQkllSzY2VmgxSFQ5UHgxOFpxYWxWMjhUZUE2UjFmVVN3MzhLVy9VSExCZmx4QUE9PQo=",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.28/OverCue_2.2.28_x86_64.app.tar.gz"
     }
   }
 }
