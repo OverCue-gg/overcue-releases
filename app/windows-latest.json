@@ -1,11 +1,11 @@
 {
-  "version": "2.2.29",
-  "notes": "# OverCue Desktop 2.2.29 for Windows\n\n- DJM-V10 Stems EQ is now supported. Select DJM-V10 under Mixers and choose your original official 1.30 update to create the patched firmware locally. DJM-V10-LF is not supported.\n- On the V10, HIGH controls Harmonics / Other, HI MID controls Vocals, LOW MID controls Drums, and LOW remains normal EQ. Requires prepared stems and V10-enabled OverCue CDJ-3000 firmware 0.13.2.\n- Stem packaging uses more CPU cores when preparing one track at a time, helping finish batches sooner.\n- Background processing gives the interface priority so the app stays responsive during preparation.\n",
-  "pub_date": "2026-10-28T11:29:43.067633+00:00",
+  "version": "2.2.32",
+  "notes": "# OverCue Desktop 2.2.32 for Windows\n\n- OverCue Desktop is now available in German, Spanish, French, Italian, Dutch, Polish, Brazilian Portuguese, Japanese, Korean and Simplified Chinese, alongside English.\n- Choose a language from the new language menu at the bottom of the sidebar, or keep System to follow your computer's language.\n- Warnings, status messages, GPU and NVIDIA setup messages, track problems and common errors appear in your chosen language. Raw system error details stay in English so they can be shared with support.\n",
+  "pub_date": "2026-10-29T22:27:47.346318+00:00",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHdRSlgzRUcwckkza3huTVpISUwvcm9ORjBCVitBYm1KaDRpazFGN0R4Y1FtVHBxSmxmNWtmS3Nyd21SWUt3NGNqaHUwVHhkNzZEd1pRZ2FiSUNPTmI2SUdxbVV4dGdVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMTg2OTgwCWZpbGU6T3ZlckN1ZSBEZXNrdG9wXzIuMi4yOV94NjQtc2V0dXAuZXhlCjhPVThZZXBaV0ljQ2gyYS9OSTBzUVl6bkNHdWQzanpPSGZCaFV0UHI4WGJlZHJ6elV5VWxKalM0T2E2TFBMQTBPMlBaS3ROVlZGNi94NlJYVlQyTEFBPT0K",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.29/OverCue_2.2.29_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHdRSlgzRUcwckRlSWlqVzVmSU5Fd3hTYWp2eVRSYXc2bnZWclFmMWJYSU41bnBWczF5dGRqa1RRQ1ZXbm5hS1dvNm9yQXE2RWtlUzRETkQ1MGVZZlFIYkxpbTh3QmdFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMzEyODY0CWZpbGU6T3ZlckN1ZSBEZXNrdG9wXzIuMi4zMl94NjQtc2V0dXAuZXhlCjdORVRkMnJlWnVta2dBUkVQc0tlUWoyN3dYeXovOUpKWjhUQUtJb3UwOG1TdTdaQkRidEhodG1zdE1UYzlnVWZER1lJbFdxcDdrSzIzbHVYZmNjMURRPT0K",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.32/OverCue_2.2.32_x64-setup.exe"
     }
   }
 }

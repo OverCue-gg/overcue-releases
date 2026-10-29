@@ -1,17 +1,9 @@
 {
-  "version": "2.2.31",
-  "published": "2026-10-29T22:04:55Z",
-  "notes": "# OverCue Desktop 2.2.31 for macOS\n\n- OverCue Desktop is now available in German, Spanish, French, Italian, Dutch, Polish, Brazilian Portuguese, Japanese, Korean and Simplified Chinese, alongside English.\n- Choose a language from the new language menu at the bottom of the sidebar, or keep System to follow your computer's language.\n- Warnings, status messages, track problems and common errors appear in your chosen language. Raw system error details stay in English so they can be shared with support.\n",
-  "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.31",
+  "version": "2.2.32",
+  "published": "2026-10-29T22:36:31Z",
+  "notes": "# OverCue Desktop 2.2.32 for Windows\n\n- OverCue Desktop is now available in German, Spanish, French, Italian, Dutch, Polish, Brazilian Portuguese, Japanese, Korean and Simplified Chinese, alongside English.\n- Choose a language from the new language menu at the bottom of the sidebar, or keep System to follow your computer's language.\n- Warnings, status messages, GPU and NVIDIA setup messages, track problems and common errors appear in your chosen language. Raw system error details stay in English so they can be shared with support.\n",
+  "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.32",
   "artifacts": [
-    {
-      "platform": "windows",
-      "label": "Windows installer x64",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.29/OverCue_2.2.29_x64-setup.exe",
-      "sha256": "7026e090bc0568db6614993b1417fa4668f946c12da45ec7415c0b12a59876ce",
-      "version": "2.2.29",
-      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.29"
-    },
     {
       "platform": "macos",
       "label": "macOS Apple silicon",
@@ -27,6 +19,14 @@
       "sha256": "bc24f34dd43e39629d73f8dfa216469f3c992bbbc8f89976be2c2e33ea2cf074",
       "version": "2.2.31",
       "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.31"
+    },
+    {
+      "platform": "windows",
+      "label": "Windows installer x64",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.32/OverCue_2.2.32_x64-setup.exe",
+      "sha256": "cfb48e31ffcd0e6d92f382998eb156724431748e8ee85abfb0a8ce91f4710dec",
+      "version": "2.2.32",
+      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.32"
     }
   ]
 }
