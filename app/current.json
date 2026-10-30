@@ -1,8 +1,8 @@
 {
-  "version": "2.2.32",
-  "published": "2026-10-29T22:36:31Z",
-  "notes": "# OverCue Desktop 2.2.32 for Windows\n\n- OverCue Desktop is now available in German, Spanish, French, Italian, Dutch, Polish, Brazilian Portuguese, Japanese, Korean and Simplified Chinese, alongside English.\n- Choose a language from the new language menu at the bottom of the sidebar, or keep System to follow your computer's language.\n- Warnings, status messages, GPU and NVIDIA setup messages, track problems and common errors appear in your chosen language. Raw system error details stay in English so they can be shared with support.\n",
-  "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.32",
+  "version": "2.2.33",
+  "published": "2026-10-30T20:48:26Z",
+  "notes": "# OverCue Desktop 2.2.33 for Windows\n\n- Stem preparation now runs on NVIDIA graphics cards with 6 GB of video memory, such as RTX 2060, 3050 and 3060 laptop class cards, which previously fell back to the CPU.\n- GPU processing uses less video memory and finishes tracks slightly faster, with no change to separation quality.\n- When a graphics card cannot be used, the message explains why, including the 4.5 GB of free video memory that GPU processing needs.\n",
+  "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.33",
   "artifacts": [
     {
       "platform": "macos",
@@ -23,10 +23,10 @@
     {
       "platform": "windows",
       "label": "Windows installer x64",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.32/OverCue_2.2.32_x64-setup.exe",
-      "sha256": "cfb48e31ffcd0e6d92f382998eb156724431748e8ee85abfb0a8ce91f4710dec",
-      "version": "2.2.32",
-      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.32"
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.33/OverCue_2.2.33_x64-setup.exe",
+      "sha256": "fe054cd362f1f807016c08548f8cf87d771a72b604b87ff278b5d40959e24439",
+      "version": "2.2.33",
+      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.33"
     }
   ]
 }

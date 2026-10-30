@@ -1,11 +1,11 @@
 {
-  "version": "2.2.32",
-  "notes": "# OverCue Desktop 2.2.32 for Windows\n\n- OverCue Desktop is now available in German, Spanish, French, Italian, Dutch, Polish, Brazilian Portuguese, Japanese, Korean and Simplified Chinese, alongside English.\n- Choose a language from the new language menu at the bottom of the sidebar, or keep System to follow your computer's language.\n- Warnings, status messages, GPU and NVIDIA setup messages, track problems and common errors appear in your chosen language. Raw system error details stay in English so they can be shared with support.\n",
-  "pub_date": "2026-10-29T22:27:47.346318+00:00",
+  "version": "2.2.33",
+  "notes": "# OverCue Desktop 2.2.33 for Windows\n\n- Stem preparation now runs on NVIDIA graphics cards with 6 GB of video memory, such as RTX 2060, 3050 and 3060 laptop class cards, which previously fell back to the CPU.\n- GPU processing uses less video memory and finishes tracks slightly faster, with no change to separation quality.\n- When a graphics card cannot be used, the message explains why, including the 4.5 GB of free video memory that GPU processing needs.\n",
+  "pub_date": "2026-10-30T20:39:56.895459+00:00",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHdRSlgzRUcwckRlSWlqVzVmSU5Fd3hTYWp2eVRSYXc2bnZWclFmMWJYSU41bnBWczF5dGRqa1RRQ1ZXbm5hS1dvNm9yQXE2RWtlUzRETkQ1MGVZZlFIYkxpbTh3QmdFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMzEyODY0CWZpbGU6T3ZlckN1ZSBEZXNrdG9wXzIuMi4zMl94NjQtc2V0dXAuZXhlCjdORVRkMnJlWnVta2dBUkVQc0tlUWoyN3dYeXovOUpKWjhUQUtJb3UwOG1TdTdaQkRidEhodG1zdE1UYzlnVWZER1lJbFdxcDdrSzIzbHVYZmNjMURRPT0K",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.32/OverCue_2.2.32_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHdRSlgzRUcwckx3Y2dPVUZzVDBGMHFzcThzN2lNMlR6YnR2TU9IcWxQZTUzbXdXcWhNcGt2RzNZaXJBc0hxbUo2OU5qYlV6K1VHL1JnUk1vRWVCRjU3dTJWek9WL0E4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMzkyNzkzCWZpbGU6T3ZlckN1ZSBEZXNrdG9wXzIuMi4zM194NjQtc2V0dXAuZXhlCnUxcW9VbVpETW9FZ1RsZjJhRURtSnlsQ3FLVFN5SFJ1S3FWdGg4UGp4VXlvSGM2ZHdFMFo2MFEwaENXRzREOXdJTCtZNi9VVks1UEM3L2d3VWFMQUFnPT0K",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.33/OverCue_2.2.33_x64-setup.exe"
     }
   }
 }
