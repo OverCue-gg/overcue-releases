@@ -1,15 +1,15 @@
 {
-  "version": "2.2.31",
-  "notes": "# OverCue Desktop 2.2.31 for macOS\n\n- OverCue Desktop is now available in German, Spanish, French, Italian, Dutch, Polish, Brazilian Portuguese, Japanese, Korean and Simplified Chinese, alongside English.\n- Choose a language from the new language menu at the bottom of the sidebar, or keep System to follow your computer's language.\n- Warnings, status messages, track problems and common errors appear in your chosen language. Raw system error details stay in English so they can be shared with support.\n",
-  "pub_date": "2026-10-29T21:52:04.241856+00:00",
+  "version": "2.2.34",
+  "notes": "# OverCue Desktop 2.2.34 for macOS\n\n- New experimental stem format for the original CDJ-2000 and CDJ-2000NXS: in Settings, choose \"CDJ-2000 / 2000NXS \u2014 44.1 kHz WAV\" to prepare each stem as a plain 16-bit 44.1 kHz WAV file, which these players switch between with almost no gap.\n- The existing 44.1 kHz FLAC choice is now labelled \"CDJ-2000NXS2\" so it is clear which option suits which player. Your saved choice is unchanged.\n- MP3 tracks prepare into WAV stems the same way they already prepare into FLAC stems.\n- Repack existing stems converts tracks already prepared for the CDJ-2000NXS2 into WAV stems, or back, without separating them again. WAV stems take about twice the space of FLAC.\n- The OverCue user manual for the CDJ-3000 now comes with the app. Open it from the sidebar or the Firmware page to read how to install, update and remove OverCue and how to use every feature it adds to the player.\n",
+  "pub_date": "2026-10-31T17:39:53.668522+00:00",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHdRSlgzRUcwckVlNFQvSWdOMGo3aGtIV1FLWkRKQURFM0V2YkQvdVErMy9MMzV5TVFiYVN0SEZsTS9JbkVocCt0UVc0TXgvcVQ1NlJRY1RjOGVra2ZaclZGalB4UWc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMzEwNjAxCWZpbGU6T3ZlckN1ZSBEZXNrdG9wLmFwcC50YXIuZ3oKZXZwOUQwK1ZxaDZqa04rZDN4WUxtL3p3WnNrd3V4RlJFL1Bpa3huZ1ovSXhSQkp2a2FHNW5oUUNxNUFXaDZaSU04SlV4dHU4Z3FGSlJWTUFFVGMvRFE9PQo=",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.31/OverCue_2.2.31_aarch64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHdRSlgzRUcwcklDWHJuclJibnB5b05QbElyemdsT3NEdlhZR0dFYmR4Qjlwa1dPRWE3SVE2a21adjdYbWJSMmw3aFZFMDZPa09RclEwWDNoOXhXODg5a3VpREZ0ZXdBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNDY4MjcxCWZpbGU6T3ZlckN1ZSBEZXNrdG9wLmFwcC50YXIuZ3oKaEtsaGVRVVF4dXFFTHluLzNlODQvRytUNS9mU1dGWEZhTVZGaWpMVHdsK2hFZ2c2dGcrMkdMTVFTbTRsRVhlWWR1eFZLK2R1QVl5U0p0YTFpZDZHQUE9PQo=",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.34/OverCue_2.2.34_aarch64.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHdRSlgzRUcwckt5YTFVdG84UWVnajN2UDZwdXdNenNpcXRvWlhZaGtqN1hWOGcrZTVsc3h2TWd2eTcwM2VBQ2RkRS9lZGk3TTVMNisxdUtKelVCdGV0cVd2T1hURGdJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMzEwNzIyCWZpbGU6T3ZlckN1ZSBEZXNrdG9wLmFwcC50YXIuZ3oKaHlvUEphL2xiRFo2MFRic0V4Ni9zdFpGcTF6cFE5a3BpelNEYjRCTTkyWEJTcnJHeEI0VkRpQVdVTmVXOUllM01kaTJ2Zy9OZFRVcUJSc0d0S2YrQWc9PQo=",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.31/OverCue_2.2.31_x86_64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHdRSlgzRUcwck1iMlNROUhISlBNWG4rcTFjYnJLbkh6UjJMOEs0Undacm9vUUtTQ3FHc1ZIYmtUSFd2ZC82RVFzRytDM0hDZzN3dkhhZ2RmT2RmVHN3SWY1bnpuUEFNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNDY4MzkyCWZpbGU6T3ZlckN1ZSBEZXNrdG9wLmFwcC50YXIuZ3oKSmgxZUY5bE50TGtjWm85dzhkQkpFYkQvUUpPSHh0WkJNT21nOE1BaEFkazQvRlJkTjBYVEs3WkV5SzR5enR6NkZzcVdoRytkQzhkT1JlTHhXdUtVQ3c9PQo=",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.34/OverCue_2.2.34_x86_64.app.tar.gz"
     }
   }
 }

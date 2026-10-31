@@ -1,25 +1,9 @@
 {
-  "version": "2.2.33",
-  "published": "2026-10-30T20:48:26Z",
-  "notes": "# OverCue Desktop 2.2.33 for Windows\n\n- Stem preparation now runs on NVIDIA graphics cards with 6 GB of video memory, such as RTX 2060, 3050 and 3060 laptop class cards, which previously fell back to the CPU.\n- GPU processing uses less video memory and finishes tracks slightly faster, with no change to separation quality.\n- When a graphics card cannot be used, the message explains why, including the 4.5 GB of free video memory that GPU processing needs.\n",
-  "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.33",
+  "version": "2.2.34",
+  "published": "2026-10-31T17:44:08Z",
+  "notes": "# OverCue Desktop 2.2.34 for macOS\n\n- New experimental stem format for the original CDJ-2000 and CDJ-2000NXS: in Settings, choose \"CDJ-2000 / 2000NXS \u2014 44.1 kHz WAV\" to prepare each stem as a plain 16-bit 44.1 kHz WAV file, which these players switch between with almost no gap.\n- The existing 44.1 kHz FLAC choice is now labelled \"CDJ-2000NXS2\" so it is clear which option suits which player. Your saved choice is unchanged.\n- MP3 tracks prepare into WAV stems the same way they already prepare into FLAC stems.\n- Repack existing stems converts tracks already prepared for the CDJ-2000NXS2 into WAV stems, or back, without separating them again. WAV stems take about twice the space of FLAC.\n- The OverCue user manual for the CDJ-3000 now comes with the app. Open it from the sidebar or the Firmware page to read how to install, update and remove OverCue and how to use every feature it adds to the player.\n",
+  "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.34",
   "artifacts": [
-    {
-      "platform": "macos",
-      "label": "macOS Apple silicon",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.31/OverCue_2.2.31_aarch64.dmg",
-      "sha256": "dea59e628cd194e2789cb7b0aa3ca1154c8a88c3f8571606ce40a314661dce19",
-      "version": "2.2.31",
-      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.31"
-    },
-    {
-      "platform": "macos",
-      "label": "macOS Intel",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.31/OverCue_2.2.31_x86_64.dmg",
-      "sha256": "bc24f34dd43e39629d73f8dfa216469f3c992bbbc8f89976be2c2e33ea2cf074",
-      "version": "2.2.31",
-      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.31"
-    },
     {
       "platform": "windows",
       "label": "Windows installer x64",
@@ -27,6 +11,22 @@
       "sha256": "fe054cd362f1f807016c08548f8cf87d771a72b604b87ff278b5d40959e24439",
       "version": "2.2.33",
       "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.33"
+    },
+    {
+      "platform": "macos",
+      "label": "macOS Apple silicon",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.34/OverCue_2.2.34_aarch64.dmg",
+      "sha256": "ac51076de82798ce85e5e0be604180360a1ca228c5a16ec8f1d92431435e6ae5",
+      "version": "2.2.34",
+      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.34"
+    },
+    {
+      "platform": "macos",
+      "label": "macOS Intel",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.34/OverCue_2.2.34_x86_64.dmg",
+      "sha256": "49aed4a23cacb784f2f0797fda629d78b56bc39b7a4542c594a7a75b3eb4c3a9",
+      "version": "2.2.34",
+      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.34"
     }
   ]
 }
