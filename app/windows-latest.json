@@ -1,11 +1,11 @@
 {
-  "version": "2.2.35",
-  "notes": "# OverCue Desktop 2.2.35 for Windows\n\n- New experimental stem format for the original CDJ-2000 and CDJ-2000NXS: in Settings, choose \"CDJ-2000 / 2000NXS \u2014 44.1 kHz WAV\" to prepare each stem as a plain 16-bit 44.1 kHz WAV file, which these players switch between with almost no gap.\n- The existing 44.1 kHz FLAC choice is now labelled \"CDJ-2000NXS2\" so it is clear which option suits which player. Your saved choice is unchanged.\n- MP3 tracks prepare into WAV stems the same way they already prepare into FLAC stems.\n- Repack existing stems converts tracks already prepared for the CDJ-2000NXS2 into WAV stems, or back, without separating them again. WAV stems take about twice the space of FLAC.\n- The OverCue user manual for the CDJ-3000 now comes with the app. Open it from the sidebar or the Firmware page to read how to install, update and remove OverCue and how to use every feature it adds to the player.\n",
-  "pub_date": "2026-10-31T18:01:49.684542+00:00",
+  "version": "2.2.37",
+  "notes": "# OverCue Desktop 2.2.37 for Windows\n\n- Fixes \"Cannot inspect GPU compatibility\" on PCs where the graphics-memory lookup failed before any processing started, reported from German-language Windows 11 with GeForce RTX 3060 and 4060 cards. The check now tolerates localized system output, never stops stem preparation when it fails, and the message says what went wrong.\n- Libraries that failed to open with \"long string outside row (table Albums, \u2026)\" now load. Album entries whose name is stored further along the database row were read from the wrong place.\n- MP3 tracks whose Xing/Info header was written by an encoder other than LAME or FFmpeg now prepare stems. The \"unknown Xing encoder extension\" check applies only to Normalize volume, which still preserves that tag.\n- Normalize volume accepts WAV files processed by newer Platinum Notes versions, which add a clip-repair field to their metadata.\n",
+  "pub_date": "2026-11-02T21:51:11.950931+00:00",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHdRSlgzRUcwckFueGk5ZE5PemMzWjZkc2VVbmRqelVMVW8vbGp4Smo3OExTSEw5T0tFRlFJaDVJd256U1F1M1V2NjZGWmQ4RkJNVTNiZFdkZWl6TGx4RTB2YW9QaHdRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNDY5NzA2CWZpbGU6T3ZlckN1ZSBEZXNrdG9wXzIuMi4zNV94NjQtc2V0dXAuZXhlClAxZEZIcGU1RUxRQVZ3enNURCtZQU9RUVdqYlFEcGN0VkEyZG9tTEhWY3hzRW4vczBLb2k5SlhWL3cvbXVzYlRreE51K25zZnYvUmRiSEdsc3BDYURBPT0K",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.35/OverCue_2.2.35_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHdRSlgzRUcwck1XZWxIcDM1R25tNGE4Sm1YZ3FTeGwvc3hsY3hMSmp2WVZ0WmU4MEVyb2ZGMVR3UFVpSjZoZnpqbkRLQ0xHZ09uTkFqM01lc1BYSXhaa1ZHRWUwOXdRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNjU2MjY4CWZpbGU6T3ZlckN1ZSBEZXNrdG9wXzIuMi4zN194NjQtc2V0dXAuZXhlCkVuN3VsejZJRTNZaDVZV2RqRTh2T29BOG9BcloxQ2dJUWp4eERicU1iTU93VlRWRlErQXNSdVNhZWtNZ3lqQlRpNWxESW9qUEZUbDJIQnNGeVpKRkJBPT0K",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.37/OverCue_2.2.37_x64-setup.exe"
     }
   }
 }

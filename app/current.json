@@ -1,17 +1,13 @@
 {
-  "version": "2.2.36",
-  "published": "2026-11-02T21:33:35Z",
-  "notes": "# OverCue Desktop 2.2.36 for Mac\n\n- Libraries that failed to open with \"long string outside row (table Albums, \u2026)\" now load. Album entries whose name is stored further along the database row were read from the wrong place.\n- MP3 tracks whose Xing/Info header was written by an encoder other than LAME or FFmpeg now prepare stems. The \"unknown Xing encoder extension\" check applies only to Normalize volume, which still preserves that tag.\n- Normalize volume accepts WAV files processed by newer Platinum Notes versions, which add a clip-repair field to their metadata.\n",
-  "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.36",
+  "manual": {
+    "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.37/OverCue-CDJ-3000-User-Manual.pdf",
+    "sha256": "7b2088abf8502e66643358507e89389bd44a612de497dae3520bb047e5894275"
+  },
+  "version": "2.2.37",
+  "published": "2026-11-02T21:58:29Z",
+  "notes": "# OverCue Desktop 2.2.37 for Windows\n\n- Fixes \"Cannot inspect GPU compatibility\" on PCs where the graphics-memory lookup failed before any processing started, reported from German-language Windows 11 with GeForce RTX 3060 and 4060 cards. The check now tolerates localized system output, never stops stem preparation when it fails, and the message says what went wrong.\n- Libraries that failed to open with \"long string outside row (table Albums, \u2026)\" now load. Album entries whose name is stored further along the database row were read from the wrong place.\n- MP3 tracks whose Xing/Info header was written by an encoder other than LAME or FFmpeg now prepare stems. The \"unknown Xing encoder extension\" check applies only to Normalize volume, which still preserves that tag.\n- Normalize volume accepts WAV files processed by newer Platinum Notes versions, which add a clip-repair field to their metadata.\n",
+  "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.37",
   "artifacts": [
-    {
-      "platform": "windows",
-      "label": "Windows installer x64",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.35/OverCue_2.2.35_x64-setup.exe",
-      "sha256": "0c1a9b0b6e1bb39567e65dc106ab8c93bcfb0b80242552d9a430c729650670e7",
-      "version": "2.2.35",
-      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.35"
-    },
     {
       "platform": "macos",
       "label": "macOS Apple silicon",
@@ -27,10 +23,14 @@
       "sha256": "5d105313cfe150f60e35d395c8d276893e811a659a33a7b9febf4bada806f56a",
       "version": "2.2.36",
       "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.36"
+    },
+    {
+      "platform": "windows",
+      "label": "Windows installer x64",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.37/OverCue_2.2.37_x64-setup.exe",
+      "sha256": "8d35c92f34a2ed8e6807e6a4a4112d5b935956aec1a04fad600195f8d0acf857",
+      "version": "2.2.37",
+      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.37"
     }
-  ],
-  "manual": {
-    "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.36/OverCue-CDJ-3000-User-Manual.pdf",
-    "sha256": "7b2088abf8502e66643358507e89389bd44a612de497dae3520bb047e5894275"
-  }
+  ]
 }
