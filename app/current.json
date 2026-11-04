@@ -1,21 +1,13 @@
 {
   "manual": {
-    "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.40/OverCue-CDJ-3000-User-Manual.pdf",
+    "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.41/OverCue-CDJ-3000-User-Manual.pdf",
     "sha256": "57c0b2620b310a8abdd071bf179669c70b6a735f85b599e08b212ab20070152d"
   },
-  "version": "2.2.40",
-  "published": "2026-11-04T20:09:06Z",
-  "notes": "# OverCue Desktop 2.2.40 for Mac\n\n- Stems of MP3s encoded with FFmpeg, such as recent Beatport downloads, no longer play slightly behind the full track on the player. Toggling stems on and off now stays locked to the beat grid.\n- Stem waveforms of MP3 tracks now line up with the beat grid. They were drawn slightly early, even when the audio was in time.\n- USBs prepared with an earlier version show \"Needs realignment\" for affected MP3 tracks. One click on Realign stems corrects them in place, without processing them again.\n- AIFF files whose sound data starts after a padding offset, which failed with \"No support for AIFF block-aligned data\", now prepare stems and normalize.\n- With OverCue firmware 0.14.0, players load stems faster and handle much larger libraries using a new compact stems index. OverCue keeps it up to date every time it changes the stems on a USB.\n- USBs prepared with an earlier version offer Upgrade stems index, which converts the existing stems as they are, without processing them again. Older firmware keeps working with the same USB. If a USB's stem list grows past the 4 MiB older firmware can read, the app says so; those players need firmware 0.14.0 to load its stems.\n- Repair stems index restores a stems index that was interrupted or damaged, for example by unplugging the USB during an update.\n- The bundled OverCue user manual for the CDJ-3000 now covers firmware 0.14.0.\n",
-  "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.40",
+  "version": "2.2.41",
+  "published": "2026-11-04T20:13:59Z",
+  "notes": "# OverCue Desktop 2.2.41 for Windows\n\n- Stems of MP3s encoded with FFmpeg, such as recent Beatport downloads, no longer play slightly behind the full track on the player. Toggling stems on and off now stays locked to the beat grid.\n- Stem waveforms of MP3 tracks now line up with the beat grid. They were drawn slightly early, even when the audio was in time.\n- USBs prepared with an earlier version show \"Needs realignment\" for affected MP3 tracks. One click on Realign stems corrects them in place, without processing them again.\n- AIFF files whose sound data starts after a padding offset, which failed with \"No support for AIFF block-aligned data\", now prepare stems and normalize.\n- With OverCue firmware 0.14.0, players load stems faster and handle much larger libraries using a new compact stems index. OverCue keeps it up to date every time it changes the stems on a USB.\n- USBs prepared with an earlier version offer Upgrade stems index, which converts the existing stems as they are, without processing them again. Older firmware keeps working with the same USB. If a USB's stem list grows past the 4 MiB older firmware can read, the app says so; those players need firmware 0.14.0 to load its stems.\n- Repair stems index restores a stems index that was interrupted or damaged, for example by unplugging the USB during an update.\n- The bundled OverCue user manual for the CDJ-3000 now covers firmware 0.14.0.\n",
+  "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.41",
   "artifacts": [
-    {
-      "platform": "windows",
-      "label": "Windows installer x64",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.37/OverCue_2.2.37_x64-setup.exe",
-      "sha256": "8d35c92f34a2ed8e6807e6a4a4112d5b935956aec1a04fad600195f8d0acf857",
-      "version": "2.2.37",
-      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.37"
-    },
     {
       "platform": "macos",
       "label": "macOS Apple silicon",
@@ -31,6 +23,14 @@
       "sha256": "dfced46afb564b2c9b4877fed2beb0eaa4980edc50941c0734541a13bdf64a2a",
       "version": "2.2.40",
       "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.40"
+    },
+    {
+      "platform": "windows",
+      "label": "Windows installer x64",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.41/OverCue_2.2.41_x64-setup.exe",
+      "sha256": "3e74b36e78b2428c7baafa1c0d7417c197b28bd0695983fb50e079fe4b5aeb62",
+      "version": "2.2.41",
+      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.41"
     }
   ]
 }
