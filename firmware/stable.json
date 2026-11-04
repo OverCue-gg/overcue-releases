@@ -1,22 +1,22 @@
 {
-  "version": "fw-v0.14.0",
+  "version": "fw-v0.14.1",
   "channel": "stable",
-  "published": "2026-11-04T20:06:38Z",
+  "published": "2026-11-04T23:19:00Z",
   "minAppVersion": "2.2.0",
-  "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/fw-v0.14.0",
-  "notes": "# OverCue firmware 0.14.0\n\n- Tap the BPM display to switch between standard and two-decimal precision modes. Precision mode adds a wider capture area around whole-number BPM values for easier tempo adjustment.\n- Add Tempo Pickup and Synced Tempo Control Behavior to DJ Settings. Use relative tempo control after leaving Sync, or let any synced deck adjust tempo while keeping or transferring the master. Toggle Tempo Reset on and off to restore the fader\u2019s absolute mapping. These settings are shared between compatible linked players using the same selected Browse source.\n- Tap the key display to switch between Classic and Alphanumeric notation across playback, track information, Key Shift and Browse. The choice lasts until the player restarts.\n- Rewind up to 32 beats before a track starts, with a continuing beat grid and silent playback. Use temporary main cues, loops and Beat Jump in that space, including linked waveforms. Negative cues and loops clear on track reload; hot-cue recording before the start is refused.\n- Reorder tracks directly in TAG LIST with EDIT and the rotary selector. Edit mode stays active after a move until you leave it. Hot Cue and memory-cue markers also appear in TAG LIST preview waveforms.\n- Add efficient stems index lookups for local and linked media, including Browse S indicators. Updated OverCue Desktop can prepare the new indexes or upgrade an existing USB without regenerating its stems. Legacy indexes remain supported; larger libraries require the new index format.\n- Restore normal TIME-button behavior on tracks without stems, match the VOCAL label to the other stem buttons, and make Browse S indicators follow played/current-track colors in Dark and Light modes.\n- Keep V10 Stems EQ active through brief reply gaps while its acknowledged lease remains valid, without requiring EQ to be enabled again. Actual lease expiry, explicit rejection and manual takeover still release control.\n",
+  "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/fw-v0.14.1",
+  "notes": "# OverCue firmware 0.14.1\n\n- Fix the two-decimal precision BPM display disappearing in Light mode. Precision BPM now follows the display theme while preserving colored Sync indicators.\n",
   "artifacts": [
     {
       "product": "CDJ-3000",
       "family": "RK3399 + R8A7796",
       "kind": "install",
       "mode": "persistent",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/fw-v0.14.0/OverCue-fw-v0.14.0-install.UPD",
-      "sha256": "b88ee12c9a08165d65fb3e9b67bee2ae52abf31dd22687c53c353e683dec83d0",
-      "bytes": 9900047,
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/fw-v0.14.1/OverCue-fw-v0.14.1-install.UPD",
+      "sha256": "104a8bfb48c1f21fa7a401f51a43888c5b04e1a7f7216818b70fde0b2c9c3c68",
+      "bytes": 9891855,
       "archive": {
-        "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/fw-v0.14.0/OverCue-fw-v0.14.0-install.zip",
-        "sha256": "b1955d0bc2e62882a4cfb9653db82e30dbb86996ee470548726c2187a712510b",
+        "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/fw-v0.14.1/OverCue-fw-v0.14.1-install.zip",
+        "sha256": "b658c46bd84a5de5394933518a9c6e1dc7b0bbe4808b252d3d2b2e9c7ee390ec",
         "entry": "CDJ3Kv000.UPD"
       }
     },
@@ -25,12 +25,12 @@
       "family": "RK3399 + R8A7796",
       "kind": "uninstall",
       "mode": "persistent",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/fw-v0.14.0/OverCue-fw-v0.14.0-uninstall.UPD",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/fw-v0.14.1/OverCue-fw-v0.14.1-uninstall.UPD",
       "sha256": "4d33e38230c9eaa05e9834edb2295a9a4f0abade7a83a55fa8103222f5243258",
       "bytes": 9367567,
       "archive": {
-        "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/fw-v0.14.0/OverCue-fw-v0.14.0-uninstall.zip",
-        "sha256": "67bd9ebabbcec2c32db97c957a98b988c56944109af6ceedfb3cb974fd18a9c1",
+        "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/fw-v0.14.1/OverCue-fw-v0.14.1-uninstall.zip",
+        "sha256": "7f784dee586fa7c18a263d6e0545cf55bb127d50770d507fb7e8b32f835b3a3d",
         "entry": "CDJ3Kv000.UPD"
       }
     }
