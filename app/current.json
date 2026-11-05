@@ -1,21 +1,13 @@
 {
   "manual": {
-    "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.42/OverCue-CDJ-3000-User-Manual.pdf",
+    "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.43/OverCue-CDJ-3000-User-Manual.pdf",
     "sha256": "e18f32a4614a86cefae4cf0fe9c434a71bb79024846cf9e09cbf1e3aad7fa113"
   },
-  "version": "2.2.42",
-  "published": "2026-11-05T19:30:17Z",
-  "notes": "# OverCue Desktop 2.2.42 for Mac\n\n- Preparing stems and Normalize volume together no longer skips the stems of a track whose volume can't be normalized. Such tracks still get their stems, and their volume shows Failed with the reason, for example an MP3 with an unrecognized Xing header or an unsupported ID3 tag. Their audio is left unchanged.\n- Normalize volume now supports WAV files that use the extended format header (WAVE_FORMAT_EXTENSIBLE), which failed with \"Unsupported WAV fmt extension\". This covers 16- and 24-bit PCM and 32-bit float WAVs written by many DAWs and converters.\n- The bundled OverCue user manual for the CDJ-3000 now covers firmware 0.14.1.\n",
-  "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.42",
+  "version": "2.2.43",
+  "published": "2026-11-05T19:35:36Z",
+  "notes": "# OverCue Desktop 2.2.43 for Windows\n\n- Preparing stems and Normalize volume together no longer skips the stems of a track whose volume can't be normalized. Such tracks still get their stems, and their volume shows Failed with the reason, for example an MP3 with an unrecognized Xing header or an unsupported ID3 tag. Their audio is left unchanged.\n- Normalize volume now supports WAV files that use the extended format header (WAVE_FORMAT_EXTENSIBLE), which failed with \"Unsupported WAV fmt extension\". This covers 16- and 24-bit PCM and 32-bit float WAVs written by many DAWs and converters.\n- The bundled OverCue user manual for the CDJ-3000 now covers firmware 0.14.1.\n",
+  "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.43",
   "artifacts": [
-    {
-      "platform": "windows",
-      "label": "Windows installer x64",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.41/OverCue_2.2.41_x64-setup.exe",
-      "sha256": "3e74b36e78b2428c7baafa1c0d7417c197b28bd0695983fb50e079fe4b5aeb62",
-      "version": "2.2.41",
-      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.41"
-    },
     {
       "platform": "macos",
       "label": "macOS Apple silicon",
@@ -31,6 +23,14 @@
       "sha256": "2a23a42c1a9b312d3399111a07fd6a7cd6be442ff551e471b3f550bb1569eacb",
       "version": "2.2.42",
       "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.42"
+    },
+    {
+      "platform": "windows",
+      "label": "Windows installer x64",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.43/OverCue_2.2.43_x64-setup.exe",
+      "sha256": "9456ab5b3c200602ffad218b318ca0826441f00c0fd78b877e5a4f19c25aeddb",
+      "version": "2.2.43",
+      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.43"
     }
   ]
 }
