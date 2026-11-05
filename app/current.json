@@ -4,19 +4,11 @@
     "sha256": "5d4c715f3c6acac2b5d7e3c78bd63100ad8ad0108a583ddb5101c1fd93d15206",
     "firmware": "0.14.2"
   },
-  "version": "2.2.44",
-  "published": "2026-11-05T20:42:42Z",
-  "notes": "# OverCue Desktop 2.2.44 for Mac\n\n- CDJ-3000 user manual now opens the latest edition on overcue.gg in your browser, so it always matches the newest OverCue firmware (currently 0.14.2) without an app update. The manual is no longer included in the app download.\n",
-  "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.44",
+  "version": "2.2.45",
+  "published": "2026-11-05T21:09:25Z",
+  "notes": "# OverCue Desktop 2.2.45 for Windows\n\n- CDJ-3000 user manual now opens the latest edition on overcue.gg in your browser, so it always matches the newest OverCue firmware (currently 0.14.2) without an app update. The manual is no longer included in the app download.\n",
+  "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.45",
   "artifacts": [
-    {
-      "platform": "windows",
-      "label": "Windows installer x64",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.43/OverCue_2.2.43_x64-setup.exe",
-      "sha256": "9456ab5b3c200602ffad218b318ca0826441f00c0fd78b877e5a4f19c25aeddb",
-      "version": "2.2.43",
-      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.43"
-    },
     {
       "platform": "macos",
       "label": "macOS Apple silicon",
@@ -32,6 +24,14 @@
       "sha256": "c8b3f7abf7189b4c5bb3377fdada8d219efb337715ecef72dc22c4281c15654f",
       "version": "2.2.44",
       "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.44"
+    },
+    {
+      "platform": "windows",
+      "label": "Windows installer x64",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.45/OverCue_2.2.45_x64-setup.exe",
+      "sha256": "099d692cc83595ca157924a3da794419199b7e1ba2b92a1799821c05c635f9be",
+      "version": "2.2.45",
+      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.45"
     }
   ]
 }

@@ -1,11 +1,11 @@
 {
-  "version": "2.2.43",
-  "notes": "# OverCue Desktop 2.2.43 for Windows\n\n- Preparing stems and Normalize volume together no longer skips the stems of a track whose volume can't be normalized. Such tracks still get their stems, and their volume shows Failed with the reason, for example an MP3 with an unrecognized Xing header or an unsupported ID3 tag. Their audio is left unchanged.\n- Normalize volume now supports WAV files that use the extended format header (WAVE_FORMAT_EXTENSIBLE), which failed with \"Unsupported WAV fmt extension\". This covers 16- and 24-bit PCM and 32-bit float WAVs written by many DAWs and converters.\n- The bundled OverCue user manual for the CDJ-3000 now covers firmware 0.14.1.\n",
-  "pub_date": "2026-11-05T19:28:25.298288+00:00",
+  "version": "2.2.45",
+  "notes": "# OverCue Desktop 2.2.45 for Windows\n\n- CDJ-3000 user manual now opens the latest edition on overcue.gg in your browser, so it always matches the newest OverCue firmware (currently 0.14.2) without an app update. The manual is no longer included in the app download.\n",
+  "pub_date": "2026-11-05T21:01:34.080668+00:00",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHdRSlgzRUcwck9lcTNoZng3M3krdWFUbERZOXgzc0JHRWdyZG5rNlI5b0p2Q3RITkFlVzh0eXJRMWVYQlF5ZEUvVjdXR0ZkSXFJWUtLY0psb3hjY3BKSEhiZjM1RVFFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzOTA2OTAyCWZpbGU6T3ZlckN1ZSBEZXNrdG9wXzIuMi40M194NjQtc2V0dXAuZXhlCjFWN2F2QS91dThnaUhNbms5S2lCZW9na243a25ueUZlK2lFL0hKa09MVUlVOXNNWDJMa0lOUExFWHo5UkxQYUZLcUpYN0N5SFY5TDNPWWI3ZUVOQUN3PT0K",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.43/OverCue_2.2.43_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHdRSlgzRUcwckRlOEs1aTVhOGdTdFFPNStpWHc1ME5helNvMUNkK1VLZmNOcUNUbWQwb0tJYngvSHQxTURwQ1QzeUpCYzFjUU9jbTMvdzZnUStIK0IraFEzdDYvTFFJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzOTEyNDkwCWZpbGU6T3ZlckN1ZSBEZXNrdG9wXzIuMi40NV94NjQtc2V0dXAuZXhlCkQzU1Y4UnFqSVhTRk1HaWI4YjhkM1ZxbktpTFYwN21IOEUwQjJpUVdhd0lLckxsNDE4VFdMbGhmYk8vL1N0STdjTTBOekJ5a2RtYWNBTHNicmRxcUNRPT0K",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.45/OverCue_2.2.45_x64-setup.exe"
     }
   }
 }
