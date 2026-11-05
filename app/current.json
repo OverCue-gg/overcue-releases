@@ -4,27 +4,11 @@
     "sha256": "5d4c715f3c6acac2b5d7e3c78bd63100ad8ad0108a583ddb5101c1fd93d15206",
     "firmware": "0.14.2"
   },
-  "version": "2.2.43",
-  "published": "2026-11-05T19:35:36Z",
-  "notes": "# OverCue Desktop 2.2.43 for Windows\n\n- Preparing stems and Normalize volume together no longer skips the stems of a track whose volume can't be normalized. Such tracks still get their stems, and their volume shows Failed with the reason, for example an MP3 with an unrecognized Xing header or an unsupported ID3 tag. Their audio is left unchanged.\n- Normalize volume now supports WAV files that use the extended format header (WAVE_FORMAT_EXTENSIBLE), which failed with \"Unsupported WAV fmt extension\". This covers 16- and 24-bit PCM and 32-bit float WAVs written by many DAWs and converters.\n- The bundled OverCue user manual for the CDJ-3000 now covers firmware 0.14.1.\n",
-  "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.43",
+  "version": "2.2.44",
+  "published": "2026-11-05T20:42:42Z",
+  "notes": "# OverCue Desktop 2.2.44 for Mac\n\n- CDJ-3000 user manual now opens the latest edition on overcue.gg in your browser, so it always matches the newest OverCue firmware (currently 0.14.2) without an app update. The manual is no longer included in the app download.\n",
+  "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.44",
   "artifacts": [
-    {
-      "platform": "macos",
-      "label": "macOS Apple silicon",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.42/OverCue_2.2.42_aarch64.dmg",
-      "sha256": "c2c03ef6d6fd6660d7f72caa9699c5ea8571eded7df43aacb664bd55357101f4",
-      "version": "2.2.42",
-      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.42"
-    },
-    {
-      "platform": "macos",
-      "label": "macOS Intel",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.42/OverCue_2.2.42_x86_64.dmg",
-      "sha256": "2a23a42c1a9b312d3399111a07fd6a7cd6be442ff551e471b3f550bb1569eacb",
-      "version": "2.2.42",
-      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.42"
-    },
     {
       "platform": "windows",
       "label": "Windows installer x64",
@@ -32,6 +16,22 @@
       "sha256": "9456ab5b3c200602ffad218b318ca0826441f00c0fd78b877e5a4f19c25aeddb",
       "version": "2.2.43",
       "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.43"
+    },
+    {
+      "platform": "macos",
+      "label": "macOS Apple silicon",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.44/OverCue_2.2.44_aarch64.dmg",
+      "sha256": "86e6f27b365d271540c9b3a01492d9ca713ac48baed065711ed765fec037dbe8",
+      "version": "2.2.44",
+      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.44"
+    },
+    {
+      "platform": "macos",
+      "label": "macOS Intel",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.44/OverCue_2.2.44_x86_64.dmg",
+      "sha256": "c8b3f7abf7189b4c5bb3377fdada8d219efb337715ecef72dc22c4281c15654f",
+      "version": "2.2.44",
+      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.44"
     }
   ]
 }

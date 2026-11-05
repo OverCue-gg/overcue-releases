@@ -1,15 +1,15 @@
 {
-  "version": "2.2.42",
-  "notes": "# OverCue Desktop 2.2.42 for Mac\n\n- Preparing stems and Normalize volume together no longer skips the stems of a track whose volume can't be normalized. Such tracks still get their stems, and their volume shows Failed with the reason, for example an MP3 with an unrecognized Xing header or an unsupported ID3 tag. Their audio is left unchanged.\n- Normalize volume now supports WAV files that use the extended format header (WAVE_FORMAT_EXTENSIBLE), which failed with \"Unsupported WAV fmt extension\". This covers 16- and 24-bit PCM and 32-bit float WAVs written by many DAWs and converters.\n- The bundled OverCue user manual for the CDJ-3000 now covers firmware 0.14.1.\n",
-  "pub_date": "2026-11-05T19:10:40.198158+00:00",
+  "version": "2.2.44",
+  "notes": "# OverCue Desktop 2.2.44 for Mac\n\n- CDJ-3000 user manual now opens the latest edition on overcue.gg in your browser, so it always matches the newest OverCue firmware (currently 0.14.2) without an app update. The manual is no longer included in the app download.\n",
+  "pub_date": "2026-11-05T20:32:09.939522+00:00",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHdRSlgzRUcwckhCaTNNL1g0VzVWdzJuVFZGVmw3UjRJWlYyQXlGK3FmRG00NFg0SEV6UDVCWjdVOUdabWIwNlMyclIvcG4rS2d6bVdUWDBxYXhhanlidDNxbHFFdFF3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzOTA1Njk2CWZpbGU6T3ZlckN1ZSBEZXNrdG9wLmFwcC50YXIuZ3oKZVEwLzMxRWxSVE9rNzFOSExQK01VZjhPVjNENFhjbG5Ga0cwbmdZcEVYTldrZ3hwSnFsNzFLMWNpTGo3N01XSWVBNURLUHQyd3lkS05TV0ppWVJNQWc9PQo=",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.42/OverCue_2.2.42_aarch64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHdRSlgzRUcwckNXTGg0L1VyOE9ZWkhPTUxqNFA0L0VsZ1ZSdDlnY1UxUkljb2IwTUJwRkI2RlBxTjN0YW1TLzJPUWQ2QkNwVlVXM1lLWUd3eE56cHBDRlcxSWQ0QVEwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzOTEwNTk4CWZpbGU6T3ZlckN1ZSBEZXNrdG9wLmFwcC50YXIuZ3oKekdLVkpRelZVNXY0Z3ZwOHkrRldRUUlidDg5aWdYMzU4UDV5TytXelhqd1d1cEVBYVBSUzU3UXJhZjltaVEvVHNjRzgxYTRKcUw0WG9OdlhvVzJMQkE9PQo=",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.44/OverCue_2.2.44_aarch64.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHdRSlgzRUcwckFZVG9wSTVMa0VPcWlDcWRwUWVTTXJTUGp5bXluQzZKazBmV0tRUklaaWxEdThPSU9KV2kyYVVVQjB4V0QzNzR3bkhQMUtlOXMwb1E4d0hCeTYvRGdZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzOTA1ODM4CWZpbGU6T3ZlckN1ZSBEZXNrdG9wLmFwcC50YXIuZ3oKa0x0bEVHNXY5NTVJTk1jWGlkRThLYXFIWjcyRnorNEtmbXhQS1pxSG5yN2QzQ1pmenJQbEEzaEpXNEdNd0FZcHVicEZtcEhtSldrbzJjY3IrenRwQXc9PQo=",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.42/OverCue_2.2.42_x86_64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHdRSlgzRUcwcktwTDN5S1dGdGZTRzlZbE9FQnNrMWdibnRuakh2V2N4ZWgrMkk2ODZoR0ZQWDd1bnBWenI1TVB6dXNQLzBEbXNMUm9oTmE0ZXMvdWJWM0RxRlMwd2djPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzOTEwNzI4CWZpbGU6T3ZlckN1ZSBEZXNrdG9wLmFwcC50YXIuZ3oKNmFLeWdwSzZQQVZMeVhuMDRTUXFMRlhNeHRZTHlaTTEwSlgxLzlPQmQ4YnY1MUlaLyt4VTh3dlNsQlZWcStMVHpBNDlvY05vUDJScVhQYWcrZkYvQ3c9PQo=",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.44/OverCue_2.2.44_x86_64.app.tar.gz"
     }
   }
 }
