@@ -4,19 +4,11 @@
     "sha256": "5d4c715f3c6acac2b5d7e3c78bd63100ad8ad0108a583ddb5101c1fd93d15206",
     "firmware": "0.14.2"
   },
-  "version": "2.2.46",
-  "published": "2026-11-06T19:06:26Z",
-  "notes": "# OverCue Desktop 2.2.46 for Mac\n\n- A separation server address entered without `http://` (for example `192.168.1.20:8420`) now works. Previously stem preparation failed with \"Bad URL: failed to parse URL: RelativeUrlWithoutBase\". To use the built-in engine instead, leave the Separation server address in Settings empty.\n- Normalize volume now supports MP3s with an APEv2 tag, which failed with \"APEv2-tagged MP3 is unsupported\". These tags are common after MP3Gain or foobar2000. Existing ReplayGain and MP3Gain values in the tag are removed so they can't apply stale gain on top of the new level. Other tag items are kept, and the file size stays the same.\n",
-  "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.46",
+  "version": "2.2.47",
+  "published": "2026-11-06T19:33:08Z",
+  "notes": "# OverCue Desktop 2.2.47 for Windows\n\n- A separation server address entered without `http://` (for example `192.168.1.20:8420`) now works. Previously stem preparation failed with \"Bad URL: failed to parse URL: RelativeUrlWithoutBase\". To use the built-in engine instead, leave the Separation server address in Settings empty.\n- Normalize volume now supports MP3s with an APEv2 tag, which failed with \"APEv2-tagged MP3 is unsupported\". These tags are common after MP3Gain or foobar2000. Existing ReplayGain and MP3Gain values in the tag are removed so they can't apply stale gain on top of the new level. Other tag items are kept, and the file size stays the same.\n",
+  "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.47",
   "artifacts": [
-    {
-      "platform": "windows",
-      "label": "Windows installer x64",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.45/OverCue_2.2.45_x64-setup.exe",
-      "sha256": "099d692cc83595ca157924a3da794419199b7e1ba2b92a1799821c05c635f9be",
-      "version": "2.2.45",
-      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.45"
-    },
     {
       "platform": "macos",
       "label": "macOS Apple silicon",
@@ -32,6 +24,14 @@
       "sha256": "2e79ab07f26b6ad63f241562126f40c72373a32d4e42aa04e175cf952a57176e",
       "version": "2.2.46",
       "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.46"
+    },
+    {
+      "platform": "windows",
+      "label": "Windows installer x64",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.47/OverCue_2.2.47_x64-setup.exe",
+      "sha256": "c95b1f0ba9671cb15c9bf390407bb6145b3289a3122d2b9235885deee9ab42e7",
+      "version": "2.2.47",
+      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.47"
     }
   ]
 }

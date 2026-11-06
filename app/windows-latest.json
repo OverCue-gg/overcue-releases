@@ -1,11 +1,11 @@
 {
-  "version": "2.2.45",
-  "notes": "# OverCue Desktop 2.2.45 for Windows\n\n- CDJ-3000 user manual now opens the latest edition on overcue.gg in your browser, so it always matches the newest OverCue firmware (currently 0.14.2) without an app update. The manual is no longer included in the app download.\n",
-  "pub_date": "2026-11-05T21:01:34.080668+00:00",
+  "version": "2.2.47",
+  "notes": "# OverCue Desktop 2.2.47 for Windows\n\n- A separation server address entered without `http://` (for example `192.168.1.20:8420`) now works. Previously stem preparation failed with \"Bad URL: failed to parse URL: RelativeUrlWithoutBase\". To use the built-in engine instead, leave the Separation server address in Settings empty.\n- Normalize volume now supports MP3s with an APEv2 tag, which failed with \"APEv2-tagged MP3 is unsupported\". These tags are common after MP3Gain or foobar2000. Existing ReplayGain and MP3Gain values in the tag are removed so they can't apply stale gain on top of the new level. Other tag items are kept, and the file size stays the same.\n",
+  "pub_date": "2026-11-06T19:24:19.755457+00:00",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHdRSlgzRUcwckRlOEs1aTVhOGdTdFFPNStpWHc1ME5helNvMUNkK1VLZmNOcUNUbWQwb0tJYngvSHQxTURwQ1QzeUpCYzFjUU9jbTMvdzZnUStIK0IraFEzdDYvTFFJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzOTEyNDkwCWZpbGU6T3ZlckN1ZSBEZXNrdG9wXzIuMi40NV94NjQtc2V0dXAuZXhlCkQzU1Y4UnFqSVhTRk1HaWI4YjhkM1ZxbktpTFYwN21IOEUwQjJpUVdhd0lLckxsNDE4VFdMbGhmYk8vL1N0STdjTTBOekJ5a2RtYWNBTHNicmRxcUNRPT0K",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.45/OverCue_2.2.45_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHdRSlgzRUcwclBxSWg4dHhZNHVLN3krMHpQMzllQ0hiSDRvbDZ0QUs5U3g0N3FNaWx4RjlieEFvdElTT3JVQ1h6ZkhtMEljbk5RTWE1enBhTTFnQkVrTGgvRXlVQVE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzOTkzMDU2CWZpbGU6T3ZlckN1ZSBEZXNrdG9wXzIuMi40N194NjQtc2V0dXAuZXhlCnpiRGt2Si9kcnJNcWdISFNMcnZGTi9BWmtpUXh4QU1OelI4cFV1ZmRRSnZaTjN3ZGRxR1VWeTljdmdpb29yVGo0eW5RRkZUSXRJdkFSeUhLSnlRcERRPT0K",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.47/OverCue_2.2.47_x64-setup.exe"
     }
   }
 }
