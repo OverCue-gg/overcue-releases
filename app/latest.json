@@ -1,15 +1,15 @@
 {
-  "version": "2.2.44",
-  "notes": "# OverCue Desktop 2.2.44 for Mac\n\n- CDJ-3000 user manual now opens the latest edition on overcue.gg in your browser, so it always matches the newest OverCue firmware (currently 0.14.2) without an app update. The manual is no longer included in the app download.\n",
-  "pub_date": "2026-11-05T20:32:09.939522+00:00",
+  "version": "2.2.46",
+  "notes": "# OverCue Desktop 2.2.46 for Mac\n\n- A separation server address entered without `http://` (for example `192.168.1.20:8420`) now works. Previously stem preparation failed with \"Bad URL: failed to parse URL: RelativeUrlWithoutBase\". To use the built-in engine instead, leave the Separation server address in Settings empty.\n- Normalize volume now supports MP3s with an APEv2 tag, which failed with \"APEv2-tagged MP3 is unsupported\". These tags are common after MP3Gain or foobar2000. Existing ReplayGain and MP3Gain values in the tag are removed so they can't apply stale gain on top of the new level. Other tag items are kept, and the file size stays the same.\n",
+  "pub_date": "2026-11-06T19:03:36.298951+00:00",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHdRSlgzRUcwckNXTGg0L1VyOE9ZWkhPTUxqNFA0L0VsZ1ZSdDlnY1UxUkljb2IwTUJwRkI2RlBxTjN0YW1TLzJPUWQ2QkNwVlVXM1lLWUd3eE56cHBDRlcxSWQ0QVEwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzOTEwNTk4CWZpbGU6T3ZlckN1ZSBEZXNrdG9wLmFwcC50YXIuZ3oKekdLVkpRelZVNXY0Z3ZwOHkrRldRUUlidDg5aWdYMzU4UDV5TytXelhqd1d1cEVBYVBSUzU3UXJhZjltaVEvVHNjRzgxYTRKcUw0WG9OdlhvVzJMQkE9PQo=",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.44/OverCue_2.2.44_aarch64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHdRSlgzRUcwcktCcDJzWld3ajZEbU82UWZ2SWorZEJZMWRacllpM1lhcXR2bGdqK3RLNGluczhoZHN5MTQwRjE4TU9vUnJucDI3NWIzVjRweXpQbmtGV1FuVk5EUGdVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzOTkxNjg2CWZpbGU6T3ZlckN1ZSBEZXNrdG9wLmFwcC50YXIuZ3oKU3M1dkdidkVhQlZNL3hwTmFNa2xQdUY3TVorcU9ERkMzNVZVeCt0YlJxZjFDeEtPSmxmVFp1VkFlSFZpUHlsMndXWWo3THgyekx1K1RKbHJDRTh5Q3c9PQo=",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.46/OverCue_2.2.46_aarch64.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHdRSlgzRUcwcktwTDN5S1dGdGZTRzlZbE9FQnNrMWdibnRuakh2V2N4ZWgrMkk2ODZoR0ZQWDd1bnBWenI1TVB6dXNQLzBEbXNMUm9oTmE0ZXMvdWJWM0RxRlMwd2djPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzOTEwNzI4CWZpbGU6T3ZlckN1ZSBEZXNrdG9wLmFwcC50YXIuZ3oKNmFLeWdwSzZQQVZMeVhuMDRTUXFMRlhNeHRZTHlaTTEwSlgxLzlPQmQ4YnY1MUlaLyt4VTh3dlNsQlZWcStMVHpBNDlvY05vUDJScVhQYWcrZkYvQ3c9PQo=",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.44/OverCue_2.2.44_x86_64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHdRSlgzRUcwck0rRlhsaEpobU5SZjZZK1JiZ0FWRTk0emdxQUlQb3QydXhZeUJzN09FSEZDVGUzanRoYm45bitOeU1OL0ZNVnl1UjRDcGQ5eDlpM3F3WUU5bWJZS3c0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzOTkxODE0CWZpbGU6T3ZlckN1ZSBEZXNrdG9wLmFwcC50YXIuZ3oKK2FLNWN5Zmx5QXJ3Q3FEY1JUSEZPTnRkUFNncTk0T1lOUGFHcXRIRG5Rdy9jUGd1c09Db09SNEtkTGtMWjRDLyt5cnV3dGlQSVd2QzBsQVRCeFJIQVE9PQo=",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.46/OverCue_2.2.46_x86_64.app.tar.gz"
     }
   }
 }

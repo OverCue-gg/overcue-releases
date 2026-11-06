@@ -4,27 +4,11 @@
     "sha256": "5d4c715f3c6acac2b5d7e3c78bd63100ad8ad0108a583ddb5101c1fd93d15206",
     "firmware": "0.14.2"
   },
-  "version": "2.2.45",
-  "published": "2026-11-05T21:09:25Z",
-  "notes": "# OverCue Desktop 2.2.45 for Windows\n\n- CDJ-3000 user manual now opens the latest edition on overcue.gg in your browser, so it always matches the newest OverCue firmware (currently 0.14.2) without an app update. The manual is no longer included in the app download.\n",
-  "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.45",
+  "version": "2.2.46",
+  "published": "2026-11-06T19:06:26Z",
+  "notes": "# OverCue Desktop 2.2.46 for Mac\n\n- A separation server address entered without `http://` (for example `192.168.1.20:8420`) now works. Previously stem preparation failed with \"Bad URL: failed to parse URL: RelativeUrlWithoutBase\". To use the built-in engine instead, leave the Separation server address in Settings empty.\n- Normalize volume now supports MP3s with an APEv2 tag, which failed with \"APEv2-tagged MP3 is unsupported\". These tags are common after MP3Gain or foobar2000. Existing ReplayGain and MP3Gain values in the tag are removed so they can't apply stale gain on top of the new level. Other tag items are kept, and the file size stays the same.\n",
+  "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.46",
   "artifacts": [
-    {
-      "platform": "macos",
-      "label": "macOS Apple silicon",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.44/OverCue_2.2.44_aarch64.dmg",
-      "sha256": "86e6f27b365d271540c9b3a01492d9ca713ac48baed065711ed765fec037dbe8",
-      "version": "2.2.44",
-      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.44"
-    },
-    {
-      "platform": "macos",
-      "label": "macOS Intel",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.44/OverCue_2.2.44_x86_64.dmg",
-      "sha256": "c8b3f7abf7189b4c5bb3377fdada8d219efb337715ecef72dc22c4281c15654f",
-      "version": "2.2.44",
-      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.44"
-    },
     {
       "platform": "windows",
       "label": "Windows installer x64",
@@ -32,6 +16,22 @@
       "sha256": "099d692cc83595ca157924a3da794419199b7e1ba2b92a1799821c05c635f9be",
       "version": "2.2.45",
       "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.45"
+    },
+    {
+      "platform": "macos",
+      "label": "macOS Apple silicon",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.46/OverCue_2.2.46_aarch64.dmg",
+      "sha256": "6893df81389ee59d703df7c4027075b851b64205e2da5757ed65a40fd14fcba4",
+      "version": "2.2.46",
+      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.46"
+    },
+    {
+      "platform": "macos",
+      "label": "macOS Intel",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.46/OverCue_2.2.46_x86_64.dmg",
+      "sha256": "2e79ab07f26b6ad63f241562126f40c72373a32d4e42aa04e175cf952a57176e",
+      "version": "2.2.46",
+      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.46"
     }
   ]
 }
