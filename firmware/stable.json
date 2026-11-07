@@ -1,22 +1,22 @@
 {
-  "version": "fw-v0.14.2",
+  "version": "fw-v0.14.3",
   "channel": "stable",
-  "published": "2026-11-05T20:14:00Z",
+  "published": "2026-11-07T01:16:33Z",
   "minAppVersion": "2.2.0",
-  "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/fw-v0.14.2",
-  "notes": "# OverCue firmware 0.14.2\n\n- Keep V10 Stems EQ connected when an occasional mixer network announcement is missed. EQ previously switched off for the rest of the track after a single lost announcement, even while the mixer was still responding; it now stays active as long as the mixer keeps answering, and a genuinely disconnected mixer still releases control.\n",
+  "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/fw-v0.14.3",
+  "notes": "- Fix intermittent Beat Sync drift when receiving timing data from other linked players.\n- Restore V10 Stems EQ control automatically after a temporary connection or readiness interruption, without requiring EQ to be enabled again. Explicit OFF and manual takeover remain respected.\n",
   "artifacts": [
     {
       "product": "CDJ-3000",
       "family": "RK3399 + R8A7796",
       "kind": "install",
       "mode": "persistent",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/fw-v0.14.2/OverCue-fw-v0.14.2-install.UPD",
-      "sha256": "4d9992c117d243e117c75504270df202a10056b87dbbc258887f1202d9ffd656",
-      "bytes": 9891855,
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/fw-v0.14.3/OverCue-fw-v0.14.3-install.UPD",
+      "sha256": "be39c6a52b2393d63fd909bb70b8d2e0a29906cbc8f75aa4341d1f18dd24e397",
+      "bytes": 9883663,
       "archive": {
-        "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/fw-v0.14.2/OverCue-fw-v0.14.2-install.zip",
-        "sha256": "00d2918fd3e2083472067d1f0e0ce3c6ac0df47fc7f32474230023c807a8d8f3",
+        "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/fw-v0.14.3/OverCue-fw-v0.14.3-install.zip",
+        "sha256": "58a231952379dd9e9a549505bf4b68d11670714bace046e52b2eea47805d762e",
         "entry": "CDJ3Kv000.UPD"
       }
     },
@@ -25,12 +25,12 @@
       "family": "RK3399 + R8A7796",
       "kind": "uninstall",
       "mode": "persistent",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/fw-v0.14.2/OverCue-fw-v0.14.2-uninstall.UPD",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/fw-v0.14.3/OverCue-fw-v0.14.3-uninstall.UPD",
       "sha256": "4d33e38230c9eaa05e9834edb2295a9a4f0abade7a83a55fa8103222f5243258",
       "bytes": 9367567,
       "archive": {
-        "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/fw-v0.14.2/OverCue-fw-v0.14.2-uninstall.zip",
-        "sha256": "b72f4b6271a5fd3d1f7afb1cf70d4f0b51fd15a4c4bb17431bdba0a19c283667",
+        "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/fw-v0.14.3/OverCue-fw-v0.14.3-uninstall.zip",
+        "sha256": "ad1f0d4097e1d4253fbf58b33892773c04253f0a3bcb022a80308610a7c3e1e4",
         "entry": "CDJ3Kv000.UPD"
       }
     }
