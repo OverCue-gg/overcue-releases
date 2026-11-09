@@ -1,15 +1,15 @@
 {
-  "version": "2.2.50",
-  "notes": "# OverCue Desktop 2.2.50 for Mac\n\n- Realign stems no longer fails on MP3s whose stems were prepared without trouble: tracks with an APE tag, a damaged frame or a length header one frame off (\"malformed stream\", \"Truncated audio\"), and 48 kHz MP3s (\"Source sample rate changed; regenerate\"). Click Realign stems again after updating.\n- Support reports now take library files from the USB where processing last failed, instead of whichever USB happened to be selected, and briefly summarize any other connected USB where processing failed. Failing MP3 samples also record how many frames the file holds.\n",
-  "pub_date": "2026-11-09T17:51:59.293224+00:00",
+  "version": "2.2.52",
+  "notes": "# OverCue Desktop 2.2.52 for Mac\n\n- Maintenance release with no changes to the Mac app.\n",
+  "pub_date": "2026-11-09T21:21:51.181250+00:00",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHdRSlgzRUcwckdmdlFtTVA4UW5UNHQ2dThnYXZWOEFHaHIxNktQV0xBZW1HVThsb0NrckJPM0RJOW5GU1JTOVNuUU5nT1pFSFJWUU9CaUxVdnhqWWdlbkxEN2hicndrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MjQ2NTk0CWZpbGU6T3ZlckN1ZSBEZXNrdG9wLmFwcC50YXIuZ3oKVUJkSzE2b1B2NWd3d3NOMzU2U0U3SWk3SzE4VUJSTzIvOXdmOUpUekMydFdaa3pHaCtCQ29sbUkrUktrQkROM3ZibWtQTTA0T0MwTndiKzhHRmp5Qnc9PQo=",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.50/OverCue_2.2.50_aarch64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHdRSlgzRUcwckJqWCsrSWlYMzVPWnFRYlRhUDI0NUpXazZxUWlaaE9lWFV6TmpZc0VzMUo3TkFLVjRzbzlqVkc4T0RtQkV0QkhDTkVHVVR0d1o3MnQwLy96UWZOYUFBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MjU5MTk0CWZpbGU6T3ZlckN1ZSBEZXNrdG9wLmFwcC50YXIuZ3oKTWRzSEtaTlJBbkJZVFR4NkZadW5IRE9xZmlTcVNOZStiS0FTdS9aN3ZncFRMNTRvRmgxWHdqSC9TOVJKSndIMCtyRk9IaXNSMW03VFRpcXdsMEdPQmc9PQo=",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.52/OverCue_2.2.52_aarch64.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHdRSlgzRUcwck1id28rNGtZNkxJZ0lHaVB0blRpUmlJY0lUaHh3eS9paHJYSjlmVXVpZlNYdE1ZQ3hiY3NnL21oQWZnRmdGT3VkWGlFeU9GdjNIdEkxZWQ4dVUzZFFZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MjQ2NzE3CWZpbGU6T3ZlckN1ZSBEZXNrdG9wLmFwcC50YXIuZ3oKNXdjTTdVdGJORy9jWW4wTkM1MVd0Z0wveFBVbnVzSHg1d2E0R2JUYjFJMlAxZFAvOXgvMi9LOS9tZnliUThyeE1pR1NxWis0d0F2U0V4OHJITE40QUE9PQo=",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.50/OverCue_2.2.50_x86_64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHdRSlgzRUcwcktwOXNrOWtKam1LdWliSE1TRW0yQ0g4bTlsczZ1RXFabUVkQWVTL3hadElCNmVpb2NpbEtGbEdPbitHSUNhOTBsRVNQa1pwR2tMWXFmS25oRzcwOEFNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MjU5MzA5CWZpbGU6T3ZlckN1ZSBEZXNrdG9wLmFwcC50YXIuZ3oKWXZmcWhkazNObnh5cHB3aFFETGhzejNEUTJoVVBYNkRiVHIzT1g2TkpvZmxoVmlhZFcreGtrZ0MyVDZoK2tndnNzRDNYVytjeTUxdm9iK2hlWkhqQnc9PQo=",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.52/OverCue_2.2.52_x86_64.app.tar.gz"
     }
   }
 }

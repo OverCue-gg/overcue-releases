@@ -4,27 +4,11 @@
     "sha256": "8dd20a51aebbee3095ec3b65072eac3eeed53a3561ebd5a5b0a5dc936684efc9",
     "firmware": "0.14.3"
   },
-  "version": "2.2.51",
-  "published": "2026-11-09T18:24:57Z",
-  "notes": "# OverCue Desktop 2.2.51 for Windows\n\n- Realign stems no longer fails on MP3s whose stems were prepared without trouble: tracks with an APE tag, a damaged frame or a length header one frame off (\"malformed stream\", \"Truncated audio\"), and 48 kHz MP3s (\"Source sample rate changed; regenerate\"). Click Realign stems again after updating.\n- Support reports now take library files from the USB where processing last failed, instead of whichever USB happened to be selected, and briefly summarize any other connected USB where processing failed. Failing MP3 samples also record how many frames the file holds.\n",
-  "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.51",
+  "version": "2.2.52",
+  "published": "2026-11-09T21:47:29Z",
+  "notes": "# OverCue Desktop 2.2.52 for Mac\n\n- Maintenance release with no changes to the Mac app.\n",
+  "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.52",
   "artifacts": [
-    {
-      "platform": "macos",
-      "label": "macOS Apple silicon",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.50/OverCue_2.2.50_aarch64.dmg",
-      "sha256": "ddacd603622db761ed7b9c6843d988f4063b7b3d0eaaa4f1dca7f308b83fc830",
-      "version": "2.2.50",
-      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.50"
-    },
-    {
-      "platform": "macos",
-      "label": "macOS Intel",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.50/OverCue_2.2.50_x86_64.dmg",
-      "sha256": "4cf608a96d46bd47b5a0a83ce8e62ca1ffc22b9b9baace812a4034d85d0793fc",
-      "version": "2.2.50",
-      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.50"
-    },
     {
       "platform": "windows",
       "label": "Windows installer x64",
@@ -32,6 +16,22 @@
       "sha256": "01e665b4e9f03db83e12533d7ed347ba80ee454aee94f4433acd87eb15066f95",
       "version": "2.2.51",
       "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.51"
+    },
+    {
+      "platform": "macos",
+      "label": "macOS Apple silicon",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.52/OverCue_2.2.52_aarch64.dmg",
+      "sha256": "ab462c0c12eddf93ce405604f6f82cbe9442aac06d971bfb26446d1a305fc721",
+      "version": "2.2.52",
+      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.52"
+    },
+    {
+      "platform": "macos",
+      "label": "macOS Intel",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.52/OverCue_2.2.52_x86_64.dmg",
+      "sha256": "36ba3d27901b82bf898d405c0de369088a372d713b6354d03ad0ffde7dcfa49f",
+      "version": "2.2.52",
+      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.52"
     }
   ]
 }
