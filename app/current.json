@@ -4,19 +4,11 @@
     "sha256": "8dd20a51aebbee3095ec3b65072eac3eeed53a3561ebd5a5b0a5dc936684efc9",
     "firmware": "0.14.3"
   },
-  "version": "2.2.52",
-  "published": "2026-11-09T21:47:29Z",
-  "notes": "# OverCue Desktop 2.2.52 for Mac\n\n- Maintenance release with no changes to the Mac app.\n",
-  "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.52",
+  "version": "2.2.53",
+  "published": "2026-11-09T21:53:36Z",
+  "notes": "# OverCue Desktop 2.2.53 for Windows\n\n- NVIDIA acceleration no longer downloads again after every app update. The NVIDIA component (about 1.7 GB) is now kept across updates and only downloads again when its libraries or the stems model change. Updating to this version downloads it one more time, then removes the older copy.\n",
+  "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.53",
   "artifacts": [
-    {
-      "platform": "windows",
-      "label": "Windows installer x64",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.51/OverCue_2.2.51_x64-setup.exe",
-      "sha256": "01e665b4e9f03db83e12533d7ed347ba80ee454aee94f4433acd87eb15066f95",
-      "version": "2.2.51",
-      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.51"
-    },
     {
       "platform": "macos",
       "label": "macOS Apple silicon",
@@ -32,6 +24,14 @@
       "sha256": "36ba3d27901b82bf898d405c0de369088a372d713b6354d03ad0ffde7dcfa49f",
       "version": "2.2.52",
       "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.52"
+    },
+    {
+      "platform": "windows",
+      "label": "Windows installer x64",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.53/OverCue_2.2.53_x64-setup.exe",
+      "sha256": "b4608ecb6cc093114c15af19db54a9cd5c6960b93752be1eb65168268789de55",
+      "version": "2.2.53",
+      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.53"
     }
   ]
 }
