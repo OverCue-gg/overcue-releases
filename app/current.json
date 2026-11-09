@@ -4,27 +4,11 @@
     "sha256": "8dd20a51aebbee3095ec3b65072eac3eeed53a3561ebd5a5b0a5dc936684efc9",
     "firmware": "0.14.3"
   },
-  "version": "2.2.49",
-  "published": "2026-11-09T00:48:52Z",
-  "notes": "# OverCue Desktop 2.2.49 for Windows\n\n- Normalize volume no longer refuses loud MP3s that clip when decoded with \"Rendered MP3 samples did not preserve constant gain\". The check that proves only the volume changed was stricter than the decoder's own rounding at most gain settings. It still catches any real level error.\n- Normalize volume now accepts MP3s whose audio checksum was left out of date by an earlier gain tool such as MP3Gain (\"invalid LAME music CRC\"). The checksum is rewritten to match.\n- Normalize volume now accepts MP3s made by encoders other than LAME and FFmpeg, which failed with \"unknown Xing encoder extension\". Their encoder information is kept unchanged.\n- Support reports now always include the library files from your USB, even when no USB was opened in OverCue yet. They also include the file layout, tags and rekordbox analysis of tracks that failed processing, so we can see why without asking you for the files. Music, artwork and stems are never included. The Send screen lists exactly what is sent.\n- Support reports wait longer for Windows hardware details, which were sometimes missing, including the graphics card.\n",
-  "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.49",
+  "version": "2.2.50",
+  "published": "2026-11-09T18:17:53Z",
+  "notes": "# OverCue Desktop 2.2.50 for Mac\n\n- Realign stems no longer fails on MP3s whose stems were prepared without trouble: tracks with an APE tag, a damaged frame or a length header one frame off (\"malformed stream\", \"Truncated audio\"), and 48 kHz MP3s (\"Source sample rate changed; regenerate\"). Click Realign stems again after updating.\n- Support reports now take library files from the USB where processing last failed, instead of whichever USB happened to be selected, and briefly summarize any other connected USB where processing failed. Failing MP3 samples also record how many frames the file holds.\n",
+  "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.50",
   "artifacts": [
-    {
-      "platform": "macos",
-      "label": "macOS Apple silicon",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.48/OverCue_2.2.48_aarch64.dmg",
-      "sha256": "74bce4988218a8ac067049d8ffbe456e371957b95b77320f773b3c0697a53f9d",
-      "version": "2.2.48",
-      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.48"
-    },
-    {
-      "platform": "macos",
-      "label": "macOS Intel",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.48/OverCue_2.2.48_x86_64.dmg",
-      "sha256": "03a0973259477afefdb0d05e4b2b3e97a6c0d6f0b6deaa0d45f2e7a6e2d9784c",
-      "version": "2.2.48",
-      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.48"
-    },
     {
       "platform": "windows",
       "label": "Windows installer x64",
@@ -32,6 +16,22 @@
       "sha256": "69c2ae229e2f2dac1411a4e20891140ea199b4bb03e9a21f842f00029740c366",
       "version": "2.2.49",
       "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.49"
+    },
+    {
+      "platform": "macos",
+      "label": "macOS Apple silicon",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.50/OverCue_2.2.50_aarch64.dmg",
+      "sha256": "ddacd603622db761ed7b9c6843d988f4063b7b3d0eaaa4f1dca7f308b83fc830",
+      "version": "2.2.50",
+      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.50"
+    },
+    {
+      "platform": "macos",
+      "label": "macOS Intel",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.50/OverCue_2.2.50_x86_64.dmg",
+      "sha256": "4cf608a96d46bd47b5a0a83ce8e62ca1ffc22b9b9baace812a4034d85d0793fc",
+      "version": "2.2.50",
+      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.50"
     }
   ]
 }
