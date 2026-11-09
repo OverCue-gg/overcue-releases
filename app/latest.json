@@ -1,15 +1,15 @@
 {
-  "version": "2.2.46",
-  "notes": "# OverCue Desktop 2.2.46 for Mac\n\n- A separation server address entered without `http://` (for example `192.168.1.20:8420`) now works. Previously stem preparation failed with \"Bad URL: failed to parse URL: RelativeUrlWithoutBase\". To use the built-in engine instead, leave the Separation server address in Settings empty.\n- Normalize volume now supports MP3s with an APEv2 tag, which failed with \"APEv2-tagged MP3 is unsupported\". These tags are common after MP3Gain or foobar2000. Existing ReplayGain and MP3Gain values in the tag are removed so they can't apply stale gain on top of the new level. Other tag items are kept, and the file size stays the same.\n",
-  "pub_date": "2026-11-06T19:03:36.298951+00:00",
+  "version": "2.2.48",
+  "notes": "# OverCue Desktop 2.2.48 for Mac\n\n- Normalize volume no longer refuses loud MP3s that clip when decoded with \"Rendered MP3 samples did not preserve constant gain\". The check that proves only the volume changed was stricter than the decoder's own rounding at most gain settings. It still catches any real level error.\n- Normalize volume now accepts MP3s whose audio checksum was left out of date by an earlier gain tool such as MP3Gain (\"invalid LAME music CRC\"). The checksum is rewritten to match.\n- Normalize volume now accepts MP3s made by encoders other than LAME and FFmpeg, which failed with \"unknown Xing encoder extension\". Their encoder information is kept unchanged.\n- Support reports now always include the library files from your USB, even when no USB was opened in OverCue yet. They also include the file layout, tags and rekordbox analysis of tracks that failed processing, so we can see why without asking you for the files. Music, artwork and stems are never included. The Send screen lists exactly what is sent.\n",
+  "pub_date": "2026-11-09T00:18:28.474870+00:00",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHdRSlgzRUcwcktCcDJzWld3ajZEbU82UWZ2SWorZEJZMWRacllpM1lhcXR2bGdqK3RLNGluczhoZHN5MTQwRjE4TU9vUnJucDI3NWIzVjRweXpQbmtGV1FuVk5EUGdVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzOTkxNjg2CWZpbGU6T3ZlckN1ZSBEZXNrdG9wLmFwcC50YXIuZ3oKU3M1dkdidkVhQlZNL3hwTmFNa2xQdUY3TVorcU9ERkMzNVZVeCt0YlJxZjFDeEtPSmxmVFp1VkFlSFZpUHlsMndXWWo3THgyekx1K1RKbHJDRTh5Q3c9PQo=",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.46/OverCue_2.2.46_aarch64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHdRSlgzRUcwck1wcW5jN0EvMTNRRU1jSXVTSDB2b1pMQUFnc3ZvQk81RnI5SkxhbDJ2VXVmaHdrSWlqY0o4MDR2TkZlS3RBNHVpY2M5UUo5RE1qcjhiSkJzcDdLTmc0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MTgzMzgyCWZpbGU6T3ZlckN1ZSBEZXNrdG9wLmFwcC50YXIuZ3oKZnJOcFBXNTBTYmMrdU1iMlVyckZ3RXltZGcrY2VMeXRRdE54UE5hQkhnK2R6cmNWd1hZWUJqcUtoWTRBVzFabFR4YVd4TU9qQzhmRmtUem5HVzJzQ1E9PQo=",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.48/OverCue_2.2.48_aarch64.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHdRSlgzRUcwck0rRlhsaEpobU5SZjZZK1JiZ0FWRTk0emdxQUlQb3QydXhZeUJzN09FSEZDVGUzanRoYm45bitOeU1OL0ZNVnl1UjRDcGQ5eDlpM3F3WUU5bWJZS3c0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzOTkxODE0CWZpbGU6T3ZlckN1ZSBEZXNrdG9wLmFwcC50YXIuZ3oKK2FLNWN5Zmx5QXJ3Q3FEY1JUSEZPTnRkUFNncTk0T1lOUGFHcXRIRG5Rdy9jUGd1c09Db09SNEtkTGtMWjRDLyt5cnV3dGlQSVd2QzBsQVRCeFJIQVE9PQo=",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.46/OverCue_2.2.46_x86_64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHdRSlgzRUcwckRhbFdTc3FkeDdiUU41b2VhVmRtU2ZsbVhMTUdXcDkxMmNEL3V4ZG53SEJuQlIwNDZlMUptN1RtZU42OWRJYmpTOUcvSENMVk5sNGEvRmFsOGlLNUF3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MTgzNTA2CWZpbGU6T3ZlckN1ZSBEZXNrdG9wLmFwcC50YXIuZ3oKTGxzWmh4Y2g3c20wK1JRZmVmODJpMHRtQWRUbkZpWFkxZmIzeGZyeUtZbHM5YUh4UGtReU9yUW8xMVlxRENuSE41WU5OOUZ3OWhEL2Q0SWZBZnNOQ3c9PQo=",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.48/OverCue_2.2.48_x86_64.app.tar.gz"
     }
   }
 }
