@@ -4,19 +4,11 @@
     "sha256": "8dd20a51aebbee3095ec3b65072eac3eeed53a3561ebd5a5b0a5dc936684efc9",
     "firmware": "0.14.3"
   },
-  "version": "2.2.48",
-  "published": "2026-11-09T00:38:28Z",
-  "notes": "# OverCue Desktop 2.2.48 for Mac\n\n- Normalize volume no longer refuses loud MP3s that clip when decoded with \"Rendered MP3 samples did not preserve constant gain\". The check that proves only the volume changed was stricter than the decoder's own rounding at most gain settings. It still catches any real level error.\n- Normalize volume now accepts MP3s whose audio checksum was left out of date by an earlier gain tool such as MP3Gain (\"invalid LAME music CRC\"). The checksum is rewritten to match.\n- Normalize volume now accepts MP3s made by encoders other than LAME and FFmpeg, which failed with \"unknown Xing encoder extension\". Their encoder information is kept unchanged.\n- Support reports now always include the library files from your USB, even when no USB was opened in OverCue yet. They also include the file layout, tags and rekordbox analysis of tracks that failed processing, so we can see why without asking you for the files. Music, artwork and stems are never included. The Send screen lists exactly what is sent.\n",
-  "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.48",
+  "version": "2.2.49",
+  "published": "2026-11-09T00:48:52Z",
+  "notes": "# OverCue Desktop 2.2.49 for Windows\n\n- Normalize volume no longer refuses loud MP3s that clip when decoded with \"Rendered MP3 samples did not preserve constant gain\". The check that proves only the volume changed was stricter than the decoder's own rounding at most gain settings. It still catches any real level error.\n- Normalize volume now accepts MP3s whose audio checksum was left out of date by an earlier gain tool such as MP3Gain (\"invalid LAME music CRC\"). The checksum is rewritten to match.\n- Normalize volume now accepts MP3s made by encoders other than LAME and FFmpeg, which failed with \"unknown Xing encoder extension\". Their encoder information is kept unchanged.\n- Support reports now always include the library files from your USB, even when no USB was opened in OverCue yet. They also include the file layout, tags and rekordbox analysis of tracks that failed processing, so we can see why without asking you for the files. Music, artwork and stems are never included. The Send screen lists exactly what is sent.\n- Support reports wait longer for Windows hardware details, which were sometimes missing, including the graphics card.\n",
+  "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.49",
   "artifacts": [
-    {
-      "platform": "windows",
-      "label": "Windows installer x64",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.47/OverCue_2.2.47_x64-setup.exe",
-      "sha256": "c95b1f0ba9671cb15c9bf390407bb6145b3289a3122d2b9235885deee9ab42e7",
-      "version": "2.2.47",
-      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.47"
-    },
     {
       "platform": "macos",
       "label": "macOS Apple silicon",
@@ -32,6 +24,14 @@
       "sha256": "03a0973259477afefdb0d05e4b2b3e97a6c0d6f0b6deaa0d45f2e7a6e2d9784c",
       "version": "2.2.48",
       "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.48"
+    },
+    {
+      "platform": "windows",
+      "label": "Windows installer x64",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.49/OverCue_2.2.49_x64-setup.exe",
+      "sha256": "69c2ae229e2f2dac1411a4e20891140ea199b4bb03e9a21f842f00029740c366",
+      "version": "2.2.49",
+      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.49"
     }
   ]
 }
