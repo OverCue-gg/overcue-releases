@@ -1,22 +1,22 @@
 {
-  "version": "fw-v0.14.3",
+  "version": "fw-v0.14.4",
   "channel": "stable",
-  "published": "2026-11-07T01:16:33Z",
+  "published": "2026-11-09T22:28:05Z",
   "minAppVersion": "2.2.0",
-  "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/fw-v0.14.3",
-  "notes": "- Fix intermittent Beat Sync drift when receiving timing data from other linked players.\n- Restore V10 Stems EQ control automatically after a temporary connection or readiness interruption, without requiring EQ to be enabled again. Explicit OFF and manual takeover remain respected.\n",
+  "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/fw-v0.14.4",
+  "notes": "- Fix playback continuing after releasing overlapping Hot Cues when one is a saved loop and Gate Cue is enabled. The track now stops after the final pad is released, in either release order.\n",
   "artifacts": [
     {
       "product": "CDJ-3000",
       "family": "RK3399 + R8A7796",
       "kind": "install",
       "mode": "persistent",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/fw-v0.14.3/OverCue-fw-v0.14.3-install.UPD",
-      "sha256": "be39c6a52b2393d63fd909bb70b8d2e0a29906cbc8f75aa4341d1f18dd24e397",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/fw-v0.14.4/OverCue-fw-v0.14.4-install.UPD",
+      "sha256": "2078e58d06e4787c32360c6dd88a35f398b14ef8715d5feed07d2ff8e2ff5bc5",
       "bytes": 9883663,
       "archive": {
-        "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/fw-v0.14.3/OverCue-fw-v0.14.3-install.zip",
-        "sha256": "58a231952379dd9e9a549505bf4b68d11670714bace046e52b2eea47805d762e",
+        "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/fw-v0.14.4/OverCue-fw-v0.14.4-install.zip",
+        "sha256": "38e00fd159cb45681c8f3b7cab59ed9e05deb7045aeb5a02b6fb7aa73a947dae",
         "entry": "CDJ3Kv000.UPD"
       }
     },
@@ -25,12 +25,12 @@
       "family": "RK3399 + R8A7796",
       "kind": "uninstall",
       "mode": "persistent",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/fw-v0.14.3/OverCue-fw-v0.14.3-uninstall.UPD",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/fw-v0.14.4/OverCue-fw-v0.14.4-uninstall.UPD",
       "sha256": "4d33e38230c9eaa05e9834edb2295a9a4f0abade7a83a55fa8103222f5243258",
       "bytes": 9367567,
       "archive": {
-        "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/fw-v0.14.3/OverCue-fw-v0.14.3-uninstall.zip",
-        "sha256": "ad1f0d4097e1d4253fbf58b33892773c04253f0a3bcb022a80308610a7c3e1e4",
+        "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/fw-v0.14.4/OverCue-fw-v0.14.4-uninstall.zip",
+        "sha256": "175891a0b2c992d97b8c32517ae3213577481983f5dd2e0aabb278cd7678c4c1",
         "entry": "CDJ3Kv000.UPD"
       }
     }
