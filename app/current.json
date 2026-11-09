@@ -4,19 +4,11 @@
     "sha256": "8dd20a51aebbee3095ec3b65072eac3eeed53a3561ebd5a5b0a5dc936684efc9",
     "firmware": "0.14.3"
   },
-  "version": "2.2.50",
-  "published": "2026-11-09T18:17:53Z",
-  "notes": "# OverCue Desktop 2.2.50 for Mac\n\n- Realign stems no longer fails on MP3s whose stems were prepared without trouble: tracks with an APE tag, a damaged frame or a length header one frame off (\"malformed stream\", \"Truncated audio\"), and 48 kHz MP3s (\"Source sample rate changed; regenerate\"). Click Realign stems again after updating.\n- Support reports now take library files from the USB where processing last failed, instead of whichever USB happened to be selected, and briefly summarize any other connected USB where processing failed. Failing MP3 samples also record how many frames the file holds.\n",
-  "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.50",
+  "version": "2.2.51",
+  "published": "2026-11-09T18:24:57Z",
+  "notes": "# OverCue Desktop 2.2.51 for Windows\n\n- Realign stems no longer fails on MP3s whose stems were prepared without trouble: tracks with an APE tag, a damaged frame or a length header one frame off (\"malformed stream\", \"Truncated audio\"), and 48 kHz MP3s (\"Source sample rate changed; regenerate\"). Click Realign stems again after updating.\n- Support reports now take library files from the USB where processing last failed, instead of whichever USB happened to be selected, and briefly summarize any other connected USB where processing failed. Failing MP3 samples also record how many frames the file holds.\n",
+  "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.51",
   "artifacts": [
-    {
-      "platform": "windows",
-      "label": "Windows installer x64",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.49/OverCue_2.2.49_x64-setup.exe",
-      "sha256": "69c2ae229e2f2dac1411a4e20891140ea199b4bb03e9a21f842f00029740c366",
-      "version": "2.2.49",
-      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.49"
-    },
     {
       "platform": "macos",
       "label": "macOS Apple silicon",
@@ -32,6 +24,14 @@
       "sha256": "4cf608a96d46bd47b5a0a83ce8e62ca1ffc22b9b9baace812a4034d85d0793fc",
       "version": "2.2.50",
       "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.50"
+    },
+    {
+      "platform": "windows",
+      "label": "Windows installer x64",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.51/OverCue_2.2.51_x64-setup.exe",
+      "sha256": "01e665b4e9f03db83e12533d7ed347ba80ee454aee94f4433acd87eb15066f95",
+      "version": "2.2.51",
+      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.51"
     }
   ]
 }

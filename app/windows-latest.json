@@ -1,11 +1,11 @@
 {
-  "version": "2.2.49",
-  "notes": "# OverCue Desktop 2.2.49 for Windows\n\n- Normalize volume no longer refuses loud MP3s that clip when decoded with \"Rendered MP3 samples did not preserve constant gain\". The check that proves only the volume changed was stricter than the decoder's own rounding at most gain settings. It still catches any real level error.\n- Normalize volume now accepts MP3s whose audio checksum was left out of date by an earlier gain tool such as MP3Gain (\"invalid LAME music CRC\"). The checksum is rewritten to match.\n- Normalize volume now accepts MP3s made by encoders other than LAME and FFmpeg, which failed with \"unknown Xing encoder extension\". Their encoder information is kept unchanged.\n- Support reports now always include the library files from your USB, even when no USB was opened in OverCue yet. They also include the file layout, tags and rekordbox analysis of tracks that failed processing, so we can see why without asking you for the files. Music, artwork and stems are never included. The Send screen lists exactly what is sent.\n- Support reports wait longer for Windows hardware details, which were sometimes missing, including the graphics card.\n",
-  "pub_date": "2026-11-09T00:36:16.547946+00:00",
+  "version": "2.2.51",
+  "notes": "# OverCue Desktop 2.2.51 for Windows\n\n- Realign stems no longer fails on MP3s whose stems were prepared without trouble: tracks with an APE tag, a damaged frame or a length header one frame off (\"malformed stream\", \"Truncated audio\"), and 48 kHz MP3s (\"Source sample rate changed; regenerate\"). Click Realign stems again after updating.\n- Support reports now take library files from the USB where processing last failed, instead of whichever USB happened to be selected, and briefly summarize any other connected USB where processing failed. Failing MP3 samples also record how many frames the file holds.\n",
+  "pub_date": "2026-11-09T18:09:07.891966+00:00",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHdRSlgzRUcwcklmWjhFWjFGdVZ6Y0tlUjZwL3J1L2h2WXloRHVYUHM4N2MvVnplYzd4VVpGNkhsVkFQWUNqKzhieFJ4UC9oZ3pwWFcwTkhyZ3pzbEZvb3RqTHFHSGd3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MTg0NTczCWZpbGU6T3ZlckN1ZSBEZXNrdG9wXzIuMi40OV94NjQtc2V0dXAuZXhlCjlhRVB5WG1pQlBsYUNTeXh4QXY4dVFEZm44TXc1VUc4a3RETzRPaVU1TTMzWjlLSE12cW5rT3ZCRWR3UGo5anoyR2lWeVlyYlhScnpTcithU1hHNERnPT0K",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.49/OverCue_2.2.49_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHdRSlgzRUcwcktlOXBvb05XTXBDenVacEJ0VG1kQ2R3SnR2ek9tS2RvajQybXF6RzRzMy9jVXZ1dkZhUS9GOHFlZGdOSUZ5bGUzZVJEem9xNFBJKzJjR3dKdWNuRUFZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MjQ3NzQ1CWZpbGU6T3ZlckN1ZSBEZXNrdG9wXzIuMi41MV94NjQtc2V0dXAuZXhlCnNIMVVUT05UVlR3MmlzNEZ2SWl2OXRpT1hrNDhGNEQxOTdzNnZtbG1xNElwNGFmTEh4V1FycENwN05LN0cvSGJCZWxuZDZpTllaYkcwZFZhdW9Mb0RnPT0K",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.51/OverCue_2.2.51_x64-setup.exe"
     }
   }
 }
