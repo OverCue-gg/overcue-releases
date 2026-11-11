@@ -1,11 +1,11 @@
 {
-  "version": "2.2.53",
-  "notes": "# OverCue Desktop 2.2.53 for Windows\n\n- NVIDIA acceleration no longer downloads again after every app update. The NVIDIA component (about 1.7 GB) is now kept across updates and only downloads again when its libraries or the stems model change. Updating to this version downloads it one more time, then removes the older copy.\n",
-  "pub_date": "2026-11-09T21:41:05.250040+00:00",
+  "version": "2.2.55",
+  "notes": "# OverCue Desktop 2.2.55 for Windows\n\n- Stem processing no longer stops with \"ran out of memory it can commit\" on PCs where Windows can still grow its paging file. OverCue now counts that growth when it decides how many tracks to process at once.\n- OverCue checks that Windows can provide the roughly 10 GB the stem model needs before loading it. If it can't, you get a clear message instead of a stop a second after processing starts. That message, and the out-of-memory message, now also suggest freeing space on the drive that holds the paging file.\n- Support reports now include Windows memory details, so memory problems can be diagnosed faster.\n- USB sticks prepared with older versions of OverCue are easier to bring up to date:\n  - A new notice lists tracks whose stems use the older, larger format. **Repack existing stems** converts them to FLAC without processing them again, saving about two thirds of their space. Every player needs OverCue firmware 0.10.0 or newer to play FLAC stems.\n  - **Realign stems** now also converts those tracks to FLAC in the same step, so they no longer need repacking afterwards.\n  - The notice for tracks that need regeneration now has its own **Regenerate** button.\n- **Remove unused files** can no longer be clicked while the stems index is being updated.\n- Notices now use the singular for a single track, and every notice's close button is translated.\n",
+  "pub_date": "2026-11-11T22:21:22.149877+00:00",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHdRSlgzRUcwck1VM1Y3di8wanlDRHoxS1ZYOEJzRXY0Qm03T3lpMWQrc1BJU2Q2TWFBQldwczFGK2svUUlRMXdza2JvQ2RmalhxMGFhWmdjb0Vvbnl5RlByM1k0THdFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MjYwNDYyCWZpbGU6T3ZlckN1ZSBEZXNrdG9wXzIuMi41M194NjQtc2V0dXAuZXhlCjkxSmxzb2Zyb1Yxemdqd1Y4NkVMYUh4ejhpbGJuQmFPRXdCbGt0Sk4xR3RWRFhTUzdKbVAzVzkzenJ5Wk5QZENIbkNvbjcrYm1ocEhGbXpCd0g4N0JRPT0K",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.53/OverCue_2.2.53_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHdRSlgzRUcwckRSSXg0cW9YalFLWUdsbDhzeFk4TG02Wm1waWdWVUkzTm5qYjNrcjVybGk4ZkNmSmhaSHhTb3hMVGRoMUhqeFhQcEdtL0FVdC92ZnFFVUwvYk5nTWdjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NDM1Njc5CWZpbGU6T3ZlckN1ZSBEZXNrdG9wXzIuMi41NV94NjQtc2V0dXAuZXhlCndFQlR2dDhJZmVMcGVqNzF3VXlCQWk1YmI2eVdtRmZ6bnhaRFZKQTRBdEl0VWVQYXFQZWd2d08wZUVORmUrdTZQYUlsR05vZHVWTHY5Nmw0eWhKN0NnPT0K",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.55/OverCue_2.2.55_x64-setup.exe"
     }
   }
 }
