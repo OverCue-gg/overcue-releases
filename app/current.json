@@ -4,27 +4,11 @@
     "sha256": "d0fbe8b957e968f8c33f479dc1d5162f1c5a97025e8c236f30b552bbbfd5f48d",
     "firmware": "0.14.4"
   },
-  "version": "2.2.53",
-  "published": "2026-11-09T21:53:36Z",
-  "notes": "# OverCue Desktop 2.2.53 for Windows\n\n- NVIDIA acceleration no longer downloads again after every app update. The NVIDIA component (about 1.7 GB) is now kept across updates and only downloads again when its libraries or the stems model change. Updating to this version downloads it one more time, then removes the older copy.\n",
-  "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.53",
+  "version": "2.2.54",
+  "published": "2026-11-11T22:27:52Z",
+  "notes": "# OverCue Desktop 2.2.54 for Mac\n\n- If an app update fails because OverCue is running from its disk image or another read-only location, it now tells you to move OverCue to your Applications folder and update from there, instead of showing a \"Read-only file system\" error.\n- USB sticks prepared with older versions of OverCue are easier to bring up to date:\n  - A new notice lists tracks whose stems use the older, larger format. **Repack existing stems** converts them to FLAC without processing them again, saving about two thirds of their space. Every player needs OverCue firmware 0.10.0 or newer to play FLAC stems.\n  - **Realign stems** now also converts those tracks to FLAC in the same step, so they no longer need repacking afterwards.\n  - The notice for tracks that need regeneration now has its own **Regenerate** button.\n- **Remove unused files** can no longer be clicked while the stems index is being updated.\n- Notices now use the singular for a single track, and every notice's close button is translated.\n",
+  "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.54",
   "artifacts": [
-    {
-      "platform": "macos",
-      "label": "macOS Apple silicon",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.52/OverCue_2.2.52_aarch64.dmg",
-      "sha256": "ab462c0c12eddf93ce405604f6f82cbe9442aac06d971bfb26446d1a305fc721",
-      "version": "2.2.52",
-      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.52"
-    },
-    {
-      "platform": "macos",
-      "label": "macOS Intel",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.52/OverCue_2.2.52_x86_64.dmg",
-      "sha256": "36ba3d27901b82bf898d405c0de369088a372d713b6354d03ad0ffde7dcfa49f",
-      "version": "2.2.52",
-      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.52"
-    },
     {
       "platform": "windows",
       "label": "Windows installer x64",
@@ -32,6 +16,22 @@
       "sha256": "b4608ecb6cc093114c15af19db54a9cd5c6960b93752be1eb65168268789de55",
       "version": "2.2.53",
       "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.53"
+    },
+    {
+      "platform": "macos",
+      "label": "macOS Apple silicon",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.54/OverCue_2.2.54_aarch64.dmg",
+      "sha256": "0056dcf58cd14cd92b7eae57a79e8d60343c981a77a66e84d893273c628ced9e",
+      "version": "2.2.54",
+      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.54"
+    },
+    {
+      "platform": "macos",
+      "label": "macOS Intel",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.54/OverCue_2.2.54_x86_64.dmg",
+      "sha256": "e520ea27362366e3cca9a14e373a4c071921db4dd07d756467a55f970db23b51",
+      "version": "2.2.54",
+      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.54"
     }
   ]
 }
