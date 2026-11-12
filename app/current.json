@@ -4,19 +4,11 @@
     "sha256": "858c78831aa8340486bfba2a7e14f927bb2ffc1eeef1878039a52d31ae62fb9b",
     "firmware": "0.14.6"
   },
-  "version": "2.2.56",
-  "published": "2026-11-12T17:34:29Z",
-  "notes": "# OverCue Desktop 2.2.56 for Mac\n\n- Tracks whose stems were made by a separation server, or by another engine than the one selected now, show as **On USB** again instead of **Not processed**. Preparing them again kept their stems but left the label unchanged. To replace them with the selected engine, select the tracks and use **Regenerate**.\n- **Prepare stems** without Normalize volume now also keeps existing stems from another engine instead of processing those tracks again.\n",
-  "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.56",
+  "version": "2.2.57",
+  "published": "2026-11-12T17:43:25Z",
+  "notes": "# OverCue Desktop 2.2.57 for Windows\n\n- Tracks whose stems were made by a separation server, or by another engine than the one selected now, show as **On USB** again instead of **Not processed**. Preparing them again kept their stems but left the label unchanged. To replace them with the selected engine, select the tracks and use **Regenerate**.\n- **Prepare stems** without Normalize volume now also keeps existing stems from another engine instead of processing those tracks again.\n",
+  "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.57",
   "artifacts": [
-    {
-      "platform": "windows",
-      "label": "Windows installer x64",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.55/OverCue_2.2.55_x64-setup.exe",
-      "sha256": "0d9f454f6b893fe1018b634e96c0719a8aeca39ddab9806bc4577af845e03a5d",
-      "version": "2.2.55",
-      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.55"
-    },
     {
       "platform": "macos",
       "label": "macOS Apple silicon",
@@ -32,6 +24,14 @@
       "sha256": "be555b9894b1a2650511b9640a44ee2fe3e4a6ef150649a817bd58815cb55e25",
       "version": "2.2.56",
       "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.56"
+    },
+    {
+      "platform": "windows",
+      "label": "Windows installer x64",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.57/OverCue_2.2.57_x64-setup.exe",
+      "sha256": "cc2938b972a43f7b96f7f6648315a43f1905b42e9e73c845af4a59ebab95848f",
+      "version": "2.2.57",
+      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.57"
     }
   ]
 }
