@@ -4,27 +4,11 @@
     "sha256": "858c78831aa8340486bfba2a7e14f927bb2ffc1eeef1878039a52d31ae62fb9b",
     "firmware": "0.14.6"
   },
-  "version": "2.2.55",
-  "published": "2026-11-11T22:35:27Z",
-  "notes": "# OverCue Desktop 2.2.55 for Windows\n\n- Stem processing no longer stops with \"ran out of memory it can commit\" on PCs where Windows can still grow its paging file. OverCue now counts that growth when it decides how many tracks to process at once.\n- OverCue checks that Windows can provide the roughly 10 GB the stem model needs before loading it. If it can't, you get a clear message instead of a stop a second after processing starts. That message, and the out-of-memory message, now also suggest freeing space on the drive that holds the paging file.\n- Support reports now include Windows memory details, so memory problems can be diagnosed faster.\n- USB sticks prepared with older versions of OverCue are easier to bring up to date:\n  - A new notice lists tracks whose stems use the older, larger format. **Repack existing stems** converts them to FLAC without processing them again, saving about two thirds of their space. Every player needs OverCue firmware 0.10.0 or newer to play FLAC stems.\n  - **Realign stems** now also converts those tracks to FLAC in the same step, so they no longer need repacking afterwards.\n  - The notice for tracks that need regeneration now has its own **Regenerate** button.\n- **Remove unused files** can no longer be clicked while the stems index is being updated.\n- Notices now use the singular for a single track, and every notice's close button is translated.\n",
-  "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.55",
+  "version": "2.2.56",
+  "published": "2026-11-12T17:34:29Z",
+  "notes": "# OverCue Desktop 2.2.56 for Mac\n\n- Tracks whose stems were made by a separation server, or by another engine than the one selected now, show as **On USB** again instead of **Not processed**. Preparing them again kept their stems but left the label unchanged. To replace them with the selected engine, select the tracks and use **Regenerate**.\n- **Prepare stems** without Normalize volume now also keeps existing stems from another engine instead of processing those tracks again.\n",
+  "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.56",
   "artifacts": [
-    {
-      "platform": "macos",
-      "label": "macOS Apple silicon",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.54/OverCue_2.2.54_aarch64.dmg",
-      "sha256": "0056dcf58cd14cd92b7eae57a79e8d60343c981a77a66e84d893273c628ced9e",
-      "version": "2.2.54",
-      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.54"
-    },
-    {
-      "platform": "macos",
-      "label": "macOS Intel",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.54/OverCue_2.2.54_x86_64.dmg",
-      "sha256": "e520ea27362366e3cca9a14e373a4c071921db4dd07d756467a55f970db23b51",
-      "version": "2.2.54",
-      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.54"
-    },
     {
       "platform": "windows",
       "label": "Windows installer x64",
@@ -32,6 +16,22 @@
       "sha256": "0d9f454f6b893fe1018b634e96c0719a8aeca39ddab9806bc4577af845e03a5d",
       "version": "2.2.55",
       "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.55"
+    },
+    {
+      "platform": "macos",
+      "label": "macOS Apple silicon",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.56/OverCue_2.2.56_aarch64.dmg",
+      "sha256": "a4573744066d6f596bbbaeaa70d1c7ca502197b8baf7216a2c21ceb0a41b1032",
+      "version": "2.2.56",
+      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.56"
+    },
+    {
+      "platform": "macos",
+      "label": "macOS Intel",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.56/OverCue_2.2.56_x86_64.dmg",
+      "sha256": "be555b9894b1a2650511b9640a44ee2fe3e4a6ef150649a817bd58815cb55e25",
+      "version": "2.2.56",
+      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.56"
     }
   ]
 }
