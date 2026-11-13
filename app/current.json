@@ -1,8 +1,8 @@
 {
   "manual": {
-    "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/manual-cdj3000-0.14.6/OverCue-CDJ-3000-User-Manual.pdf",
-    "sha256": "858c78831aa8340486bfba2a7e14f927bb2ffc1eeef1878039a52d31ae62fb9b",
-    "firmware": "0.14.6"
+    "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/manual-cdj3000-0.14.7/OverCue-CDJ-3000-User-Manual.pdf",
+    "sha256": "588d929f69ee3cb5617b6358ff15d0944025f00a8d36efec23a059b87c1216f7",
+    "firmware": "0.14.7"
   },
   "version": "2.2.57",
   "published": "2026-11-12T17:43:25Z",
