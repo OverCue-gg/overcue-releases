@@ -1,22 +1,22 @@
 {
-  "version": "fw-v0.14.6",
+  "version": "fw-v0.14.7",
   "channel": "stable",
-  "published": "2026-11-12T01:12:21Z",
+  "published": "2026-11-13T19:08:04Z",
   "minAppVersion": "2.2.0",
-  "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/fw-v0.14.6",
-  "notes": "- Fix precision BPM mode reading just short of the tempo range at the ends of the tempo fader. At \u00b16, \u00b110 and \u00b116 the fader ends now give the full range, and whole BPM values just inside an end still catch.\n- Fix the stems \"S\" mark missing from tracks that have prepared stems when the USB's rekordbox libraries number the same track differently. Stems already prepared keep working; nothing needs to be separated again.\n- Show the stems \"S\" mark in the Load Previous Track list.\n- Fix Beat Jump during a held Gate Cue Hot Cue started from pause leaving the deck playing after the pad is released. Releasing the pad now returns to the Hot Cue, paused.\n- The held Hot Cue pad now flashes while Gate Cue is auditioning it, at the same rate as the flashing CUE button.\n",
+  "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/fw-v0.14.7",
+  "notes": "# OverCue firmware 0.14.7\n\n- Fix unwanted tempo-percentage changes when manually playing tracks with a variable beat grid.\n- Make prepared stems available before pressing PLAY, from USB/SD and linked sources.\n- Speed up iPhone stem transfers over Wi-Fi and improve waveform loading, including when stem processing finishes.\n- Make the master waveform displayed on other linked players respond to stem-volume changes for iPhone-provided tracks.\n- Keep more stem audio cached when memory allows, reducing reloading during beat jumps.\n- Report stem-audio, waveform and full-track cache readiness to compatible iPhone apps.\n",
   "artifacts": [
     {
       "product": "CDJ-3000",
       "family": "RK3399 + R8A7796",
       "kind": "install",
       "mode": "persistent",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/fw-v0.14.6/OverCue-fw-v0.14.6-install.UPD",
-      "sha256": "f9ee58703389e6ea7cd546986df75c888e6835686615815f90f515a98817e155",
-      "bytes": 10055695,
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/fw-v0.14.7/OverCue-fw-v0.14.7-install.UPD",
+      "sha256": "6731920d2a93ae540cc574735deb23abf907acfa67f478dd99f7a288bf7dd11b",
+      "bytes": 10129423,
       "archive": {
-        "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/fw-v0.14.6/OverCue-fw-v0.14.6-install.zip",
-        "sha256": "c1540bccae64a292e3ef45c7fc251d76d1cc2202dec258b4442781241242bcc7",
+        "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/fw-v0.14.7/OverCue-fw-v0.14.7-install.zip",
+        "sha256": "e7080ce4bcfb3e4e1d95c0b8655d71df173ee49c6136b402605dc146906e56df",
         "entry": "CDJ3Kv000.UPD"
       }
     },
@@ -25,12 +25,12 @@
       "family": "RK3399 + R8A7796",
       "kind": "uninstall",
       "mode": "persistent",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/fw-v0.14.6/OverCue-fw-v0.14.6-uninstall.UPD",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/fw-v0.14.7/OverCue-fw-v0.14.7-uninstall.UPD",
       "sha256": "4d33e38230c9eaa05e9834edb2295a9a4f0abade7a83a55fa8103222f5243258",
       "bytes": 9367567,
       "archive": {
-        "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/fw-v0.14.6/OverCue-fw-v0.14.6-uninstall.zip",
-        "sha256": "e894f8fab0fe1bfdd565cc39605058d274befbf319fc09093faa654e40ef9b63",
+        "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/fw-v0.14.7/OverCue-fw-v0.14.7-uninstall.zip",
+        "sha256": "bc15a009f08842b7240fbbbd4fa3de724967ed0e77ef38d5b1146ff63041625c",
         "entry": "CDJ3Kv000.UPD"
       }
     }
