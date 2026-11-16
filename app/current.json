@@ -4,27 +4,11 @@
     "sha256": "78c0f090de65fc8c16e93f1cae09d6f7baac6b0134a1d728f75068420422c65d",
     "firmware": "0.15.0"
   },
-  "version": "2.2.59",
-  "published": "2026-11-15T19:26:19Z",
-  "notes": "# OverCue Desktop 2.2.59 for Windows\n\n- New **Live Stems** section: your computer becomes a stems provider for CDJ-3000s running OverCue, just like the OverCue iPhone app. Connect the computer by Ethernet to the same switch or mixer hub as your players. When you press **ANALYZE STEMS** on a player, its USB track is separated on the computer, and the first stems reach the player within a few seconds.\n  - Choose **Fast** for stems sooner and lower memory use, or **Quality** for the cleanest separation.\n  - Players are found automatically, or you can add their IP addresses yourself.\n  - Separated tracks are saved so they're ready the next time they're loaded. You can limit or clear the saved stems at any time.\n  - Live Stems keeps the computer awake while it's on. It starts again the next time you open the app. Quit rekordbox on the same computer, because both apps use the same Pro DJ Link ports.\n  - Installing this update asks once for administrator permission so players can reach Live Stems on any network, including a direct cable connection. If you decline and Windows asks later, allow both private and public networks.\n- USB stems have a new **Separation model** setting in **Settings**. **Quality** stays the default. **Fast** finishes about twice as fast and needs much less memory, which helps on older computers or ones with 8 GB. Stems already on your USB stay as they are until you regenerate them.\n- **Realign stems** for MP3 tracks is several times faster, because it now works on several tracks at once.\n",
-  "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.59",
+  "version": "2.2.60",
+  "published": "2026-11-16T01:59:42Z",
+  "notes": "# OverCue Desktop 2.2.60 for Mac\n\n- Fixed **Live Stems** on Mac when players were found but their **STEMS** button stayed grey. OverCue Desktop now asks for Local Network access; choose **Allow**. If you declined earlier, turn on OverCue Desktop in **System Settings \u203a Privacy & Security \u203a Local Network**, then stop and start Live Stems.\n- Live Stems no longer shows players as connected until they answer. If they're found but can't hear the computer, the page says so and shows the steps to fix it.\n",
+  "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.60",
   "artifacts": [
-    {
-      "platform": "macos",
-      "label": "macOS Apple silicon",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.58/OverCue_2.2.58_aarch64.dmg",
-      "sha256": "7e8b8126f7dcdd1557dd6cbd949bcd6760af3438628d94b46721eec37c458d62",
-      "version": "2.2.58",
-      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.58"
-    },
-    {
-      "platform": "macos",
-      "label": "macOS Intel",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.58/OverCue_2.2.58_x86_64.dmg",
-      "sha256": "68d10eb7ebf883d6e250149611315bc1a180d6e63d54911925ad1ed24bf4962d",
-      "version": "2.2.58",
-      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.58"
-    },
     {
       "platform": "windows",
       "label": "Windows installer x64",
@@ -32,6 +16,22 @@
       "sha256": "b1aa60ad692eeddb174a8474627119b4a2057afc2997f40c8f920755916d113a",
       "version": "2.2.59",
       "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.59"
+    },
+    {
+      "platform": "macos",
+      "label": "macOS Apple silicon",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.60/OverCue_2.2.60_aarch64.dmg",
+      "sha256": "1a77e11a0efed666da9ae5b2c1edf199935a990a79883378829f8c80fb1133b8",
+      "version": "2.2.60",
+      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.60"
+    },
+    {
+      "platform": "macos",
+      "label": "macOS Intel",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.60/OverCue_2.2.60_x86_64.dmg",
+      "sha256": "9fa39e4f4f4a172c6e6daae2cde48ea92fffbf43c332995cc0cb5833cbba2436",
+      "version": "2.2.60",
+      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.60"
     }
   ]
 }
