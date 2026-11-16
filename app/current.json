@@ -4,19 +4,11 @@
     "sha256": "78c0f090de65fc8c16e93f1cae09d6f7baac6b0134a1d728f75068420422c65d",
     "firmware": "0.15.0"
   },
-  "version": "2.2.60",
-  "published": "2026-11-16T01:59:42Z",
-  "notes": "# OverCue Desktop 2.2.60 for Mac\n\n- Fixed **Live Stems** on Mac when players were found but their **STEMS** button stayed grey. OverCue Desktop now asks for Local Network access; choose **Allow**. If you declined earlier, turn on OverCue Desktop in **System Settings \u203a Privacy & Security \u203a Local Network**, then stop and start Live Stems.\n- Live Stems no longer shows players as connected until they answer. If they're found but can't hear the computer, the page says so and shows the steps to fix it.\n",
-  "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.60",
+  "version": "2.2.61",
+  "published": "2026-11-16T02:07:56Z",
+  "notes": "# OverCue Desktop 2.2.61 for Windows\n\n- Live Stems no longer shows players as connected until they answer. If they're found but can't hear the computer, the page says so and shows the Windows Firewall steps to fix it.\n- If no players appear, the Live Stems page now also points to the Windows Firewall setting that lets them through.\n",
+  "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.61",
   "artifacts": [
-    {
-      "platform": "windows",
-      "label": "Windows installer x64",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.59/OverCue_2.2.59_x64-setup.exe",
-      "sha256": "b1aa60ad692eeddb174a8474627119b4a2057afc2997f40c8f920755916d113a",
-      "version": "2.2.59",
-      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.59"
-    },
     {
       "platform": "macos",
       "label": "macOS Apple silicon",
@@ -32,6 +24,14 @@
       "sha256": "9fa39e4f4f4a172c6e6daae2cde48ea92fffbf43c332995cc0cb5833cbba2436",
       "version": "2.2.60",
       "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.60"
+    },
+    {
+      "platform": "windows",
+      "label": "Windows installer x64",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.61/OverCue_2.2.61_x64-setup.exe",
+      "sha256": "0ef30da826bc9fab78befe49409025ebbb4db766021a8f3ce161bd88a2513105",
+      "version": "2.2.61",
+      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.61"
     }
   ]
 }
