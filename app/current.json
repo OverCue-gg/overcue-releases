@@ -4,10 +4,10 @@
     "sha256": "78c0f090de65fc8c16e93f1cae09d6f7baac6b0134a1d728f75068420422c65d",
     "firmware": "0.15.0"
   },
-  "version": "2.2.62",
-  "published": "2026-11-17T14:50:48Z",
-  "notes": "# OverCue Desktop 2.2.62 for Mac\n\n- Clarified **Live Stems** recovery when players are found but still don\u2019t answer with **Local Network** access enabled: fully quit OverCue Desktop with **\u2318Q**, then reopen it once you no longer need Live Stems. Stopping and starting Live Stems alone may not restore the connection.\n",
-  "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.62",
+  "version": "2.2.63",
+  "published": "2026-11-17T15:49:53Z",
+  "notes": "# OverCue Desktop 2.2.63 for Mac\n\n- Fixed a rare **Live Stems** error that could report \u201cbank incomplete\u201d near the end of track processing.\n",
+  "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.63",
   "artifacts": [
     {
       "platform": "windows",
@@ -20,18 +20,18 @@
     {
       "platform": "macos",
       "label": "macOS Apple silicon",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.62/OverCue_2.2.62_aarch64.dmg",
-      "sha256": "f0d906822f644aec056bac2777df3e4cce5c36762c119eb79899efbbc64f9bae",
-      "version": "2.2.62",
-      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.62"
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.63/OverCue_2.2.63_aarch64.dmg",
+      "sha256": "9a7e66bdd75d74e714e9a2664a7c974d7027226d5d466e6a9bda5f7cf164d7a5",
+      "version": "2.2.63",
+      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.63"
     },
     {
       "platform": "macos",
       "label": "macOS Intel",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.62/OverCue_2.2.62_x86_64.dmg",
-      "sha256": "0f969f00fcd1aa67c65eb779ac19e0db22f62191e46ed7ba7471cb0564278a79",
-      "version": "2.2.62",
-      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.62"
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.63/OverCue_2.2.63_x86_64.dmg",
+      "sha256": "b2ed0f27764acdade6d9f88961e4d57a07aa5552bd5d058be90eebde2817e13f",
+      "version": "2.2.63",
+      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.63"
     }
   ]
 }

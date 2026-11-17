@@ -1,15 +1,15 @@
 {
-  "version": "2.2.62",
-  "notes": "# OverCue Desktop 2.2.62 for Mac\n\n- Clarified **Live Stems** recovery when players are found but still don\u2019t answer with **Local Network** access enabled: fully quit OverCue Desktop with **\u2318Q**, then reopen it once you no longer need Live Stems. Stopping and starting Live Stems alone may not restore the connection.\n",
-  "pub_date": "2026-11-17T14:47:38.529784+00:00",
+  "version": "2.2.63",
+  "notes": "# OverCue Desktop 2.2.63 for Mac\n\n- Fixed a rare **Live Stems** error that could report \u201cbank incomplete\u201d near the end of track processing.\n",
+  "pub_date": "2026-11-17T15:30:40.697610+00:00",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHdRSlgzRUcwckE2VGNwbEFkbE10VU9LMDArN0NGTExtWnpaMUhQKzU2cUk5OTNEamVOVXdSMHBRMHd3VFpqMHpMbDBTMzRZY203WXJkVktiRElnQmk0bEcvWWcrTmdBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0OTI2NjU4CWZpbGU6T3ZlckN1ZSBEZXNrdG9wLmFwcC50YXIuZ3oKKzNYQ1o0dUwwMm1RRjRoWG40TVF5b2d2OXc0OXpNaFNZYkp1VUx3Q0NWZWxFQWpPVkQ2dmxDdDRDR0ZweTBBZVdNTEgxSXVFdVNOaWdBQ3hkZVNPQUE9PQo=",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.62/OverCue_2.2.62_aarch64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHdRSlgzRUcwckhlRzc1aUpSa0swWVp0ZTUya2NhakxaWU5LdGU2ZVhYOURGa25YVWZOWEowaWZ5V1hEVndJdE1pSzROZ1gvR3MvaEFDcXgzTEh4ZWpvM0lOc3krUkE4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0OTI5MjY4CWZpbGU6T3ZlckN1ZSBEZXNrdG9wLmFwcC50YXIuZ3oKb1pIdjZsMzNNTWVTRUl2RXJJZERBRm1LRDNkNXNWMFFQa1VLNi9CYnZMeC8rYk9vV2xRRHNZbHVEazNJVm80MXRNLzltRTdJcEIyVnlVUENMVFdzQlE9PQo=",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.63/OverCue_2.2.63_aarch64.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHdRSlgzRUcwck8xODZJejZ2bDhZQTBWMFgyTWRYNDAzY09xOHVOVmkzRXU5VmZkMEhzNkZ1WWpjdmpsUVVNRkZlQTM5eW01bVFiVXFlcGpIV2tHUGJnc3ZaYmQ0TUFnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0OTI2ODU2CWZpbGU6T3ZlckN1ZSBEZXNrdG9wLmFwcC50YXIuZ3oKa2xQV09uK2paUFNjcDFqbjc5Zng5TnFHaDNqbmdEZFJtQ0RPU3lEdGJhaklhcS81ck9vNGdyMkhJRFRMVXI3aDk5OWpLdlhNT0FocHovZWhWSUV6QlE9PQo=",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.62/OverCue_2.2.62_x86_64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHdRSlgzRUcwckx6Y2dOM1FDM2ZyY1luVklVYlBPWGdUd3dXM1lERThIQzFnMU1ydFNaM0V1ZUF1MFJpVzBUU1EwRStVODk1WXRXUC9kTDRHTHBYOG9Kcys3b1I4WFFNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0OTI5NDM5CWZpbGU6T3ZlckN1ZSBEZXNrdG9wLmFwcC50YXIuZ3oKamdFRFV0TzBqVUFrR1hEc0pxbGJlNDFvYjY3LzVsZUNyNUJrMTJieGRDVXU3TFR1UWlxRk9hcmR2dU5oOFFYNUEyQU1jYndaVzM0ckxKYS9jeE5YRGc9PQo=",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.63/OverCue_2.2.63_x86_64.app.tar.gz"
     }
   }
 }
