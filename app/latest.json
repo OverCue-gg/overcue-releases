@@ -1,15 +1,15 @@
 {
-  "version": "2.2.60",
-  "notes": "# OverCue Desktop 2.2.60 for Mac\n\n- Fixed **Live Stems** on Mac when players were found but their **STEMS** button stayed grey. OverCue Desktop now asks for Local Network access; choose **Allow**. If you declined earlier, turn on OverCue Desktop in **System Settings \u203a Privacy & Security \u203a Local Network**, then stop and start Live Stems.\n- Live Stems no longer shows players as connected until they answer. If they're found but can't hear the computer, the page says so and shows the steps to fix it.\n",
-  "pub_date": "2026-11-16T01:02:20.771646+00:00",
+  "version": "2.2.62",
+  "notes": "# OverCue Desktop 2.2.62 for Mac\n\n- Clarified **Live Stems** recovery when players are found but still don\u2019t answer with **Local Network** access enabled: fully quit OverCue Desktop with **\u2318Q**, then reopen it once you no longer need Live Stems. Stopping and starting Live Stems alone may not restore the connection.\n",
+  "pub_date": "2026-11-17T14:47:38.529784+00:00",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHdRSlgzRUcwck1mb294ZHBLWklYNkE1azNLS3V6a05ZYVBxeHZBVDVBNjdvYVNnZ0N4T2VMKzBYaWprYmkrUHNIWFdaMWZsaXZZSUpMbHdMNmdMUDFoV2VnM1NkUHdVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NzkwNzg0CWZpbGU6T3ZlckN1ZSBEZXNrdG9wLmFwcC50YXIuZ3oKUyttc1dERjdId3hUaGFndzN2MW1JVWt3Qi9nRkpNTVVRUDBnODJ5dFN3RzBkZFl5dFg4Y0ppS3I2WEVYbzVtRXdxTkYreDIybUI2OU1Kc3RTV2ZmQWc9PQo=",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.60/OverCue_2.2.60_aarch64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHdRSlgzRUcwckE2VGNwbEFkbE10VU9LMDArN0NGTExtWnpaMUhQKzU2cUk5OTNEamVOVXdSMHBRMHd3VFpqMHpMbDBTMzRZY203WXJkVktiRElnQmk0bEcvWWcrTmdBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0OTI2NjU4CWZpbGU6T3ZlckN1ZSBEZXNrdG9wLmFwcC50YXIuZ3oKKzNYQ1o0dUwwMm1RRjRoWG40TVF5b2d2OXc0OXpNaFNZYkp1VUx3Q0NWZWxFQWpPVkQ2dmxDdDRDR0ZweTBBZVdNTEgxSXVFdVNOaWdBQ3hkZVNPQUE9PQo=",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.62/OverCue_2.2.62_aarch64.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHdRSlgzRUcwcklMQ1NYSWk2UXBFYzA4OVJ5TkhCWVYvMmFQS1lBVy9nd09pNmFiNlZqSGxicklNQkN6bTFWdEZCM25TWlhDOGQrNFVDYktaOVNFWm9lanR3U1dzUXc0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NzkwOTM5CWZpbGU6T3ZlckN1ZSBEZXNrdG9wLmFwcC50YXIuZ3oKTmJZU0NHZmVzTXhKYWNDRElFT0JqM2tlQStxNXBkNHZudjVsamh3dnRsSUFhMHNDdUxKMWo2cVlmTXIvTVZBU0piU00xRFpodlFxTmt1bHJoUStoREE9PQo=",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.60/OverCue_2.2.60_x86_64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHdRSlgzRUcwck8xODZJejZ2bDhZQTBWMFgyTWRYNDAzY09xOHVOVmkzRXU5VmZkMEhzNkZ1WWpjdmpsUVVNRkZlQTM5eW01bVFiVXFlcGpIV2tHUGJnc3ZaYmQ0TUFnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0OTI2ODU2CWZpbGU6T3ZlckN1ZSBEZXNrdG9wLmFwcC50YXIuZ3oKa2xQV09uK2paUFNjcDFqbjc5Zng5TnFHaDNqbmdEZFJtQ0RPU3lEdGJhaklhcS81ck9vNGdyMkhJRFRMVXI3aDk5OWpLdlhNT0FocHovZWhWSUV6QlE9PQo=",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.62/OverCue_2.2.62_x86_64.app.tar.gz"
     }
   }
 }

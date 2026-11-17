@@ -4,27 +4,11 @@
     "sha256": "78c0f090de65fc8c16e93f1cae09d6f7baac6b0134a1d728f75068420422c65d",
     "firmware": "0.15.0"
   },
-  "version": "2.2.61",
-  "published": "2026-11-16T02:07:56Z",
-  "notes": "# OverCue Desktop 2.2.61 for Windows\n\n- Live Stems no longer shows players as connected until they answer. If they're found but can't hear the computer, the page says so and shows the Windows Firewall steps to fix it.\n- If no players appear, the Live Stems page now also points to the Windows Firewall setting that lets them through.\n",
-  "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.61",
+  "version": "2.2.62",
+  "published": "2026-11-17T14:50:48Z",
+  "notes": "# OverCue Desktop 2.2.62 for Mac\n\n- Clarified **Live Stems** recovery when players are found but still don\u2019t answer with **Local Network** access enabled: fully quit OverCue Desktop with **\u2318Q**, then reopen it once you no longer need Live Stems. Stopping and starting Live Stems alone may not restore the connection.\n",
+  "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.62",
   "artifacts": [
-    {
-      "platform": "macos",
-      "label": "macOS Apple silicon",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.60/OverCue_2.2.60_aarch64.dmg",
-      "sha256": "1a77e11a0efed666da9ae5b2c1edf199935a990a79883378829f8c80fb1133b8",
-      "version": "2.2.60",
-      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.60"
-    },
-    {
-      "platform": "macos",
-      "label": "macOS Intel",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.60/OverCue_2.2.60_x86_64.dmg",
-      "sha256": "9fa39e4f4f4a172c6e6daae2cde48ea92fffbf43c332995cc0cb5833cbba2436",
-      "version": "2.2.60",
-      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.60"
-    },
     {
       "platform": "windows",
       "label": "Windows installer x64",
@@ -32,6 +16,22 @@
       "sha256": "0ef30da826bc9fab78befe49409025ebbb4db766021a8f3ce161bd88a2513105",
       "version": "2.2.61",
       "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.61"
+    },
+    {
+      "platform": "macos",
+      "label": "macOS Apple silicon",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.62/OverCue_2.2.62_aarch64.dmg",
+      "sha256": "f0d906822f644aec056bac2777df3e4cce5c36762c119eb79899efbbc64f9bae",
+      "version": "2.2.62",
+      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.62"
+    },
+    {
+      "platform": "macos",
+      "label": "macOS Intel",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.62/OverCue_2.2.62_x86_64.dmg",
+      "sha256": "0f969f00fcd1aa67c65eb779ac19e0db22f62191e46ed7ba7471cb0564278a79",
+      "version": "2.2.62",
+      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.62"
     }
   ]
 }
