@@ -1,22 +1,22 @@
 {
-  "version": "fw-v0.15.0",
+  "version": "fw-v0.15.1",
   "channel": "stable",
-  "published": "2026-11-15T22:29:56Z",
+  "published": "2026-11-17T17:31:51Z",
   "minAppVersion": "2.2.0",
-  "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/fw-v0.15.0",
-  "notes": "# OverCue firmware 0.15.0\n\n- Improve app-provided stem loading when processing finishes, tracks wait in a queue, or track metadata is large.\n- Extend linked waveform support so the master waveform on other players follows stem-volume changes for more app-provided tracks.\n- Let future compatible OverCue apps read stem selections and individual stem volumes from every linked player. Allows for potential future OverCue apps (The future Apple Vision Pro app) to display all deck waveforms and stem changes / volumes.\n- Fix Stock/Mod switching becoming unavailable after the player's clock synchronizes with the internet.\n- Improve Light mode icon visibility in Browse INFO, Now Playing INFO and Load Previous Track.\n- Remove stray pixels beside the GRID indicator in BPM editing mode.\n",
+  "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/fw-v0.15.1",
+  "notes": "# OverCue firmware 0.15.1\n\n- Fix incomplete Master Tempo state recovery after an interrupted stem adjustment, which could leave subsequent playback distorted.\n- Reduce repeated metadata reads when a loaded track has no usable rekordbox analysis, and preserve playback priority while stems are loading.\n",
   "artifacts": [
     {
       "product": "CDJ-3000",
       "family": "RK3399 + R8A7796",
       "kind": "install",
       "mode": "persistent",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/fw-v0.15.0/OverCue-fw-v0.15.0-install.UPD",
-      "sha256": "9f167e35bf20197c76af950c668eed05479afe8e2a35a1a8421e7ca27f9fcf2d",
-      "bytes": 10276879,
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/fw-v0.15.1/OverCue-fw-v0.15.1-install.UPD",
+      "sha256": "8c7d1eb8f9967e3927ab57c42a5e5c2a00e7649fb82c80c4f96fa6cf61b6b5c8",
+      "bytes": 10285071,
       "archive": {
-        "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/fw-v0.15.0/OverCue-fw-v0.15.0-install.zip",
-        "sha256": "7e8f42134c459fdd3c98156c997f0f4b36669c76ac2d000312d521dd3e4a4156",
+        "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/fw-v0.15.1/OverCue-fw-v0.15.1-install.zip",
+        "sha256": "52c44e04101f5f4854fca5025555b30dba80041e700a21bffd2191535e960907",
         "entry": "CDJ3Kv000.UPD"
       }
     },
@@ -25,12 +25,12 @@
       "family": "RK3399 + R8A7796",
       "kind": "uninstall",
       "mode": "persistent",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/fw-v0.15.0/OverCue-fw-v0.15.0-uninstall.UPD",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/fw-v0.15.1/OverCue-fw-v0.15.1-uninstall.UPD",
       "sha256": "4d33e38230c9eaa05e9834edb2295a9a4f0abade7a83a55fa8103222f5243258",
       "bytes": 9367567,
       "archive": {
-        "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/fw-v0.15.0/OverCue-fw-v0.15.0-uninstall.zip",
-        "sha256": "caaeddef592bc67cb04e46898f0c2b90bf9c9e18bbb30f5b88ec0dd1fe5db0e6",
+        "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/fw-v0.15.1/OverCue-fw-v0.15.1-uninstall.zip",
+        "sha256": "123b1eb1f6767c9e3fe69350d459db08fa18fbe1acb38ee6254d5e533061947a",
         "entry": "CDJ3Kv000.UPD"
       }
     }
