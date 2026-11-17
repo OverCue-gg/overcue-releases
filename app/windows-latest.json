@@ -1,11 +1,11 @@
 {
-  "version": "2.2.61",
-  "notes": "# OverCue Desktop 2.2.61 for Windows\n\n- Live Stems no longer shows players as connected until they answer. If they're found but can't hear the computer, the page says so and shows the Windows Firewall steps to fix it.\n- If no players appear, the Live Stems page now also points to the Windows Firewall setting that lets them through.\n",
-  "pub_date": "2026-11-16T01:18:49.928127+00:00",
+  "version": "2.2.64",
+  "notes": "# OverCue Desktop 2.2.64 for Windows\n\n- Fixed a rare **Live Stems** error that could report \u201cbank incomplete\u201d near the end of track processing.\n- Clarified the connection recovery steps shown when players aren\u2019t answering.\n",
+  "pub_date": "2026-11-17T15:47:49.804702+00:00",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHdRSlgzRUcwckpFZ1lra3dkSWo4RGRITnQxRXdZQ0NsSnc5ZmRDZjBXNlJrbkpraVQ0SnVSSVV2SXJNR0QrU0taUllMWmYwMlJOYS9Ka1FTN2kwM2hOaEI2akhLZlEwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NzkxOTI3CWZpbGU6T3ZlckN1ZSBEZXNrdG9wXzIuMi42MV94NjQtc2V0dXAuZXhlClRLVFlVaTBpTU40SUxuNzlDVDZPVE92MTdqMDl0TFJPU2RnUHIxVDVZanp2RjhwQ0JtV3I5VXdkdHJWSk1aM3VEQk4yUWgyc2NUNTNRTUJGS1VvU0JBPT0K",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.61/OverCue_2.2.61_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHdRSlgzRUcwckdJMStKRzlWOUc0bWh2b2w4bnhlR2FsL1plaTRObVZWVHU0VWxzZk0yZGxaMFg1aTl0MTZaYXJLR05TUkl3N3NkVzNqWmVId2lGajZZMCtmcTdkM0FRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0OTMwNDY2CWZpbGU6T3ZlckN1ZSBEZXNrdG9wXzIuMi42NF94NjQtc2V0dXAuZXhlCnRlc25vMHhld0ozbGFZWUxGeDdLaEV0K0V6aGJCM0EyNDV1Sml0YjE5T3ZpRnNoUmVnQ3pQc09FRlBKM2Q1azBEL1MxQ2hvNGZQM3JIaW84ejhsbUR3PT0K",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.64/OverCue_2.2.64_x64-setup.exe"
     }
   }
 }
