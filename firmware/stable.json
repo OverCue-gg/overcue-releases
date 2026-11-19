@@ -1,22 +1,22 @@
 {
-  "version": "fw-v1.0.0",
+  "version": "fw-v1.0.1",
   "channel": "stable",
-  "published": "2026-11-19T01:28:09Z",
+  "published": "2026-11-19T16:19:49Z",
   "minAppVersion": "2.2.0",
-  "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/fw-v1.0.0",
-  "notes": "# OverCue firmware 1.0.0\n\n- Fix play/pause briefly muting the deck's output on tracks without stems, and on the first moment of playback after stems became ready.\n- Keep linked stems playing through a brief internal read error instead of restarting the stems session.\n- Fix jumps into not-yet-loaded stems with Master Tempo on not waiting for the stems to load, and bound repeated Master Tempo retries so they cannot hold back playback.\n- Keep mixer stem EQ working after a temporary communication failure, instead of staying off until the player restarts.\n- Refuse an oversized linked two-stem copy when memory is short, instead of risking the player running out of memory.\n- Release the cue and phrase indicators when a stems stream fails, instead of leaving them waiting for the rest of that track.\n- Reduce background CPU use: an idle stems loader, diagnostic audio captures (now only when diagnostics are requested), repeated Grid probes on tracks without a usable grid, repeated cue/phrase indicator retries, and waveform drawing.\n- Make installation safer against power loss: the installer now replaces the saved overlay in one step, so an interruption leaves the previous installation intact.\n- Always start the stock player if the mods stop unexpectedly, even when the player's storage cannot record the fallback.\n",
+  "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/fw-v1.0.1",
+  "notes": "# OverCue firmware 1.0.1\n\n- Mixer stem EQ now works with any mixer running OverCue mixer firmware, including the DJM-900NXS2, without a player update for each new mixer model. With a mixer that does not run OverCue mixer firmware, stem EQ stays off.\n",
   "artifacts": [
     {
       "product": "CDJ-3000",
       "family": "RK3399 + R8A7796",
       "kind": "install",
       "mode": "persistent",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/fw-v1.0.0/OverCue-fw-v1.0.0-install.UPD",
-      "sha256": "63ecd00ffc00b04594c4024adefc1176fe8b75236bceb8a7a90839c7d64e0a50",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/fw-v1.0.1/OverCue-fw-v1.0.1-install.UPD",
+      "sha256": "4fd5a873ff71d7fa3d3b477bb8d83f1252ffade0383ab010c32b35332bae59b0",
       "bytes": 10297359,
       "archive": {
-        "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/fw-v1.0.0/OverCue-fw-v1.0.0-install.zip",
-        "sha256": "b3239ea0f01615b080967c20e209064d3ea26c0b9a391521d042b38be3ef1949",
+        "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/fw-v1.0.1/OverCue-fw-v1.0.1-install.zip",
+        "sha256": "df2bb73abd326b258f4ba63c8078029225382e2e7591ba8a0a09530a99f4747f",
         "entry": "CDJ3Kv000.UPD"
       }
     },
@@ -25,12 +25,12 @@
       "family": "RK3399 + R8A7796",
       "kind": "uninstall",
       "mode": "persistent",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/fw-v1.0.0/OverCue-fw-v1.0.0-uninstall.UPD",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/fw-v1.0.1/OverCue-fw-v1.0.1-uninstall.UPD",
       "sha256": "4d33e38230c9eaa05e9834edb2295a9a4f0abade7a83a55fa8103222f5243258",
       "bytes": 9367567,
       "archive": {
-        "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/fw-v1.0.0/OverCue-fw-v1.0.0-uninstall.zip",
-        "sha256": "77490d0bfa02baa5ff32881426204407a3644ac29ff9713edf65cce5ecfa4029",
+        "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/fw-v1.0.1/OverCue-fw-v1.0.1-uninstall.zip",
+        "sha256": "62ef85c5b759f9bd5dc9e82816ba3330ed68154fe4ecaf9385e704a952faf6c7",
         "entry": "CDJ3Kv000.UPD"
       }
     }
