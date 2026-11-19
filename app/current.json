@@ -4,27 +4,11 @@
     "sha256": "b24d7fb469b0a0ae14214af61b6ca7d2111aea0f67997ebd38c51bcc3d7afd1d",
     "firmware": "1.0.1"
   },
-  "version": "2.2.64",
-  "published": "2026-11-17T15:59:26Z",
-  "notes": "# OverCue Desktop 2.2.64 for Windows\n\n- Fixed a rare **Live Stems** error that could report \u201cbank incomplete\u201d near the end of track processing.\n- Clarified the connection recovery steps shown when players aren\u2019t answering.\n",
-  "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.64",
+  "version": "2.2.65",
+  "published": "2026-11-19T17:30:44Z",
+  "notes": "# OverCue Desktop 2.2.65 for Mac\n\n- **DJM-900NXS2 Stems EQ** is now available as a preview. Select DJM-900NXS2 under Mixers and choose the official 2.08 update file to create the patched update on your computer. After installation the mixer reports version 2.09.\n- On the 900NXS2, LOW controls Drums, MID controls Vocals, and HIGH controls Harmonics / Other. Requires prepared stems and OverCue CDJ-3000 firmware 1.0.1 or later. To return to stock, reinstall the official 2.08 update.\n",
+  "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.65",
   "artifacts": [
-    {
-      "platform": "macos",
-      "label": "macOS Apple silicon",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.63/OverCue_2.2.63_aarch64.dmg",
-      "sha256": "9a7e66bdd75d74e714e9a2664a7c974d7027226d5d466e6a9bda5f7cf164d7a5",
-      "version": "2.2.63",
-      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.63"
-    },
-    {
-      "platform": "macos",
-      "label": "macOS Intel",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.63/OverCue_2.2.63_x86_64.dmg",
-      "sha256": "b2ed0f27764acdade6d9f88961e4d57a07aa5552bd5d058be90eebde2817e13f",
-      "version": "2.2.63",
-      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.63"
-    },
     {
       "platform": "windows",
       "label": "Windows installer x64",
@@ -32,6 +16,22 @@
       "sha256": "147b88fd9e750bb2162b979ef8870fa2438703b8b0de7d89d314c9a6e3efe083",
       "version": "2.2.64",
       "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.64"
+    },
+    {
+      "platform": "macos",
+      "label": "macOS Apple silicon",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.65/OverCue_2.2.65_aarch64.dmg",
+      "sha256": "fa57ad0d396b78267cab81fb1df0d847052cd8655e226eacb34ef7ed670280a0",
+      "version": "2.2.65",
+      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.65"
+    },
+    {
+      "platform": "macos",
+      "label": "macOS Intel",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.65/OverCue_2.2.65_x86_64.dmg",
+      "sha256": "b9a401024e1d1eb74bdd8dafb94937f54d3b99235dd9238aa21091da11012a60",
+      "version": "2.2.65",
+      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.65"
     }
   ]
 }

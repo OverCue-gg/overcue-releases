@@ -1,15 +1,15 @@
 {
-  "version": "2.2.63",
-  "notes": "# OverCue Desktop 2.2.63 for Mac\n\n- Fixed a rare **Live Stems** error that could report \u201cbank incomplete\u201d near the end of track processing.\n",
-  "pub_date": "2026-11-17T15:30:40.697610+00:00",
+  "version": "2.2.65",
+  "notes": "# OverCue Desktop 2.2.65 for Mac\n\n- **DJM-900NXS2 Stems EQ** is now available as a preview. Select DJM-900NXS2 under Mixers and choose the official 2.08 update file to create the patched update on your computer. After installation the mixer reports version 2.09.\n- On the 900NXS2, LOW controls Drums, MID controls Vocals, and HIGH controls Harmonics / Other. Requires prepared stems and OverCue CDJ-3000 firmware 1.0.1 or later. To return to stock, reinstall the official 2.08 update.\n",
+  "pub_date": "2026-11-19T17:08:52.938212+00:00",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHdRSlgzRUcwckhlRzc1aUpSa0swWVp0ZTUya2NhakxaWU5LdGU2ZVhYOURGa25YVWZOWEowaWZ5V1hEVndJdE1pSzROZ1gvR3MvaEFDcXgzTEh4ZWpvM0lOc3krUkE4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0OTI5MjY4CWZpbGU6T3ZlckN1ZSBEZXNrdG9wLmFwcC50YXIuZ3oKb1pIdjZsMzNNTWVTRUl2RXJJZERBRm1LRDNkNXNWMFFQa1VLNi9CYnZMeC8rYk9vV2xRRHNZbHVEazNJVm80MXRNLzltRTdJcEIyVnlVUENMVFdzQlE9PQo=",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.63/OverCue_2.2.63_aarch64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHdRSlgzRUcwcklqVlR4eVBZM2RjSEhWM0RVakt4VWx4cHA5MjE4bllxdUpmNzRrZ296dWt3eDZ1YlE4REQrRGlMeVY2cTlaeU1lY2dMZ3RtUkZYQ2pUazRwYmZhUHdZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MTA3OTUwCWZpbGU6T3ZlckN1ZSBEZXNrdG9wLmFwcC50YXIuZ3oKSEw5T09lRzAzWk1Nby94b3RobjUrU2liKytNdlM4cXh1Zk00TndmcnBOL2NmQTkrSDc3OThndmNTV01tQ01lTUp5QXlpWjQxN0R1QzdiWWwxSTJMRGc9PQo=",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.65/OverCue_2.2.65_aarch64.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHdRSlgzRUcwckx6Y2dOM1FDM2ZyY1luVklVYlBPWGdUd3dXM1lERThIQzFnMU1ydFNaM0V1ZUF1MFJpVzBUU1EwRStVODk1WXRXUC9kTDRHTHBYOG9Kcys3b1I4WFFNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0OTI5NDM5CWZpbGU6T3ZlckN1ZSBEZXNrdG9wLmFwcC50YXIuZ3oKamdFRFV0TzBqVUFrR1hEc0pxbGJlNDFvYjY3LzVsZUNyNUJrMTJieGRDVXU3TFR1UWlxRk9hcmR2dU5oOFFYNUEyQU1jYndaVzM0ckxKYS9jeE5YRGc9PQo=",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.63/OverCue_2.2.63_x86_64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHdRSlgzRUcwckVOMFNOVlRoK0d1UFdaK3EzSzBmOGdsYmMrR0JlcFVXbXppMEc4a1NxSWFKWkV4QnQ3T2h3dWdHcFhCRElWN0xMSkFhSDR1T1VYVGdkY3JyNzZWWFFZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MTA4MTMxCWZpbGU6T3ZlckN1ZSBEZXNrdG9wLmFwcC50YXIuZ3oKVXd2SkVyMDlhbEtoL0lxbFMrNjRIVko0RFhMVU9MRFNURDRkVEFOcVJpQTRrazJxQWFnUS8wSGJGalZMQ2h6VW5MRWprQkpiUE5GbWh5Q0tjQmJuQ2c9PQo=",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.65/OverCue_2.2.65_x86_64.app.tar.gz"
     }
   }
 }
