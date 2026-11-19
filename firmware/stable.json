@@ -4,7 +4,7 @@
   "published": "2026-11-19T16:19:49Z",
   "minAppVersion": "2.2.0",
   "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/fw-v1.0.1",
-  "notes": "# OverCue firmware 1.0.1\n\n- Mixer stem EQ now works with any mixer running OverCue mixer firmware, including the DJM-900NXS2, without a player update for each new mixer model. With a mixer that does not run OverCue mixer firmware, stem EQ stays off.\n",
+  "notes": "# OverCue firmware 1.0.1\n\n- Mixer stem EQ now works with any mixer running OverCue mixer firmware, so future OverCue mixer updates won't need a new player update. With a mixer that does not run OverCue mixer firmware, stem EQ stays off.\n",
   "artifacts": [
     {
       "product": "CDJ-3000",
