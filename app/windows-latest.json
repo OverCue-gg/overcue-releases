@@ -1,11 +1,11 @@
 {
-  "version": "2.2.64",
-  "notes": "# OverCue Desktop 2.2.64 for Windows\n\n- Fixed a rare **Live Stems** error that could report \u201cbank incomplete\u201d near the end of track processing.\n- Clarified the connection recovery steps shown when players aren\u2019t answering.\n",
-  "pub_date": "2026-11-17T15:47:49.804702+00:00",
+  "version": "2.2.66",
+  "notes": "# OverCue Desktop 2.2.66 for Windows\n\n- **DJM-900NXS2 Stems EQ** is now available as a preview. Select DJM-900NXS2 under Mixers and choose the official 2.08 update file to create the patched update on your computer. After installation the mixer reports version 2.09.\n- On the 900NXS2, LOW controls Drums, MID controls Vocals, and HIGH controls Harmonics / Other. Requires prepared stems and OverCue CDJ-3000 firmware 1.0.1 or later. To return to stock, reinstall the official 2.08 update.\n",
+  "pub_date": "2026-11-19T17:26:19.498601+00:00",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHdRSlgzRUcwckdJMStKRzlWOUc0bWh2b2w4bnhlR2FsL1plaTRObVZWVHU0VWxzZk0yZGxaMFg1aTl0MTZaYXJLR05TUkl3N3NkVzNqWmVId2lGajZZMCtmcTdkM0FRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0OTMwNDY2CWZpbGU6T3ZlckN1ZSBEZXNrdG9wXzIuMi42NF94NjQtc2V0dXAuZXhlCnRlc25vMHhld0ozbGFZWUxGeDdLaEV0K0V6aGJCM0EyNDV1Sml0YjE5T3ZpRnNoUmVnQ3pQc09FRlBKM2Q1azBEL1MxQ2hvNGZQM3JIaW84ejhsbUR3PT0K",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.64/OverCue_2.2.64_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHdRSlgzRUcwckhCdjVBKzlRMEJXRnFVWUYrTVJwVGM5WjgxOXo5bEZ2N1M4ZHczSzI1T2FXRG40dE1lU2QrZXFEOVpYdUIwdjdNQzd0ek5qZ0E2Mm1TZ3dyZk1EbVE4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MTA5MTc2CWZpbGU6T3ZlckN1ZSBEZXNrdG9wXzIuMi42Nl94NjQtc2V0dXAuZXhlCndaa0dtZDRZd0gvenN0cGRCV05GK0VOcWZJWXR1cmI4Q3A1YlREMXQ2dzVmNDFwWlBRdHl0Y0h2WDgraE1uOHE0SHdwc0JFMHU0V29Sb0R5TlVJRkNnPT0K",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.66/OverCue_2.2.66_x64-setup.exe"
     }
   }
 }

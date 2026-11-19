@@ -4,19 +4,11 @@
     "sha256": "b24d7fb469b0a0ae14214af61b6ca7d2111aea0f67997ebd38c51bcc3d7afd1d",
     "firmware": "1.0.1"
   },
-  "version": "2.2.65",
-  "published": "2026-11-19T17:30:44Z",
-  "notes": "# OverCue Desktop 2.2.65 for Mac\n\n- **DJM-900NXS2 Stems EQ** is now available as a preview. Select DJM-900NXS2 under Mixers and choose the official 2.08 update file to create the patched update on your computer. After installation the mixer reports version 2.09.\n- On the 900NXS2, LOW controls Drums, MID controls Vocals, and HIGH controls Harmonics / Other. Requires prepared stems and OverCue CDJ-3000 firmware 1.0.1 or later. To return to stock, reinstall the official 2.08 update.\n",
-  "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.65",
+  "version": "2.2.66",
+  "published": "2026-11-19T17:38:52Z",
+  "notes": "# OverCue Desktop 2.2.66 for Windows\n\n- **DJM-900NXS2 Stems EQ** is now available as a preview. Select DJM-900NXS2 under Mixers and choose the official 2.08 update file to create the patched update on your computer. After installation the mixer reports version 2.09.\n- On the 900NXS2, LOW controls Drums, MID controls Vocals, and HIGH controls Harmonics / Other. Requires prepared stems and OverCue CDJ-3000 firmware 1.0.1 or later. To return to stock, reinstall the official 2.08 update.\n",
+  "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.66",
   "artifacts": [
-    {
-      "platform": "windows",
-      "label": "Windows installer x64",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.64/OverCue_2.2.64_x64-setup.exe",
-      "sha256": "147b88fd9e750bb2162b979ef8870fa2438703b8b0de7d89d314c9a6e3efe083",
-      "version": "2.2.64",
-      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.64"
-    },
     {
       "platform": "macos",
       "label": "macOS Apple silicon",
@@ -32,6 +24,14 @@
       "sha256": "b9a401024e1d1eb74bdd8dafb94937f54d3b99235dd9238aa21091da11012a60",
       "version": "2.2.65",
       "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.65"
+    },
+    {
+      "platform": "windows",
+      "label": "Windows installer x64",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.66/OverCue_2.2.66_x64-setup.exe",
+      "sha256": "06b1a8aaa95657326cab247ee8abd616d800e4eb160b363bedb22c1cf85d0bac",
+      "version": "2.2.66",
+      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.66"
     }
   ]
 }
