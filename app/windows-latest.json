@@ -1,11 +1,11 @@
 {
-  "version": "2.2.70",
-  "notes": "# OverCue Desktop 2.2.70 for Windows\n\n- **Save Live Stems to a USB:** the Live Stems page has a new **Stems on this computer** section. Plug in the USB a track came from and press **Save stems to USB**. Its stems are saved onto the USB just like stems made on the USB here: the same format and waveforms, with no stem louder than the full mix, so players load them from the USB without this computer.\n- Set how much space the stems on this computer may use (up to 200 GB). Turn on **Remove stems from this computer after saving them to a USB** to free that space automatically. When saving finishes, the result stays on screen, and any track that could not be saved shows why.\n- Live Stems now also works with other linked players that support OverCue stems, not just CDJ-3000s.\n- Player cards on the Live Stems page no longer flicker between a track and No track.\n",
-  "pub_date": "2026-11-22T21:18:53.675631+00:00",
+  "version": "2.2.72",
+  "notes": "# OverCue Desktop 2.2.72 for Windows\n\n- **DJM-A9 Post-fader send:** a new mod adds a **POST-FADER SEND** row below SKIP 1/3 & 2/3 in the mixer's UTILITY / MY SETTINGS menu. OFF works as before. ON takes the MULTI I/O send and return of CH1\u2013CH4 after the channel fader instead of before it; the crossfader does not affect it, and MIC, CF.A, CF.B and MASTER are unchanged. It comes with the Beat FX values option (ticking it ticks that option too). The mixer remembers the choice after it is switched off; a factory reset turns it OFF. To get it, create the A9 update again from the official 1.22 update with Post-fader send ticked and install the new file.\n",
+  "pub_date": "2026-11-22T23:02:55.155805+00:00",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHdRSlgzRUcwckFOVVk2YTl3SFRCUDdtSzBvbDY0dWk2dU5pdXp2emxVRUNweDlkSngwWllCNnJUVUp0M3o2dmRSbkY2WHVDS1dzOHNDRGx1cDk1cHJUN3J0RGFvT2dJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MzgyMzMwCWZpbGU6T3ZlckN1ZSBEZXNrdG9wXzIuMi43MF94NjQtc2V0dXAuZXhlCnF4QjdwbFF1RjdlSXVUengwcEk0QUN2RWhiVE5rTTgvM0xwNmwzUnBGdEhIblpqMU4wRU8rbEg1Q2xDSGtjOW94VUlya29qMkVaRHV1RnEzZVBKL0RnPT0K",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.70/OverCue_2.2.70_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHdRSlgzRUcwckRLQUlrRGs3ZTNpWHR2WnQxMTB2Y3paeFBhc0o3N3ArTkNJMDBqSFpMNDV4RkFZV2x0THhxN0t3OThLTHNSUXJGTGpnRTA4RW1pOXNPbDAzSVovdkFJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1Mzg4NTcyCWZpbGU6T3ZlckN1ZSBEZXNrdG9wXzIuMi43Ml94NjQtc2V0dXAuZXhlCm9GaXdwenFLQjdjUWFXSkVLMG5LMlpTdVFicUFQS3E5a0ZJWXdIdG9sN1JQcURWL05pdGorM3NVWlRtcXhGbTNJTWFMeHRFY2dBMCswTmJFYnBkTUFBPT0K",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.72/OverCue_2.2.72_x64-setup.exe"
     }
   }
 }

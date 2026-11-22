@@ -4,19 +4,11 @@
     "sha256": "b24d7fb469b0a0ae14214af61b6ca7d2111aea0f67997ebd38c51bcc3d7afd1d",
     "firmware": "1.0.1"
   },
-  "version": "2.2.71",
-  "published": "2026-11-22T23:07:36Z",
-  "notes": "# OverCue Desktop 2.2.71 for Mac\n\n- **DJM-A9 Post-fader send:** a new mod adds a **POST-FADER SEND** row below SKIP 1/3 & 2/3 in the mixer's UTILITY / MY SETTINGS menu. OFF works as before. ON takes the MULTI I/O send and return of CH1\u2013CH4 after the channel fader instead of before it; the crossfader does not affect it, and MIC, CF.A, CF.B and MASTER are unchanged. It comes with the Beat FX values option (ticking it ticks that option too). The mixer remembers the choice after it is switched off; a factory reset turns it OFF. To get it, create the A9 update again from the official 1.22 update with Post-fader send ticked and install the new file.\n",
-  "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.71",
+  "version": "2.2.72",
+  "published": "2026-11-22T23:17:32Z",
+  "notes": "# OverCue Desktop 2.2.72 for Windows\n\n- **DJM-A9 Post-fader send:** a new mod adds a **POST-FADER SEND** row below SKIP 1/3 & 2/3 in the mixer's UTILITY / MY SETTINGS menu. OFF works as before. ON takes the MULTI I/O send and return of CH1\u2013CH4 after the channel fader instead of before it; the crossfader does not affect it, and MIC, CF.A, CF.B and MASTER are unchanged. It comes with the Beat FX values option (ticking it ticks that option too). The mixer remembers the choice after it is switched off; a factory reset turns it OFF. To get it, create the A9 update again from the official 1.22 update with Post-fader send ticked and install the new file.\n",
+  "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.72",
   "artifacts": [
-    {
-      "platform": "windows",
-      "label": "Windows installer x64",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.70/OverCue_2.2.70_x64-setup.exe",
-      "sha256": "986d4c9e788696d80318be54143c9fe86ec362296ed9e51714802ae4a9a12bea",
-      "version": "2.2.70",
-      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.70"
-    },
     {
       "platform": "macos",
       "label": "macOS Apple silicon",
@@ -32,6 +24,14 @@
       "sha256": "c8c65fa52922e062e09940a8b539e3bbeb529bf0379b1832d9869a0bbf539810",
       "version": "2.2.71",
       "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.71"
+    },
+    {
+      "platform": "windows",
+      "label": "Windows installer x64",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.72/OverCue_2.2.72_x64-setup.exe",
+      "sha256": "f66646d5fc3b1f0614cd6573d2f37012d24f5e0da8ba5b050a69c81cb54b4cb2",
+      "version": "2.2.72",
+      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.72"
     }
   ]
 }
