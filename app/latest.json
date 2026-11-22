@@ -1,15 +1,15 @@
 {
-  "version": "2.2.67",
-  "notes": "# OverCue Desktop 2.2.67 for Mac\n\n- **DJM-A9:** the SKIP 1/3 & 2/3 Beat FX option is now remembered after the mixer is switched off. Create the A9 update again with the Beat FX values option and install it to get this. A factory reset turns the option OFF.\n- **DJM-900NXS2 Stems EQ** is no longer a preview. Testers report it working on real mixers. LOW controls Drums, MID controls Vocals and HIGH controls Harmonics / Other. It needs prepared stems and OverCue CDJ-3000 firmware 1.0.1 or later.\n- **Repack existing stems** now skips tracks that are already in the right format, so repacking finishes much faster. The button only appears when the selected USB has stems that need repacking.\n- The note about the smaller FLAC stem format now appears only when you plug in a USB that has older stems, instead of after every update. The preparation bar now names the firmware it needs: OverCue firmware 0.10.0 or later.\n- The Quality / Fast choice in Settings is now sized to its buttons.\n",
-  "pub_date": "2026-11-22T17:01:30.011939+00:00",
+  "version": "2.2.69",
+  "notes": "# OverCue Desktop 2.2.69 for Mac\n\n- **Save Live Stems to a USB:** the Live Stems page has a new **Stems on this computer** section. Plug in the USB a track came from and press **Save stems to USB**. Its stems are saved onto the USB just like stems made on the USB here: the same format and waveforms, with no stem louder than the full mix, so players load them from the USB without this computer.\n- Set how much space the stems on this computer may use (up to 200 GB). Turn on **Remove stems from this computer after saving them to a USB** to free that space automatically. When saving finishes, the result stays on screen, and any track that could not be saved shows why.\n- Live Stems now also works with other linked players that support OverCue stems, not just CDJ-3000s.\n- Player cards on the Live Stems page no longer flicker between a track and No track.\n",
+  "pub_date": "2026-11-22T20:22:08.678377+00:00",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHdRSlgzRUcwckVRMXlSTUxKUFFiOHhVaUpnbUJCYS9ZOGUzUWd6YXNDcGx1Vng1YkZtZmVtN0ZVeDhWZmsxWXJlcW4rcjljLzM2cmR5ejZTTkhiTDVJbVBTV05WaHdnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MzY2NzQ0CWZpbGU6T3ZlckN1ZSBEZXNrdG9wLmFwcC50YXIuZ3oKYlJaajNjQnFPbitpbFhjUnpxR2hLb0FHaThWZzJZRUYxR1A5Wm9mdXdJUWhqckZLRTkyMTN4YnRQOTdMeDJlWlFKTEd1TGMyZndDbDFDQXdMYlA5QVE9PQo=",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.67/OverCue_2.2.67_aarch64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHdRSlgzRUcwclBwcWtrY1JlaGdCQWk0c1RVNHhzK3MzcFhVcGZvNjhlWmZyR1I2RGRyMDBMblRGUVhodmhwNkhFYVpvNHRJSkVwQUxhNWJ3UFg0RFhxclVUNUVIT2dvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1Mzc4NzczCWZpbGU6T3ZlckN1ZSBEZXNrdG9wLmFwcC50YXIuZ3oKbm5rWkJ3WFltQitmb0tJVkltaXlvdkIrUXZOdUxmbFNrNmJzUHFpV1FrV09VcyttU0MxdERIMHUrQTg2bTBkNU5KRVJnRjdzaFpUSFZuU3hJS3F5QkE9PQo=",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.69/OverCue_2.2.69_aarch64.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHdRSlgzRUcwckxQaHV0OFI4MEZFVXgzZi9HS1JCeFcrQ0VGWVgySnp2WFg1eC90Q0t0SFJMVVc4dGhGWlVra283ZWhqcnpnTUlsWnRlRVpIMVhYR2ZSZTk0bHNGQ0EwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MzY2ODg4CWZpbGU6T3ZlckN1ZSBEZXNrdG9wLmFwcC50YXIuZ3oKTzFZWkFwZ01JWjFDZk1QTm1xNjB4NllEWDY1MHdpczd4YXFxQVMrc3FYMWw3Tld1Rkp0TnRObVk5ZmdPZFdaV3M2OEhRd0hjb2Y2dDlCeHhTUDMxQUE9PQo=",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.67/OverCue_2.2.67_x86_64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHdRSlgzRUcwckNrZEtxb0F1bm5WVGVDaGc2UHNpOVR3SWNIRkpkTyt6VnpVbDBaa3dVS2ZvcGRIYU5BV0dqOG1va3lwTG44OFVhUDhBWmNCMEszU3ByUnlIc09zeXdFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1Mzc4OTI3CWZpbGU6T3ZlckN1ZSBEZXNrdG9wLmFwcC50YXIuZ3oKWjJzMUVvRi9aZkFZU2ppazB1aTZGY1pvQ2pEanRlVmdFcFZHWHQrZi9XZk1Uekxqc1BmU2NzT0hUUG1yQTZDb0E3cGxqQmZZaXBucmZ4MVdNTmd3Q1E9PQo=",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.69/OverCue_2.2.69_x86_64.app.tar.gz"
     }
   }
 }
