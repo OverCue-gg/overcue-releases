@@ -4,19 +4,11 @@
     "sha256": "b24d7fb469b0a0ae14214af61b6ca7d2111aea0f67997ebd38c51bcc3d7afd1d",
     "firmware": "1.0.1"
   },
-  "version": "2.2.69",
-  "published": "2026-11-22T20:58:24Z",
-  "notes": "# OverCue Desktop 2.2.69 for Mac\n\n- **Save Live Stems to a USB:** the Live Stems page has a new **Stems on this computer** section. Plug in the USB a track came from and press **Save stems to USB**. Its stems are saved onto the USB just like stems made on the USB here: the same format and waveforms, with no stem louder than the full mix, so players load them from the USB without this computer.\n- Set how much space the stems on this computer may use (up to 200 GB). Turn on **Remove stems from this computer after saving them to a USB** to free that space automatically. When saving finishes, the result stays on screen, and any track that could not be saved shows why.\n- Live Stems now also works with other linked players that support OverCue stems, not just CDJ-3000s.\n- Player cards on the Live Stems page no longer flicker between a track and No track.\n",
-  "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.69",
+  "version": "2.2.70",
+  "published": "2026-11-22T21:25:08Z",
+  "notes": "# OverCue Desktop 2.2.70 for Windows\n\n- **Save Live Stems to a USB:** the Live Stems page has a new **Stems on this computer** section. Plug in the USB a track came from and press **Save stems to USB**. Its stems are saved onto the USB just like stems made on the USB here: the same format and waveforms, with no stem louder than the full mix, so players load them from the USB without this computer.\n- Set how much space the stems on this computer may use (up to 200 GB). Turn on **Remove stems from this computer after saving them to a USB** to free that space automatically. When saving finishes, the result stays on screen, and any track that could not be saved shows why.\n- Live Stems now also works with other linked players that support OverCue stems, not just CDJ-3000s.\n- Player cards on the Live Stems page no longer flicker between a track and No track.\n",
+  "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.70",
   "artifacts": [
-    {
-      "platform": "windows",
-      "label": "Windows installer x64",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.68/OverCue_2.2.68_x64-setup.exe",
-      "sha256": "9852410fe6a5fabab648410a83ef0d507f5f9a0a870beb131f991c8ef842d491",
-      "version": "2.2.68",
-      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.68"
-    },
     {
       "platform": "macos",
       "label": "macOS Apple silicon",
@@ -32,6 +24,14 @@
       "sha256": "f41ea7e9a0842de998d11caa6cc819db02cbb3e995d84f79f585f24fb50619ca",
       "version": "2.2.69",
       "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.69"
+    },
+    {
+      "platform": "windows",
+      "label": "Windows installer x64",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.70/OverCue_2.2.70_x64-setup.exe",
+      "sha256": "986d4c9e788696d80318be54143c9fe86ec362296ed9e51714802ae4a9a12bea",
+      "version": "2.2.70",
+      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.70"
     }
   ]
 }

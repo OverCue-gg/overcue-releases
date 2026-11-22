@@ -1,11 +1,11 @@
 {
-  "version": "2.2.68",
-  "notes": "# OverCue Desktop 2.2.68 for Windows\n\n- **DJM-A9:** the SKIP 1/3 & 2/3 Beat FX option is now remembered after the mixer is switched off. Create the A9 update again with the Beat FX values option and install it to get this. A factory reset turns the option OFF.\n- **DJM-900NXS2 Stems EQ** is no longer a preview. Testers report it working on real mixers. LOW controls Drums, MID controls Vocals and HIGH controls Harmonics / Other. It needs prepared stems and OverCue CDJ-3000 firmware 1.0.1 or later.\n- **Repack existing stems** now skips tracks that are already in the right format, so repacking finishes much faster. The button only appears when the selected USB has stems that need repacking.\n- The note about the smaller FLAC stem format now appears only when you plug in a USB that has older stems, instead of after every update. The preparation bar now names the firmware it needs: OverCue firmware 0.10.0 or later.\n- The Quality / Fast choice in Settings is now sized to its buttons.\n",
-  "pub_date": "2026-11-22T17:22:25.722788+00:00",
+  "version": "2.2.70",
+  "notes": "# OverCue Desktop 2.2.70 for Windows\n\n- **Save Live Stems to a USB:** the Live Stems page has a new **Stems on this computer** section. Plug in the USB a track came from and press **Save stems to USB**. Its stems are saved onto the USB just like stems made on the USB here: the same format and waveforms, with no stem louder than the full mix, so players load them from the USB without this computer.\n- Set how much space the stems on this computer may use (up to 200 GB). Turn on **Remove stems from this computer after saving them to a USB** to free that space automatically. When saving finishes, the result stays on screen, and any track that could not be saved shows why.\n- Live Stems now also works with other linked players that support OverCue stems, not just CDJ-3000s.\n- Player cards on the Live Stems page no longer flicker between a track and No track.\n",
+  "pub_date": "2026-11-22T21:18:53.675631+00:00",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHdRSlgzRUcwck9KczF1QUVHN1d1NWdnb0lNY0pkaWdkWG1SQVQ1UDhLbHp6aWhaUExJTmpYUS9mYVJFTTUxRDRBQ200SnEvK2VFREc0MTBDbGdIUXRDTmM1TkRqN1FJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MzY4MTQyCWZpbGU6T3ZlckN1ZSBEZXNrdG9wXzIuMi42OF94NjQtc2V0dXAuZXhlClQ3TTNhWm5OZmdkeXhjT3FSdjYxWndmWWFlNTlzeUMzbEFSVkVCUXZ3RDl6d2d0M2t3R3BKU0hraG9mbmgva3VFbVQxTmFBNGJvbVV2SVIzOXZpQkJRPT0K",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.68/OverCue_2.2.68_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHdRSlgzRUcwckFOVVk2YTl3SFRCUDdtSzBvbDY0dWk2dU5pdXp2emxVRUNweDlkSngwWllCNnJUVUp0M3o2dmRSbkY2WHVDS1dzOHNDRGx1cDk1cHJUN3J0RGFvT2dJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MzgyMzMwCWZpbGU6T3ZlckN1ZSBEZXNrdG9wXzIuMi43MF94NjQtc2V0dXAuZXhlCnF4QjdwbFF1RjdlSXVUengwcEk0QUN2RWhiVE5rTTgvM0xwNmwzUnBGdEhIblpqMU4wRU8rbEg1Q2xDSGtjOW94VUlya29qMkVaRHV1RnEzZVBKL0RnPT0K",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.70/OverCue_2.2.70_x64-setup.exe"
     }
   }
 }
