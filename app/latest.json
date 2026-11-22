@@ -1,15 +1,15 @@
 {
-  "version": "2.2.65",
-  "notes": "# OverCue Desktop 2.2.65 for Mac\n\n- **DJM-900NXS2 Stems EQ** is now available as a preview. Select DJM-900NXS2 under Mixers and choose the official 2.08 update file to create the patched update on your computer. After installation the mixer reports version 2.09.\n- On the 900NXS2, LOW controls Drums, MID controls Vocals, and HIGH controls Harmonics / Other. Requires prepared stems and OverCue CDJ-3000 firmware 1.0.1 or later. To return to stock, reinstall the official 2.08 update.\n",
-  "pub_date": "2026-11-19T17:08:52.938212+00:00",
+  "version": "2.2.67",
+  "notes": "# OverCue Desktop 2.2.67 for Mac\n\n- **DJM-A9:** the SKIP 1/3 & 2/3 Beat FX option is now remembered after the mixer is switched off. Create the A9 update again with the Beat FX values option and install it to get this. A factory reset turns the option OFF.\n- **DJM-900NXS2 Stems EQ** is no longer a preview. Testers report it working on real mixers. LOW controls Drums, MID controls Vocals and HIGH controls Harmonics / Other. It needs prepared stems and OverCue CDJ-3000 firmware 1.0.1 or later.\n- **Repack existing stems** now skips tracks that are already in the right format, so repacking finishes much faster. The button only appears when the selected USB has stems that need repacking.\n- The note about the smaller FLAC stem format now appears only when you plug in a USB that has older stems, instead of after every update. The preparation bar now names the firmware it needs: OverCue firmware 0.10.0 or later.\n- The Quality / Fast choice in Settings is now sized to its buttons.\n",
+  "pub_date": "2026-11-22T17:01:30.011939+00:00",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHdRSlgzRUcwcklqVlR4eVBZM2RjSEhWM0RVakt4VWx4cHA5MjE4bllxdUpmNzRrZ296dWt3eDZ1YlE4REQrRGlMeVY2cTlaeU1lY2dMZ3RtUkZYQ2pUazRwYmZhUHdZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MTA3OTUwCWZpbGU6T3ZlckN1ZSBEZXNrdG9wLmFwcC50YXIuZ3oKSEw5T09lRzAzWk1Nby94b3RobjUrU2liKytNdlM4cXh1Zk00TndmcnBOL2NmQTkrSDc3OThndmNTV01tQ01lTUp5QXlpWjQxN0R1QzdiWWwxSTJMRGc9PQo=",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.65/OverCue_2.2.65_aarch64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHdRSlgzRUcwckVRMXlSTUxKUFFiOHhVaUpnbUJCYS9ZOGUzUWd6YXNDcGx1Vng1YkZtZmVtN0ZVeDhWZmsxWXJlcW4rcjljLzM2cmR5ejZTTkhiTDVJbVBTV05WaHdnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MzY2NzQ0CWZpbGU6T3ZlckN1ZSBEZXNrdG9wLmFwcC50YXIuZ3oKYlJaajNjQnFPbitpbFhjUnpxR2hLb0FHaThWZzJZRUYxR1A5Wm9mdXdJUWhqckZLRTkyMTN4YnRQOTdMeDJlWlFKTEd1TGMyZndDbDFDQXdMYlA5QVE9PQo=",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.67/OverCue_2.2.67_aarch64.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHdRSlgzRUcwckVOMFNOVlRoK0d1UFdaK3EzSzBmOGdsYmMrR0JlcFVXbXppMEc4a1NxSWFKWkV4QnQ3T2h3dWdHcFhCRElWN0xMSkFhSDR1T1VYVGdkY3JyNzZWWFFZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MTA4MTMxCWZpbGU6T3ZlckN1ZSBEZXNrdG9wLmFwcC50YXIuZ3oKVXd2SkVyMDlhbEtoL0lxbFMrNjRIVko0RFhMVU9MRFNURDRkVEFOcVJpQTRrazJxQWFnUS8wSGJGalZMQ2h6VW5MRWprQkpiUE5GbWh5Q0tjQmJuQ2c9PQo=",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.65/OverCue_2.2.65_x86_64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHdRSlgzRUcwckxQaHV0OFI4MEZFVXgzZi9HS1JCeFcrQ0VGWVgySnp2WFg1eC90Q0t0SFJMVVc4dGhGWlVra283ZWhqcnpnTUlsWnRlRVpIMVhYR2ZSZTk0bHNGQ0EwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MzY2ODg4CWZpbGU6T3ZlckN1ZSBEZXNrdG9wLmFwcC50YXIuZ3oKTzFZWkFwZ01JWjFDZk1QTm1xNjB4NllEWDY1MHdpczd4YXFxQVMrc3FYMWw3Tld1Rkp0TnRObVk5ZmdPZFdaV3M2OEhRd0hjb2Y2dDlCeHhTUDMxQUE9PQo=",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.67/OverCue_2.2.67_x86_64.app.tar.gz"
     }
   }
 }
