@@ -1,11 +1,11 @@
 {
-  "version": "2.2.66",
-  "notes": "# OverCue Desktop 2.2.66 for Windows\n\n- **DJM-900NXS2 Stems EQ** is now available as a preview. Select DJM-900NXS2 under Mixers and choose the official 2.08 update file to create the patched update on your computer. After installation the mixer reports version 2.09.\n- On the 900NXS2, LOW controls Drums, MID controls Vocals, and HIGH controls Harmonics / Other. Requires prepared stems and OverCue CDJ-3000 firmware 1.0.1 or later. To return to stock, reinstall the official 2.08 update.\n",
-  "pub_date": "2026-11-19T17:26:19.498601+00:00",
+  "version": "2.2.68",
+  "notes": "# OverCue Desktop 2.2.68 for Windows\n\n- **DJM-A9:** the SKIP 1/3 & 2/3 Beat FX option is now remembered after the mixer is switched off. Create the A9 update again with the Beat FX values option and install it to get this. A factory reset turns the option OFF.\n- **DJM-900NXS2 Stems EQ** is no longer a preview. Testers report it working on real mixers. LOW controls Drums, MID controls Vocals and HIGH controls Harmonics / Other. It needs prepared stems and OverCue CDJ-3000 firmware 1.0.1 or later.\n- **Repack existing stems** now skips tracks that are already in the right format, so repacking finishes much faster. The button only appears when the selected USB has stems that need repacking.\n- The note about the smaller FLAC stem format now appears only when you plug in a USB that has older stems, instead of after every update. The preparation bar now names the firmware it needs: OverCue firmware 0.10.0 or later.\n- The Quality / Fast choice in Settings is now sized to its buttons.\n",
+  "pub_date": "2026-11-22T17:22:25.722788+00:00",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHdRSlgzRUcwckhCdjVBKzlRMEJXRnFVWUYrTVJwVGM5WjgxOXo5bEZ2N1M4ZHczSzI1T2FXRG40dE1lU2QrZXFEOVpYdUIwdjdNQzd0ek5qZ0E2Mm1TZ3dyZk1EbVE4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MTA5MTc2CWZpbGU6T3ZlckN1ZSBEZXNrdG9wXzIuMi42Nl94NjQtc2V0dXAuZXhlCndaa0dtZDRZd0gvenN0cGRCV05GK0VOcWZJWXR1cmI4Q3A1YlREMXQ2dzVmNDFwWlBRdHl0Y0h2WDgraE1uOHE0SHdwc0JFMHU0V29Sb0R5TlVJRkNnPT0K",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.66/OverCue_2.2.66_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHdRSlgzRUcwck9KczF1QUVHN1d1NWdnb0lNY0pkaWdkWG1SQVQ1UDhLbHp6aWhaUExJTmpYUS9mYVJFTTUxRDRBQ200SnEvK2VFREc0MTBDbGdIUXRDTmM1TkRqN1FJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MzY4MTQyCWZpbGU6T3ZlckN1ZSBEZXNrdG9wXzIuMi42OF94NjQtc2V0dXAuZXhlClQ3TTNhWm5OZmdkeXhjT3FSdjYxWndmWWFlNTlzeUMzbEFSVkVCUXZ3RDl6d2d0M2t3R3BKU0hraG9mbmgva3VFbVQxTmFBNGJvbVV2SVIzOXZpQkJRPT0K",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.68/OverCue_2.2.68_x64-setup.exe"
     }
   }
 }
