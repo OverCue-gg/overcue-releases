@@ -1,22 +1,22 @@
 {
-  "version": "fw-v1.0.1",
+  "version": "fw-v1.1.0",
   "channel": "stable",
-  "published": "2026-11-19T16:19:49Z",
+  "published": "2026-11-23T20:41:38Z",
   "minAppVersion": "2.2.0",
-  "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/fw-v1.0.1",
-  "notes": "# OverCue firmware 1.0.1\n\n- Mixer stem EQ now works with any mixer running OverCue mixer firmware, so future OverCue mixer updates won't need a new player update. With a mixer that does not run OverCue mixer firmware, stem EQ stays off.\n",
+  "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/fw-v1.1.0",
+  "notes": "# OverCue firmware 1.1.0\n\n- Change hot cue colors directly on the player. On Now Playing, press Track Filter once, choose a hot cue and one of 12 colors, then press Track Filter again to save. The screen and physical hot cue buttons update immediately, and colors save to the USB for future loads. Linked editing requires this update on both the editing player and the player hosting the USB.\n- Reorder hot cues chronologically from the Hot Cue Colors menu. Tap Reorder by time, tap Are you sure? to confirm, then press Track Filter to save. Cue positions, loops, colors and comments stay with their cues; occupied cues are assigned from A onward. Load a different track on any other deck using the same track before saving its order.\n- Fix an incomplete-library My Tag crash affecting some CDJ-3000 hardware revisions.\n- Start a held Gate Cue hot cue's flashing light in its off phase for immediate visual feedback.\n- Fix linked-track display data used by compatible OverCue apps, including the Apple Vision Pro app.\n- Release idle, unmounted and stopped stems readers' USB file handles promptly, without shortening the audio-memory retirement period.\n",
   "artifacts": [
     {
       "product": "CDJ-3000",
       "family": "RK3399 + R8A7796",
       "kind": "install",
       "mode": "persistent",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/fw-v1.0.1/OverCue-fw-v1.0.1-install.UPD",
-      "sha256": "4fd5a873ff71d7fa3d3b477bb8d83f1252ffade0383ab010c32b35332bae59b0",
-      "bytes": 10297359,
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/fw-v1.1.0/OverCue-fw-v1.1.0-install.UPD",
+      "sha256": "f9b983b8ab07b0c52d2e660c76bbf8b5b30b26c1a0273df29c51b357f1995dc3",
+      "bytes": 10453007,
       "archive": {
-        "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/fw-v1.0.1/OverCue-fw-v1.0.1-install.zip",
-        "sha256": "df2bb73abd326b258f4ba63c8078029225382e2e7591ba8a0a09530a99f4747f",
+        "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/fw-v1.1.0/OverCue-fw-v1.1.0-install.zip",
+        "sha256": "e787bd52e8099dc4a1f47d39689ac2bf11789421439517ff8c0e8dd715bca85d",
         "entry": "CDJ3Kv000.UPD"
       }
     },
@@ -25,12 +25,12 @@
       "family": "RK3399 + R8A7796",
       "kind": "uninstall",
       "mode": "persistent",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/fw-v1.0.1/OverCue-fw-v1.0.1-uninstall.UPD",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/fw-v1.1.0/OverCue-fw-v1.1.0-uninstall.UPD",
       "sha256": "4d33e38230c9eaa05e9834edb2295a9a4f0abade7a83a55fa8103222f5243258",
       "bytes": 9367567,
       "archive": {
-        "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/fw-v1.0.1/OverCue-fw-v1.0.1-uninstall.zip",
-        "sha256": "62ef85c5b759f9bd5dc9e82816ba3330ed68154fe4ecaf9385e704a952faf6c7",
+        "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/fw-v1.1.0/OverCue-fw-v1.1.0-uninstall.zip",
+        "sha256": "73f5cfa9b437aee74e30685ec2bec29c5dd8a46c8f29c8f8e5cde733283fff41",
         "entry": "CDJ3Kv000.UPD"
       }
     }
