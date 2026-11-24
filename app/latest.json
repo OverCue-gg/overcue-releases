@@ -1,15 +1,15 @@
 {
-  "version": "2.2.71",
-  "notes": "# OverCue Desktop 2.2.71 for Mac\n\n- **DJM-A9 Post-fader send:** a new mod adds a **POST-FADER SEND** row below SKIP 1/3 & 2/3 in the mixer's UTILITY / MY SETTINGS menu. OFF works as before. ON takes the MULTI I/O send and return of CH1\u2013CH4 after the channel fader instead of before it; the crossfader does not affect it, and MIC, CF.A, CF.B and MASTER are unchanged. It comes with the Beat FX values option (ticking it ticks that option too). The mixer remembers the choice after it is switched off; a factory reset turns it OFF. To get it, create the A9 update again from the official 1.22 update with Post-fader send ticked and install the new file.\n",
-  "pub_date": "2026-11-22T22:45:31.735432+00:00",
+  "version": "2.2.73",
+  "notes": "# OverCue Desktop 2.2.73 for Mac\n\n- **Delete stems from USB** removes the stems of all selected tracks in one step. If the USB holds stems that players can't use, for example ones written by another tool, the message now lists every such track, so you can select them all and delete them together.\n- If an interrupted **Normalize volume** can't be finished, the message now says which step failed and which file on the USB it was working on.\n- Drag the edge of the sidebar to make it wider or narrower, or focus the edge and use the arrow keys. OverCue remembers the width; double-click the edge to reset it. Hover over a playlist to see its full name.\n- Zoom the whole window with **\u2318 +** and **\u2318 \u2212**; **\u2318 0** resets it.\n",
+  "pub_date": "2026-11-24T20:52:09.333972+00:00",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHdRSlgzRUcwckNRYTQ3K2tSK1FFblRhcllrWEs4NXg1ZUQzYUpmSXhJL25QNzRKU2ZBZWlnekFBVHpHK0FQck1pTTA2V24zZnNHZjUvMTRuTmdVbzRQVDZObm9UNEFRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1Mzg3Mzg4CWZpbGU6T3ZlckN1ZSBEZXNrdG9wLmFwcC50YXIuZ3oKZ2lsZTkxNkVpNDFzOVF5Q0szZk82TTV1Ry9SVzlhc0tjRC9aMmoxbnhiSi8zTE5EUGpmcVM1TmdwT3FoOVhqejYvVFN6R3JheDRkVU1wVDRxZnJBQUE9PQo=",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.71/OverCue_2.2.71_aarch64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHdRSlgzRUcwckJnOFRUY1Bxc1RwTmo1RGh6SklRL2ZYVmErdDVNVTlGN2ZWbkZ6NCttVEpBeEV0TWFyaldGdXUyWVNUNmZ2aUtLZFRGbFBVam16L012SVJsTzB2OXdFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NTUzMzQzCWZpbGU6T3ZlckN1ZSBEZXNrdG9wLmFwcC50YXIuZ3oKYXU3RUNuam83N3FKWjBSS09NWCs0RmNoeVhGMDdEUFkzeVVOTnRYdnd3VnB5Q0puZnFPNW4rMnV4Z3cyRFk4QU5uSlozUXJraVBJRFM4V2tBbitJRHc9PQo=",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.73/OverCue_2.2.73_aarch64.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHdRSlgzRUcwcktkeEdyZHI1U1R4TFJpYmRXWG9VTHhYZmtTelZPOUZPTjRST0UyK3V3enl4TVFKdUVsWko1Y1hFVEc1djZkRXVQRTJvaFBQemJ5dHhWaDVCckx0clFzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1Mzg3NTMwCWZpbGU6T3ZlckN1ZSBEZXNrdG9wLmFwcC50YXIuZ3oKbDE4WHBNS01jbVlYTHU2ejQyd0tTdVhEb0RBUmlSVlVUcFdya3ZDNUhyS3pRbmNUeWdIcjdMTFJpSWtYQnJmVm1qcldHQzl5WGhqOVM1blNMaTUxQWc9PQo=",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.71/OverCue_2.2.71_x86_64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOHdRSlgzRUcwcktwYUFGT3grMTdLbWljTnR4WTROSXVzZEpiQVJoWTNFZGI1YXdMWnc0dUUvMm1iaGVVbWRNcHJLc01rMk4rZWdOcmRnV0ZmMmhGaDdiWjVLcjNJQ3dBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NTUzNTI4CWZpbGU6T3ZlckN1ZSBEZXNrdG9wLmFwcC50YXIuZ3oKUTcxcTkrN1QyWnJENUlCUHN0V0NXK2hBZDZySC9nOEp0QWZpOFduVXR4NE5KQVFMTkNsOG83ZlM5ekQxY3gwOGY2RkRUSEFNZ0dlTkRGbzdra1pWRFE9PQo=",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.73/OverCue_2.2.73_x86_64.app.tar.gz"
     }
   }
 }

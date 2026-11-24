@@ -4,27 +4,11 @@
     "sha256": "ec68d6828e3782697d3af33f586aaa68ea74630c1967f4097ac1dc806c96181c",
     "firmware": "1.1.0"
   },
-  "version": "2.2.72",
-  "published": "2026-11-22T23:17:32Z",
-  "notes": "# OverCue Desktop 2.2.72 for Windows\n\n- **DJM-A9 Post-fader send:** a new mod adds a **POST-FADER SEND** row below SKIP 1/3 & 2/3 in the mixer's UTILITY / MY SETTINGS menu. OFF works as before. ON takes the MULTI I/O send and return of CH1\u2013CH4 after the channel fader instead of before it; the crossfader does not affect it, and MIC, CF.A, CF.B and MASTER are unchanged. It comes with the Beat FX values option (ticking it ticks that option too). The mixer remembers the choice after it is switched off; a factory reset turns it OFF. To get it, create the A9 update again from the official 1.22 update with Post-fader send ticked and install the new file.\n",
-  "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.72",
+  "version": "2.2.73",
+  "published": "2026-11-24T21:20:34Z",
+  "notes": "# OverCue Desktop 2.2.73 for Mac\n\n- **Delete stems from USB** removes the stems of all selected tracks in one step. If the USB holds stems that players can't use, for example ones written by another tool, the message now lists every such track, so you can select them all and delete them together.\n- If an interrupted **Normalize volume** can't be finished, the message now says which step failed and which file on the USB it was working on.\n- Drag the edge of the sidebar to make it wider or narrower, or focus the edge and use the arrow keys. OverCue remembers the width; double-click the edge to reset it. Hover over a playlist to see its full name.\n- Zoom the whole window with **\u2318 +** and **\u2318 \u2212**; **\u2318 0** resets it.\n",
+  "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.73",
   "artifacts": [
-    {
-      "platform": "macos",
-      "label": "macOS Apple silicon",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.71/OverCue_2.2.71_aarch64.dmg",
-      "sha256": "b890d8d7c7f739633c169a5b06e09df6c8507dcebfbd21913af238cbf7766986",
-      "version": "2.2.71",
-      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.71"
-    },
-    {
-      "platform": "macos",
-      "label": "macOS Intel",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.71/OverCue_2.2.71_x86_64.dmg",
-      "sha256": "c8c65fa52922e062e09940a8b539e3bbeb529bf0379b1832d9869a0bbf539810",
-      "version": "2.2.71",
-      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.71"
-    },
     {
       "platform": "windows",
       "label": "Windows installer x64",
@@ -32,6 +16,22 @@
       "sha256": "f66646d5fc3b1f0614cd6573d2f37012d24f5e0da8ba5b050a69c81cb54b4cb2",
       "version": "2.2.72",
       "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.72"
+    },
+    {
+      "platform": "macos",
+      "label": "macOS Apple silicon",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.73/OverCue_2.2.73_aarch64.dmg",
+      "sha256": "6266be355280cd73359e4f053f089893473a316a25453a0bb0e1bc8aa3e0fc28",
+      "version": "2.2.73",
+      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.73"
+    },
+    {
+      "platform": "macos",
+      "label": "macOS Intel",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.73/OverCue_2.2.73_x86_64.dmg",
+      "sha256": "cd844028f74beee41c633a3d352c3c54cb4bcc73142fcdaab0c8a4afd5ba6911",
+      "version": "2.2.73",
+      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.73"
     }
   ]
 }
