@@ -4,19 +4,11 @@
     "sha256": "ec68d6828e3782697d3af33f586aaa68ea74630c1967f4097ac1dc806c96181c",
     "firmware": "1.1.0"
   },
-  "version": "2.2.73",
-  "published": "2026-11-24T21:20:34Z",
-  "notes": "# OverCue Desktop 2.2.73 for Mac\n\n- **Delete stems from USB** removes the stems of all selected tracks in one step. If the USB holds stems that players can't use, for example ones written by another tool, the message now lists every such track, so you can select them all and delete them together.\n- If an interrupted **Normalize volume** can't be finished, the message now says which step failed and which file on the USB it was working on.\n- Drag the edge of the sidebar to make it wider or narrower, or focus the edge and use the arrow keys. OverCue remembers the width; double-click the edge to reset it. Hover over a playlist to see its full name.\n- Zoom the whole window with **\u2318 +** and **\u2318 \u2212**; **\u2318 0** resets it.\n",
-  "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.73",
+  "version": "2.2.74",
+  "published": "2026-11-24T21:30:01Z",
+  "notes": "# OverCue Desktop 2.2.74 for Windows\n\n- **Delete stems from USB** removes the stems of all selected tracks in one step. If the USB holds stems that players can't use, for example ones written by another tool, the message now lists every such track, so you can select them all and delete them together.\n- If an interrupted **Normalize volume** can't be finished, the message now says which step failed and which file on the USB it was working on.\n- Drag the edge of the sidebar to make it wider or narrower, or focus the edge and use the arrow keys. OverCue remembers the width; double-click the edge to reset it. Hover over a playlist to see its full name.\n- Zoom the whole window with **Ctrl +** and **Ctrl \u2212**; **Ctrl 0** resets it.\n",
+  "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.74",
   "artifacts": [
-    {
-      "platform": "windows",
-      "label": "Windows installer x64",
-      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.72/OverCue_2.2.72_x64-setup.exe",
-      "sha256": "f66646d5fc3b1f0614cd6573d2f37012d24f5e0da8ba5b050a69c81cb54b4cb2",
-      "version": "2.2.72",
-      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.72"
-    },
     {
       "platform": "macos",
       "label": "macOS Apple silicon",
@@ -32,6 +24,14 @@
       "sha256": "cd844028f74beee41c633a3d352c3c54cb4bcc73142fcdaab0c8a4afd5ba6911",
       "version": "2.2.73",
       "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.73"
+    },
+    {
+      "platform": "windows",
+      "label": "Windows installer x64",
+      "url": "https://github.com/OverCue-gg/overcue-releases/releases/download/v2.2.74/OverCue_2.2.74_x64-setup.exe",
+      "sha256": "4102b2bf94568d52af33348a01bfa6b4bd098b640f56deb55ce250af7c4d6f3f",
+      "version": "2.2.74",
+      "notesUrl": "https://github.com/OverCue-gg/overcue-releases/releases/tag/v2.2.74"
     }
   ]
 }
